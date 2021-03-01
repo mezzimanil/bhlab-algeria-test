@@ -85,7 +85,7 @@ body {
                             <!-- Block1 -->
                             <div class="blo1">
                                 <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
-                                    <a href="https://www.orthoclinicaldiagnostics.com/en-us/home/privacy-notice"><img src="{{ asset('image/ortho2.jpg') }}" alt="IMG-INTRO"></a>
+                                    <a href="https://www.orthoclinicaldiagnostics.com/en-us/home/privacy-notice"><img src="{{ asset('image/ortho.jpg') }}" alt="IMG-INTRO"></a>
                                 </div>
     
                                 <div class="wrap-text-blo1 p-t-35 mr-4" >
@@ -151,7 +151,7 @@ body {
                             <!-- Block1 -->
                             <div class="blo1">
                                 <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
-                                    <a href="https://www.capp.dk/"><img src="{{ asset('image/cappp.jpg') }}" alt="IMG-INTRO"></a>
+                                    <a href="https://www.capp.dk/"><img src="{{ asset('image/capp.jpg') }}" alt="IMG-INTRO"></a>
                                 </div>
     
                                 <div class="wrap-text-blo1 p-t-35">
@@ -192,7 +192,7 @@ body {
                             <!-- Block1 -->
                             <div class="blo1">
                                 <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
-                                    <a href="http://www.adaltis.net/"><img class="shadow" src="{{ asset('image/adaltis2.jpg') }}" alt="IMG-INTRO"></a>
+                                    <a href="http://www.adaltis.net/"><img class="shadow" src="{{ asset('image/adaltis.jpg') }}" alt="IMG-INTRO"></a>
                                 </div>
     
                                 <div class="wrap-text-blo1 p-t-35">
@@ -234,7 +234,7 @@ body {
                             <!-- Block1 -->
                             <div class="blo1">
                                 <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
-                                    <a href="http://entrogen.com/web3/"><img src="{{ asset('image/e2.jpg') }}" alt="IMG-INTRO"></a>
+                                    <a href="http://entrogen.com/web3/"><img src="{{ asset('image/e.jpg') }}" alt="IMG-INTRO"></a>
                                 </div>
     
                                 <div class="wrap-text-blo1 p-t-35">
@@ -359,7 +359,7 @@ body {
                             <!-- Block1 -->
                             <div class="blo1">
                                 <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
-                                    <a href="https://www.horiba.com/en_en/"><img src="{{ asset('image/horiba2.jpg') }}" alt="IMG-INTRO"></a>
+                                    <a href="https://www.horiba.com/en_en/"><img src="{{ asset('image/horiba.jpg') }}" alt="IMG-INTRO"></a>
                                 </div>
     
                                 <div class="wrap-text-blo1 p-t-35">
