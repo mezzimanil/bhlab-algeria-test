@@ -234,7 +234,7 @@ body {
                             <!-- Block1 -->
                             <div class="blo1">
                                 <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
-                                    <a href="http://entrogen.com/web3/"><img src="{{ asset('image/e.jpg') }}" alt="IMG-INTRO"></a>
+                                    <a href="http://entrogen.com/web3/"><img src="{{ asset('image/e.JPG') }}" alt="IMG-INTRO"></a>
                                 </div>
     
                                 <div class="wrap-text-blo1 p-t-35">
