@@ -6,25 +6,65 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>BH LAB</title>
+    
+  
     <!-- Scripts -->
+   
+    
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
+    <script src="https://kit.fontawesome.com/08d1285335.js" crossorigin="anonymous"></script>
+
+    
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
+    <link rel="stylesheet" type="text/css" href="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.19.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.19.2/css/mdb.min.css">
+    <link rel="stylesheet" type="text/css" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled-addons-4.19.2.min.css"><style></style>
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    
 
     <!-- Styles -->
+ 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+   
+    <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/util.css') }}" rel="stylesheet">
+    <style>
+      #footer{background:rgb(19, 17, 17);position:relative}
+      .footerLogo { font-size: 1.8em; font-weight: 600; color: rgb(250, 249, 249); margin-bottom: 22px; display: block; }
+      #footer::before{content:"";background:linear-gradient(to right,rgb(235, 99, 9) 0,#c453f1 50%,#fff 100%);height:25px;width:100%;position:absolute}
+      .footer-wrapper{padding:50px 0;float:left;width:100%}
+      img.footer-logo{margin-bottom:20px}
+      ul.social-icons{margin:0; padding: 0;}
+      ul.social-icons li{background:#fff;width:30px;height:30px;border:1px solid #f1f2f2;border-radius:4px;margin:3px;text-align:center; display: inline-block;}
+      ul.social-icons li a{color:#000000;font-size:25px;line-height:30px}
+      ul.social-icons li a:hover{color:#e6af19;transition:all 1s}
+      ul.footer-links { padding: 0;  list-style-type: none; position: relative;}
+      ul.footer-links li{line-height:25px; padding-left: 15px; }
+      ul.footer-links li:before { position: absolute; content: ; font-family: FontAwesome; left: 0;}
+      ul.footer-links li a{color:#e0e3e9}
+      ul.footer-links li a:hover{color:#e18127; text-decoration: none;}
+      ul.contact{margin:0;padding:0}
+      ul.contact li{list-style:none;padding:15px 0;border-bottom:1px solid #f1f2f2;font-size:13px;font-weight:600;line-height:15px;}
+      ul.contact li i{font-size:18px;margin-right:20px;color:#27aae1} 
+      ul.contact li a{color:#e0e3e9}
+      ul.contact li a:hover{color:#e18127; text-decoration: none;}
+      .copyright{background:#faf3f5;text-align:center;color:#fff;padding:12px 0 4px}
+      </style>
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    BHLAB
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -33,22 +73,35 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
+                        
 
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('fournisseur') }}">{{ __('fournisseurs') }}</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('contact') }}">{{ __('contacter-nous') }}</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('product') }}">{{ __('produits') }}</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
+                       
                         @guest
                             @if (Route::has('login'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <li class="nav-item " >
+                                    <a class="nav-link"  href="{{ route('login') }}">{{ __('Connection') }}</a>
                                 </li>
                             @endif
                             
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('inscription') }}</a>
                                 </li>
                             @endif
                         @else
@@ -70,14 +123,122 @@
                                 </div>
                             </li>
                         @endguest
+
+
+                        <li class="nav-item">
+                            <a href="{{route('cart')}}" class="nav-link"><i class="fa fa-shopping-cart " aria-hidden="true"></i><span class="badge badge-pill">{{Cart::count()}}</span></a>
+                 </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
+        </div>
+       
+        
+       
         <main class="py-4">
+            @if(session('success'))
+        <div class="alert alert-success mt-5">
+            {{ session('success')}}
+        </div>
+        
+          @endif
+        
+          @if(session('danger'))
+        <div class="alert alert-danger">
+            {{ session('danger')}}
+        </div>
+        
+          @endif
             @yield('content')
+       
         </main>
-    </div>
+      
+    
+           
+     <!-- Footer -->
+
+ <!--===============================================================================================-->       
+   
+    
+        <!-- Footer -->
+       <!-- Footer -->
+       <footer id="footer" class="">
+        <div class="container">
+                <div class="footer-wrapper">
+            <div class="row">                    
+              <div class="col-md-3 col-sm-3">
+                <a href="" class="footerLogo">Company</a>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-xing"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 col-sm-2">
+                <h5 style="color: azure">For individuals</h5>
+                <ul class="footer-links">
+                  <li><a href="">Signup</a></li>
+                  <li><a href="">login</a></li>
+                  <li><a href="">Explore</a></li>
+                  <li><a href="">Finder app</a></li>
+                  <li><a href="">Features</a></li>
+                  <li><a href="">Language settings</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 col-sm-2">
+                <h5 style="color: azure">For businesses</h5>
+                <ul class="footer-links">
+                  <li><a href="">Business signup</a></li>
+                  <li><a href="">Business login</a></li>
+                  <li><a href="">Benefits</a></li>
+                  <li><a href="">Resources</a></li>
+                  <li><a href="">Advertise</a></li>
+                  <li><a href="">Setup</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 col-sm-2">
+                <h5 style="color: azure">About</h5>
+                <ul class="footer-links">
+                  <li><a href="">About us</a></li>
+                  <li><a href="">Contact us</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">Terms</a></li>
+                  <li><a href="">Help</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3">
+                <h5 style="color: azure">Contact Us</h5>
+                <ul class="contact">
+                  <li ><a href="https://www.google.com/maps/place/BH+Lab+Alg%C3%A9rie/@36.7381177,3.2729815,17z/data=!3m1!4b1!4m5!3m4!1s0x128e45f00db49887:0x3d6679ffdc636f78!8m2!3d36.7381177!4d3.2751702" ><i class="fa fa-home"></i>BH LAB sarl 130 Cité Cadat 16012, Rouïba</a></li>
+                  <li style="color: azure"><i class="fa fa-phone"></i>+1 (234) 123 1234</li>
+                  <li style="color: azure"><i class="fa fa-envelope"></i>info@company.com</li>
+
+                 
+                </ul>
+              </div>
+            </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="copyright">
+          <p>Company © 2019. All rights reserved</p>
+        </div>
+          </footer>												                            
+<!-- Footer -->
+
+
+  <!-- Back to top -->
+  <div class="btn-back-to-top bg0-hov" id="myBtn">
+      <span class="symbol-btn-back-to-top">
+          <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+      </span>
+  </div>
+
+
+
+  <!-- Footer -->
 </body>
 </html>
