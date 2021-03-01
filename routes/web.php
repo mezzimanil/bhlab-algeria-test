@@ -25,6 +25,6 @@ Route::get('/fournisseur', [App\Http\Controllers\FourController::class, 'index']
     Route::get('/contact', [App\Http\Controllers\ContactController::class, 'index'])->name('contact');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-
+Route::post('/sen-message',[App\Http\Controllers\ContactController::class, 'sendEmail'])->name('contact.send');
 
 
