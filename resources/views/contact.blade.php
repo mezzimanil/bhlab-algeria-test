@@ -39,7 +39,7 @@
                         Envoyer un message
 
                     </div>
-                    <div class="card-body">
+                    <div class="card-body bg-secondary">
                         @if (Session::get('message_sent'))
                        <div class="alert alert-success" role="alert">
                             {{Session::get('message_sent')}}
