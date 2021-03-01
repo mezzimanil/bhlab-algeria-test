@@ -85,7 +85,7 @@ body {
                             <!-- Block1 -->
                             <div class="blo1">
                                 <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
-                                    <a href="https://www.orthoclinicaldiagnostics.com/en-us/home/privacy-notice"><img src="{{ asset('image/ortho2.jpg') }}" alt="IMG-INTRO"></a>
+                                    <a href="https://www.orthoclinicaldiagnostics.com/en-us/home/privacy-notice"><img src="{{ asset('image/ortho.jpg') }}" alt="IMG-INTRO"></a>
                                 </div>
     
                                 <div class="wrap-text-blo1 p-t-35 mr-4" >
