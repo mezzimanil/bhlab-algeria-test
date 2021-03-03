@@ -10,10 +10,7 @@
 	
     <meta name="viewport" content="width=device-width" />
  <!-- CSS -->
- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	
+
 
 	<!--     Fonts and icons     -->
 	
@@ -186,35 +183,135 @@ body {
 	   
 	<!-- Welcome -->
 	<section class="section-welcome bg1-pattern p-t-120 p-b-105">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 p-t-45 p-b-30">
-					<div class="wrap-text-welcome t-center">
-						<span class="tit2 t-center">
-							    
-                                Title  
-						</span>
+		<div class="content-intro bg-white p-t-77 p-b-133">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 p-t-30">
+						<!-- Block1 -->
+						<div class="blo1">
+							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+								<a href="#"><img src="{{ asset('image/skyscraper.jpg') }}" alt="IMG-INTRO"></a>
+							</div>
 
-						<h3 class="tit3 t-center m-b-35 m-t-5">
-							Welcome
-						</h3>
+							<div class="wrap-text-blo1 p-t-35">
+								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+                                Buy products
+								</h4></a>
 
-						<p class="t-center m-b-22 size3 m-l-r-auto">
-                            
-                        kljdsflksjdgldnfvndfbndkbjndkfnbdkfnbdkfnbdkfnbdnfb
-                        dfbldnfbdnfbn v;cnvkjlsdkncsdnsqnvsnqvklsncv
-                        sdvnsdlkdclksndlknv,,lkcnqkncvnnmlkncvnvnv
+								<p class="m-b-20">
+                                    fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
+                                    sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
+								</p>
 
-						</p>
-
-					
+							</div>
+						</div>
 					</div>
-				</div>
 
-				<div class="col-md-6 p-b-30">
-					<div class="wrap-pic-welcome size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<img src="{{ asset('image/image.jpeg') }}" alt="IMG-OUR">
+					<div class="col-md-4 p-t-30">
+						<!-- Block1 -->
+						<div class="blo1">
+							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+								<a href="#"><img src="{{ asset('image/wizard-city.jpg') }}" alt="IMG-INTRO"></a>
+							</div>
+
+							<div class="wrap-text-blo1 p-t-35">
+								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+									Organise events
+								</h4></a>
+
+								<p class="m-b-20">
+                                    ks,dflk,sdlfknsld,nvsdlknvlsdknvlskdnvsd
+                                    vslkdnvlskndvlksndvlknsdlkvnsldkvn
+								</p>
+
+							</div>
+						</div>
 					</div>
+
+					<div class="col-md-4 p-t-30">
+						<!-- Block1 -->
+						<div class="blo1">
+							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+								<a href="#"><img src="{{ asset('image/wizard-city.jpg') }}" alt="IMG-INTRO"></a>
+							</div>
+
+							<div class="wrap-text-blo1 p-t-35">
+								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+								 Blog
+								</h4></a>
+
+								<p class="m-b-20">
+                                    kdjfsdlkflskdjflskjdfklsjdflskjdflksjdflskjdfs
+                                    sdflkjsdlfkjslkdfjslkdjflskjdflskjdflksjdf
+								</p>
+
+							</div>
+						</div>
+                    </div>
+                    
+                    <div class="col-md-4 p-t-30">
+						<!-- Block1 -->
+						<div class="blo1">
+							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+								<a href="#"><img src="{{ asset('image/image.jpeg') }}" alt="IMG-INTRO"></a>
+							</div>
+
+							<div class="wrap-text-blo1 p-t-35">
+								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+                                 Desk
+								</h4></a>
+
+								<p class="m-b-20">
+                                    fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
+                                    sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
+								</p>
+
+							</div>
+						</div>
+                    </div>
+                    
+                    <div class="col-md-4 p-t-30">
+						<!-- Block1 -->
+						<div class="blo1">
+							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+								<a href="#"><img src="{{ asset('image/wizard-city.jpg') }}" alt="IMG-INTRO"></a>
+							</div>
+
+							<div class="wrap-text-blo1 p-t-35">
+								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+                                        discover Us
+								</h4></a>
+
+								<p class="m-b-20">
+                                    fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
+                                    sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
+								</p>
+
+							</div>
+						</div>
+                    </div>
+                    
+                    <div class="col-md-4 p-t-30">
+						<!-- Block1 -->
+						<div class="blo1">
+							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+								<a href="#"><img src="{{ asset('image/image.jpeg') }}" alt="IMG-INTRO"></a>
+							</div>
+
+							<div class="wrap-text-blo1 p-t-35">
+								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+                                become partner
+								</h4></a>
+
+								<p class="m-b-20">
+                                    fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
+                                    sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
+								</p>
+
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
