@@ -248,69 +248,7 @@ body {
 							</div>
 						</div>
                     </div>
-                    
-                    <div class="col-md-4 p-t-30">
-						<!-- Block1 -->
-						<div class="blo1">
-							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="{{ asset('image/image.jpeg') }}" alt="IMG-INTRO"></a>
-							</div>
-
-							<div class="wrap-text-blo1 p-t-35">
-								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
-                                 Desk
-								</h4></a>
-
-								<p class="m-b-20">
-                                    fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
-                                    sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
-								</p>
-
-							</div>
-						</div>
-                    </div>
-                    
-                    <div class="col-md-4 p-t-30">
-						<!-- Block1 -->
-						<div class="blo1">
-							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="{{ asset('image/wizard-city.jpg') }}" alt="IMG-INTRO"></a>
-							</div>
-
-							<div class="wrap-text-blo1 p-t-35">
-								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
-                                        discover Us
-								</h4></a>
-
-								<p class="m-b-20">
-                                    fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
-                                    sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
-								</p>
-
-							</div>
-						</div>
-                    </div>
-                    
-                    <div class="col-md-4 p-t-30">
-						<!-- Block1 -->
-						<div class="blo1">
-							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="{{ asset('image/image.jpeg') }}" alt="IMG-INTRO"></a>
-							</div>
-
-							<div class="wrap-text-blo1 p-t-35">
-								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
-                                become partner
-								</h4></a>
-
-								<p class="m-b-20">
-                                    fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
-                                    sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
-								</p>
-
-							</div>
-						</div>
-					</div>
+                   
 
 				</div>
 			</div>
