@@ -10,7 +10,10 @@
 	
     <meta name="viewport" content="width=device-width" />
  <!-- CSS -->
-
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	
 
 	<!--     Fonts and icons     -->
 	
@@ -186,7 +189,7 @@ body {
 		<div class="content-intro bg-white p-t-77 p-b-133">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5 p-t-30 ml-5">
+					<div class="col-md-4 p-t-30">
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
@@ -207,8 +210,28 @@ body {
 						</div>
 					</div>
 
+					<div class="col-md-4 p-t-30">
+						<!-- Block1 -->
+						<div class="blo1">
+							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+								<a href="#"><img src="{{ asset('image/wizard-city.jpg') }}" alt="IMG-INTRO"></a>
+							</div>
 
-					<div class="col-md-5 p-t-30 ml-5">
+							<div class="wrap-text-blo1 p-t-35">
+								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+									Organise events
+								</h4></a>
+
+								<p class="m-b-20">
+                                    ks,dflk,sdlfknsld,nvsdlknvlsdknvlskdnvsd
+                                    vslkdnvlskndvlksndvlknsdlkvnsldkvn
+								</p>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 p-t-30">
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
@@ -228,7 +251,8 @@ body {
 							</div>
 						</div>
                     </div>
-                   
+                    
+                    
 
 				</div>
 			</div>
