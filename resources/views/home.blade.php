@@ -145,10 +145,16 @@ body {
 </style>
 <body>
 
-<main>
+
 
 	
+
+			
+			 
+
+<div class="container">
 	
+	   	
 	<div id="carousel-area" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#carousel-area" data-slide-to="0" class="active"></li>
@@ -175,13 +181,6 @@ body {
 				<span class="sr-only">Next</span>
 			</a>
 	</div>
-			
-			 
-
-</main>
-<div class="container">
-	
-	   
 	<!-- Welcome -->
 	<section class="section-welcome bg1-pattern p-t-120 p-b-105">
 		<div class="container">
