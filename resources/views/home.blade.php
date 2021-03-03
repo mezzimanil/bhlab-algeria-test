@@ -9,6 +9,9 @@
 
 	
     <meta name="viewport" content="width=device-width" />
+	<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
  <!-- CSS -->
  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -23,6 +26,7 @@
     
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     <link href="{{ asset('css/util.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
 
 @section('content')
 <style>
