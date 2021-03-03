@@ -26,7 +26,7 @@
     
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     <link href="{{ asset('css/util.css') }}" rel="stylesheet">
-	<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/boot.css') }}" rel="stylesheet">
 
 @section('content')
 <style>
