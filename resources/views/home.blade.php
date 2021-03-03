@@ -19,7 +19,18 @@
 	
 	<!-- CSS Files -->
 	
-
+    <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css" rel="stylesheet">
+    <!-- BEGIN VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="theme-assets/css/vendors.css">
+    <link rel="stylesheet" type="text/css" href="theme-assets/vendors/css/charts/chartist.css">
+    <!-- END VENDOR CSS-->
+    <!-- BEGIN CHAMELEON  CSS-->
+    <link rel="stylesheet" type="text/css" href="theme-assets/css/app-lite.css">
+    <!-- END CHAMELEON  CSS-->
+    <!-- BEGIN Page Level CSS-->
+    <link rel="stylesheet" type="text/css" href="theme-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="theme-assets/css/core/colors/palette-gradient.css">
+    <link rel="stylesheet" type="text/css" href="theme-assets/css/pages/dashboard-ecommerce.css">
     
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     <link href="{{ asset('css/util.css') }}" rel="stylesheet">
@@ -138,53 +149,32 @@ body {
 
 	
 	
-				<div id="myCarousel" class="carousel slide" data-ride="carousel">
-					<ol class="carousel-indicators">
-					  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					  <li data-target="#myCarousel" data-slide-to="1"></li>
-					  <li data-target="#myCarousel" data-slide-to="2"></li>
-					</ol>
-					<div class="carousel-inner">
-					  <div class="carousel-item active">
-						<img class="first-slide" src="{{ asset('image/image3.jpg') }}" alt="First slide">
-						<div class="container">
-						  <div class="carousel-caption text-left">
-							<h1>Example headline.</h1>
-							<p style="color: white">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-							<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-						  </div>
-						</div>
-					  </div>
-					  <div class="carousel-item">
-						<img class="second-slide" src="{{ asset('image/skyscraper2.jpg') }}" alt="Second slide">
-						<div class="container">
-						  <div class="carousel-caption">
-							<h1>Another example headline.</h1>
-							<p style="color: white">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-							<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-						  </div>
-						</div>
-					  </div>
-					  <div class="carousel-item">
-						<img class="third-slide" src="{{ asset('image/wizard-city2.jpg') }}" alt="Third slide">
-						<div class="container">
-						  <div class="carousel-caption text-right">
-							<h1>One more for good measure.</h1>
-							<p style="color: white">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-							<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-						  </div>
-						</div>
-					  </div>
-					</div>
-					<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					  <span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-					  <span class="sr-only">Next</span>
-					</a>
-				  </div>
+	<div id="carousel-area" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-area" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-area" data-slide-to="1"></li>
+			<li data-target="#carousel-area" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<img src="theme-assets/images/carousel/08.jpg" class="d-block w-100" alt="First slide">
+			</div>
+			<div class="carousel-item">
+				<img src="theme-assets/images/carousel/03.jpg" class="d-block w-100" alt="Second slide">
+			</div>
+			<div class="carousel-item">
+				<img src="theme-assets/images/carousel/01.jpg" class="d-block w-100" alt="Third slide">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carousel-area" role="button" data-slide="prev">
+				<span class="la la-angle-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+		<a class="carousel-control-next" href="#carousel-area" role="button" data-slide="next">
+				<span class="la la-angle-right icon-next" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+	</div>
 			
 			 
 
