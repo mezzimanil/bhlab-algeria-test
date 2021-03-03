@@ -57,7 +57,6 @@ body {
 .carousel-item {
   height: 32rem;
   background-color: #777;
-  width: 100px;
 }
 .carousel-item > img {
   position: absolute;
