@@ -186,7 +186,7 @@ body {
 		<div class="content-intro bg-white p-t-77 p-b-133">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 p-t-30">
+					<div class="col-md-4 p-t-30 ml-5">
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
@@ -208,7 +208,7 @@ body {
 					</div>
 
 
-					<div class="col-md-4 p-t-30">
+					<div class="col-md-4 p-t-30 ml-5">
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
