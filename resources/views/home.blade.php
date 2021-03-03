@@ -207,12 +207,6 @@ body {
 						</div>
 					</div>
 
-					<div class="col-md-4 p-t-30">
-						<!-- Block1 -->
-						<div class="blo1">
-							
-						</div>
-					</div>
 
 					<div class="col-md-4 p-t-30">
 						<!-- Block1 -->
