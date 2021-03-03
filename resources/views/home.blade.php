@@ -210,21 +210,7 @@ body {
 					<div class="col-md-4 p-t-30">
 						<!-- Block1 -->
 						<div class="blo1">
-							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="{{ asset('image/wizard-city.jpg') }}" alt="IMG-INTRO"></a>
-							</div>
-
-							<div class="wrap-text-blo1 p-t-35">
-								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
-									Organise events
-								</h4></a>
-
-								<p class="m-b-20">
-                                    ks,dflk,sdlfknsld,nvsdlknvlsdknvlskdnvsd
-                                    vslkdnvlskndvlksndvlknsdlkvnsldkvn
-								</p>
-
-							</div>
+							
 						</div>
 					</div>
 
