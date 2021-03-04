@@ -66,53 +66,7 @@
 </head>
 <body>
     <div id="app">
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light ">
-        <div class="container">
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- Left Side Of Navbar -->
-                <ul class="navbar-nav mr-auto">
-                    
-
-
-                    
-                </ul>
-
-                <!-- Right Side Of Navbar -->
-                <ul class="navbar-nav ml-auto">
-                    <!-- Authentication Links -->
-                    <li class="nav-item">
-                      <a class="nav-link"  href="#">{{ __('About us') }}</a>
-                  </li>
-                   
-                  
-                <li class="nav-item" >
-                  <a class="nav-link"   href="#">{{ __('Produit') }}</a>
-              </li>
-                    <li class="nav-item" >
-                      <a class="nav-link"   href="{{ route('fournisseur') }}">{{ __('fournisseurs') }}</a>
-                  </li>
-
-                 
-
-                  
-                  <li class="nav-item" >
-                    <a class="nav-link"   href="#">{{ __('Ssdrrr') }}</a>
-                </li>
-
-               
-
-
-              <li class="nav-item">
-                  <a class="nav-link"  href="#">{{ __('Support') }}</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"  href="{{ route('contact') }}">{{ __('contacter-nous') }}</a>
-            </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light border-bottom border-success">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
@@ -166,6 +120,30 @@
                 </div>
             </div>
         </nav>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light ">
+          <div class="container">
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <!-- Left Side Of Navbar -->
+                  <ul class="navbar-nav mr-auto">
+                      
+  
+  
+                      
+                  </ul>
+  
+                  <!-- Right Side Of Navbar -->
+                  <ul class="navbar-nav ml-auto">
+                      <!-- Authentication Links -->
+                      <li class="nav-item">
+                        <a class="nav-link"  href="#">{{ __('About us') }}</a>
+                    </li>
+                     
+                    
+                  </ul>
+              </div>
+          </div>
+      </nav>
         </div>
        
         
