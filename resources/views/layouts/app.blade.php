@@ -20,12 +20,7 @@
     <script src="https://kit.fontawesome.com/08d1285335.js" crossorigin="anonymous"></script>
 
     
-    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
-    <link rel="stylesheet" type="text/css" href="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.19.2/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.19.2/css/mdb.min.css">
-    <link rel="stylesheet" type="text/css" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled-addons-4.19.2.min.css"><style></style>
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+  
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     
 
