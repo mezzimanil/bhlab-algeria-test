@@ -51,7 +51,7 @@
 <body>
     <div id="app">
         
-        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light border-bottom border-dark">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light border-bottom border-success">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     BH LAB
