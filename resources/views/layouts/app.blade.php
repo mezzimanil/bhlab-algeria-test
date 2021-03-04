@@ -28,6 +28,7 @@
     <style>
 .navbar-light .navbar-nav .nav-link {
   transition: all 2s;
+  color: blue
 }
 
 .navbar-light .navbar-nav .nav-link:after {
