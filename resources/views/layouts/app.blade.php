@@ -28,8 +28,7 @@
  
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
    
-    <link href="{{ asset('css/main.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/util.css') }}" rel="stylesheet">
+   
     <style>
       #footer{background:rgb(19, 17, 17);position:relative}
       .footerLogo { font-size: 1.8em; font-weight: 600; color: rgb(250, 249, 249); margin-bottom: 22px; display: block; }
