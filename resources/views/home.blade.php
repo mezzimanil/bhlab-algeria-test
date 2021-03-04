@@ -146,7 +146,8 @@ body {
 			<div class="container">
 			  <div class="carousel-caption text-left">
 				<h1>Example headline.</h1>
-				<p style="color: white">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+				<p style="color: white">Cras justo odio, dapibus ac facilisis in, 
+					egestas eget quam.</p>
 				<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
 			  </div>
 			</div>
