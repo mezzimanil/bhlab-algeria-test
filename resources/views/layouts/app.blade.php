@@ -26,30 +26,6 @@
    
    
     <style>
-nav.fill ul li a {
-  transition: all 2s;
-}
-
-nav.fill ul li a:after {
-  text-align: left;
-  content: '.';
-  margin: 0;
-  opacity: 0;
-}
-nav.fill ul li a:hover {
-  color: #fff;
-  z-index: 1;
-}
-nav.fill ul li a:hover:after {
-  z-index: -10;
-  animation: fill 1s forwards;
-  -webkit-animation: fill 1s forwards;
-  -moz-animation: fill 1s forwards;
-  opacity: 1;
-}
-       
-
-
       #footer{background:rgb(19, 17, 17);position:relative}
       .footerLogo { font-size: 1.8em; font-weight: 600; color: rgb(250, 249, 249); margin-bottom: 22px; display: block; }
       #footer::before{content:"";background:linear-gradient(to right,rgb(235, 99, 9) 0,#c453f1 50%,#fff 100%);height:25px;width:100%;position:absolute}
@@ -96,15 +72,34 @@ nav.fill ul li a:hover:after {
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
-                        
-                          
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Downloads</a></li>
-                            <li><a href="#">More</a></li>
-                            <li><a href="#">Nice staff</a></li>
-                          
-                        
+                        <li class="nav-item">
+                          <a class="nav-link"  href="#">{{ __('About us') }}</a>
+                      </li>
+                       
+                      
+                    <li class="nav-item" >
+                      <a class="nav-link"   href="#">{{ __('Produit') }}</a>
+                  </li>
+                        <li class="nav-item" >
+                          <a class="nav-link"   href="{{ route('fournisseur') }}">{{ __('fournisseurs') }}</a>
+                      </li>
+
+                     
+
+                      
+                      <li class="nav-item" >
+                        <a class="nav-link"   href="#">{{ __('Ssdrrr') }}</a>
+                    </li>
+
+                   
+
+
+                  <li class="nav-item">
+                      <a class="nav-link"  href="#">{{ __('Support') }}</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="{{ route('contact') }}">{{ __('contacter-nous') }}</a>
+                </li>
                     </ul>
                 </div>
             </div>
