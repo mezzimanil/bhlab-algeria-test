@@ -84,11 +84,11 @@
 
                       
                       <li class="nav-item" >
-                        <a class="nav-link" style="color: blue"  href="#">{{ __('fournisseurs') }}</a>
+                        <a class="nav-link" style="color: blue"  href="#">{{ __('Ssdrrr') }}</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" style="color: blue" href="#">{{ __('contacter-nous') }}</a>
+                        <a class="nav-link" style="color: blue" href="#">{{ __('About us') }}</a>
                     </li>
 
                     
