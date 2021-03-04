@@ -61,7 +61,7 @@
 <body>
     <div id="app">
         
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     BH LAB
@@ -76,7 +76,7 @@
                         
 
                         <li class="nav-item " >
-                            <a class="nav-link" style="color: #27aae1" href="{{ route('fournisseur') }}">{{ __('fournisseurs') }}</a>
+                            <a class="nav-link"  href="{{ route('fournisseur') }}">{{ __('fournisseurs') }}</a>
                         </li>
 
                         <li class="nav-item">
