@@ -75,7 +75,7 @@
                     <ul class="navbar-nav mr-auto">
                         
 
-                        <li class="nav-item">
+                        <li class="nav-item " style="color: #27aae1">
                             <a class="nav-link" href="{{ route('fournisseur') }}">{{ __('fournisseurs') }}</a>
                         </li>
 
