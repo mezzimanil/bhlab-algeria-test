@@ -118,12 +118,8 @@
                 </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
-        <nav class="navbar  navbar-dark fixed-top bg-light ">
-          <div class="container">
-              
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <!-- Left Side Of Navbar -->
                   <ul class="navbar-nav mr-auto">
                       
@@ -141,9 +137,14 @@
                      
                     
                   </ul>
-              </div>
+              
           </div>
-      </nav>
+            </div>
+        </nav>
+       
+              
+             
+      
         </div>
        
         
