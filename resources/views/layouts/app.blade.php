@@ -31,12 +31,7 @@
   color: blue
 }
 
-.navbar-light .navbar-nav .nav-link:after {
-  text-align: left;
-  content: '.';
-  margin: 0;
-  opacity: 0;
-}
+
 .navbar-light .navbar-nav .nav-link:hover {
   color: rgb(236, 22, 22);
   
