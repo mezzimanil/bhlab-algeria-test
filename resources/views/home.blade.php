@@ -133,9 +133,7 @@ body {
 }
 </style>
 <body>
-
-
-<div class="container">
+<main role="main">
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
 		  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -183,6 +181,10 @@ body {
 		  <span class="sr-only">Next</span>
 		</a>
 	  </div>
+</main>
+
+<div class="container">
+	
 	   
 	<!-- Welcome -->
 	<section class="section-welcome bg1-pattern p-t-120 p-b-105">
