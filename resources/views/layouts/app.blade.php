@@ -66,11 +66,11 @@
                         
 
                         <li class="nav-item" >
-                            <a class="nav-link"  href="{{ route('fournisseur') }}">{{ __('fournisseurs') }}</a>
+                            <a class="nav-link" style="color: #c453f1"  href="{{ route('fournisseur') }}">{{ __('fournisseurs') }}</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('contact') }}">{{ __('contacter-nous') }}</a>
+                            <a class="nav-link" style="color: #c453f1" href="{{ route('contact') }}">{{ __('contacter-nous') }}</a>
                         </li>
 
                         
