@@ -37,7 +37,7 @@
   opacity: 0;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #fff;
+  color: rgb(236, 22, 22);
   z-index: 1;
 }
 .navbar-light .navbar-nav .nav-link:hover:after {
