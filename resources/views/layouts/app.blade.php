@@ -28,44 +28,19 @@
     <style>
 .navbar-light .navbar-nav .nav-link {
   position:relative;
-  z-index: 1;
+ 
   color: blue
 }
 
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #91640F;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
+  color: rgb(236, 22, 22);
+  
   width: 100%;
-  height: 1px;
-  content: '.';
-  color: transparent;
-  background: #F1C40F;
-  visibility: none;
-  opacity: 0;
-  z-index: -1;
 }
 
-@-webkit-keyframes fill {
-  0% {
-    width: 0%;
-    height: 1px;
-  }
-  50% {
-    width: 100%;
-    height: 1px;
-  }
-  100% {
-    width: 100%;
-    height: 100%;
-    background: #333;
-  }
+
+  
 }
       #footer{background:rgb(19, 17, 17);position:relative}
       .footerLogo { font-size: 1.8em; font-weight: 600; color: rgb(250, 249, 249); margin-bottom: 22px; display: block; }
