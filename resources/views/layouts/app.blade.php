@@ -26,21 +26,21 @@
    
    
     <style>
-.navbar ul li a {
+.navbar-light .navbar-nav .nav-link {
   transition: all 2s;
 }
 
-.navbar ul li a:after {
+.navbar-light .navbar-nav .nav-link:after {
   text-align: left;
   content: '.';
   margin: 0;
   opacity: 0;
 }
-.navbar ul li a:hover {
+.navbar-light .navbar-nav .nav-link:hover {
   color: #fff;
   z-index: 1;
 }
-.navbar ul li a:hover:after {
+.navbar-light .navbar-nav .nav-link:hover:after {
   z-index: -10;
   animation: fill 1s forwards;
   -webkit-animation: fill 1s forwards;
