@@ -96,15 +96,15 @@ nav.fill ul li a:hover:after {
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
-                        <nav class="fill">
-                          <ul>
+                        
+                          
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Downloads</a></li>
                             <li><a href="#">More</a></li>
                             <li><a href="#">Nice staff</a></li>
-                          </ul>
-                        </nav>
+                          
+                        
                     </ul>
                 </div>
             </div>
