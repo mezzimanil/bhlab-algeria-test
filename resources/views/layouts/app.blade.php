@@ -27,19 +27,29 @@
    
     <style>
 .navbar-light .navbar-nav .nav-link {
-  transition: all 2s;
+  position:relative;
+  z-index: 1;
   color: blue
 }
 
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: rgb(236, 22, 22);
-  
-  z-index: -10;
-  animation: fill 1s forwards;
-  -webkit-animation: fill 1s forwards;
-  -moz-animation: fill 1s forwards;
-  opacity: 1;
+  color: #91640F;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #F1C40F;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
 }
 
 @-webkit-keyframes fill {
