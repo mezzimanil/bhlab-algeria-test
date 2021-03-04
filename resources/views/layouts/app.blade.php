@@ -72,33 +72,34 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
+                        <li class="nav-item">
+                          <a class="nav-link" style="color: blue" href="#">{{ __('About us') }}</a>
+                      </li>
                        
-                       
+                      
+                    <li class="nav-item" >
+                      <a class="nav-link" style="color: blue"  href="#">{{ __('Produit') }}</a>
+                  </li>
                         <li class="nav-item" >
                           <a class="nav-link" style="color: blue"  href="{{ route('fournisseur') }}">{{ __('fournisseurs') }}</a>
                       </li>
 
-                      <li class="nav-item">
-                          <a class="nav-link" style="color: blue" href="{{ route('contact') }}">{{ __('contacter-nous') }}</a>
-                      </li>
+                     
 
                       
                       <li class="nav-item" >
                         <a class="nav-link" style="color: blue"  href="#">{{ __('Ssdrrr') }}</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: blue" href="#">{{ __('About us') }}</a>
-                    </li>
+                   
 
-                    
-                    <li class="nav-item" >
-                      <a class="nav-link" style="color: blue"  href="#">{{ __('Produit') }}</a>
-                  </li>
 
                   <li class="nav-item">
                       <a class="nav-link" style="color: blue" href="#">{{ __('Support') }}</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: blue" href="{{ route('contact') }}">{{ __('contacter-nous') }}</a>
+                </li>
                     </ul>
                 </div>
             </div>
