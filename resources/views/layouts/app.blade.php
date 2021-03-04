@@ -66,7 +66,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar fixed-top  bg-info">
+        <nav class="navbar navbar-expand-md fixed-top  bg-info">
           <ul class="navbar-nav ml-auto">
             <!-- Authentication Links -->
             <li class="nav-item">
@@ -74,7 +74,7 @@
           </li>
           </ul>
         </nav>
-        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light border-bottom border-success">
+        <nav class="navbar  navbar-light fixed-top bg-light border-bottom border-success">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     BH LAB
