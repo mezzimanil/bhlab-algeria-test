@@ -66,7 +66,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expend-sm bg-info">
+        <nav class="navbar navbar-expend-sm bg-info fixed-top">
              
         </nav>
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light border-bottom border-success">
