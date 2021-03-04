@@ -66,7 +66,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md fixed-top  bg-info">
+        <nav class="navbar navbar-expand-sm fixed-top  bg-info">
           <ul class="navbar-nav ml-auto">
             <!-- Authentication Links -->
             <li class="nav-item">
