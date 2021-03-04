@@ -39,15 +39,14 @@
 }
 .navbar-light .navbar-nav .nav-link:hover {
   color: rgb(236, 22, 22);
-  z-index: 1;
-}
-.navbar-light .navbar-nav .nav-link:hover:after {
+  
   z-index: -10;
   animation: fill 1s forwards;
   -webkit-animation: fill 1s forwards;
   -moz-animation: fill 1s forwards;
   opacity: 1;
 }
+
 @-webkit-keyframes fill {
   0% {
     width: 0%;
