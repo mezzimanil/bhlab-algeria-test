@@ -77,7 +77,7 @@
         </ul>
 
         <!-- Right Side Of Navbar -->
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto fixed-top">
             <!-- Authentication Links -->
             <li class="nav-item">
               <a class="nav-link"  href="#">{{ __('About us') }}</a>
