@@ -17,11 +17,7 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
-    <script src="https://kit.fontawesome.com/08d1285335.js" crossorigin="anonymous"></script>
-
     
-  
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     
 
     <!-- Styles -->
