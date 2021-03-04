@@ -26,6 +26,28 @@
    
    
     <style>
+.navbar ul li a {
+  transition: all 2s;
+}
+
+.navbar ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+.navbar ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+.navbar ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
       #footer{background:rgb(19, 17, 17);position:relative}
       .footerLogo { font-size: 1.8em; font-weight: 600; color: rgb(250, 249, 249); margin-bottom: 22px; display: block; }
       #footer::before{content:"";background:linear-gradient(to right,rgb(235, 99, 9) 0,#c453f1 50%,#fff 100%);height:25px;width:100%;position:absolute}
