@@ -65,13 +65,6 @@
                     <ul class="navbar-nav mr-auto">
                         
 
-                        <li class="nav-item" >
-                            <a class="nav-link" style="color: blue"  href="{{ route('fournisseur') }}">{{ __('fournisseurs') }}</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: blue" href="{{ route('contact') }}">{{ __('contacter-nous') }}</a>
-                        </li>
 
                         
                     </ul>
@@ -81,6 +74,31 @@
                         <!-- Authentication Links -->
                        
                        
+                        <li class="nav-item" >
+                          <a class="nav-link" style="color: blue"  href="{{ route('fournisseur') }}">{{ __('fournisseurs') }}</a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a class="nav-link" style="color: blue" href="{{ route('contact') }}">{{ __('contacter-nous') }}</a>
+                      </li>
+
+                      
+                      <li class="nav-item" >
+                        <a class="nav-link" style="color: blue"  href="#">{{ __('fournisseurs') }}</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: blue" href="#">{{ __('contacter-nous') }}</a>
+                    </li>
+
+                    
+                    <li class="nav-item" >
+                      <a class="nav-link" style="color: blue"  href="#">{{ __('Produit') }}</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" style="color: blue" href="#">{{ __('Support') }}</a>
+                  </li>
                     </ul>
                 </div>
             </div>
