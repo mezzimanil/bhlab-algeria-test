@@ -66,14 +66,8 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-sm fixed-top  bg-info">
-          <ul class="navbar-nav ml-auto">
-            <!-- Authentication Links -->
-            <li class="nav-item">
-              <a class="nav-link"  href="#">{{ __('About us') }}</a>
-          </li>
-          </ul>
-        </nav>
+        
+        
         <nav class="navbar  navbar-light fixed-top bg-light border-bottom border-success">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
