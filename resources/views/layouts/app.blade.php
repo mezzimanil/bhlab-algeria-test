@@ -67,7 +67,37 @@
 <body>
     <div id="app">
         <nav class="navbar navbar-expend-sm bg-info fixed-top">
-             
+          <ul class="navbar-nav ml-auto">
+            <!-- Authentication Links -->
+            <li class="nav-item">
+              <a class="nav-link"  href="#">{{ __('About us') }}</a>
+          </li>
+           
+          
+        <li class="nav-item" >
+          <a class="nav-link"   href="#">{{ __('Produit') }}</a>
+      </li>
+            <li class="nav-item" >
+              <a class="nav-link"   href="{{ route('fournisseur') }}">{{ __('fournisseurs') }}</a>
+          </li>
+
+         
+
+          
+          <li class="nav-item" >
+            <a class="nav-link"   href="#">{{ __('Ssdrrr') }}</a>
+        </li>
+
+       
+
+
+      <li class="nav-item">
+          <a class="nav-link"  href="#">{{ __('Support') }}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  href="{{ route('contact') }}">{{ __('contacter-nous') }}</a>
+    </li>
+        </ul>
         </nav>
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light border-bottom border-success">
             <div class="container">
