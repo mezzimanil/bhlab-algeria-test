@@ -67,6 +67,7 @@
 <body>
     <div id="app">
     <header style="background-color: blue">
+      header
     </header>
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light border-bottom border-success">
             <div class="container">
