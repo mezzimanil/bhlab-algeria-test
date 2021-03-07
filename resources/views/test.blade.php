@@ -25,7 +25,7 @@
 		<div class="container">
 			<nav class="navbar navbar-expand-md navbar-light">
 				<a class="navbar-brand" href="#">
-					<img src="{{ asset('image/lo.png') }}">
+					<img src="{{ asset('image/lol.png') }}">
 				</a>
 				<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
