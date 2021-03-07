@@ -259,13 +259,13 @@ a.meanmenu-reveal {
     top: -20px !important;
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
-    color: #ffffff;
+    color: #101ff3;
     text-transform: capitalize;
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-    color: #f1e0e3;
+    color: #15c9e0;
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a {
     color: #3dbada;
