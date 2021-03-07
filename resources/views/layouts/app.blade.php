@@ -66,7 +66,7 @@
 
       .navbar{
         border-style: solid;
-        border-width: medium;
+        border-width: 10px;
       }
       </style>
 </head>
