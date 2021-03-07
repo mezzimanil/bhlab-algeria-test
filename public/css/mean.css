@@ -232,7 +232,7 @@ a.meanmenu-reveal {
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-    color: #FF2D55;
+    color: #faf9f9;
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
     position: absolute;
