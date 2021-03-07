@@ -161,7 +161,7 @@
     
         <!-- Footer -->
        <!-- Footer -->
-       <footer id="footer" class="">
+       <footer id="footer" class="" style="background-color: black">
         <div class="container">
                 <div class="footer-wrapper">
             <div class="row">                    
