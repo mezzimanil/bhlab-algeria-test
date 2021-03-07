@@ -88,7 +88,7 @@
 									<a href="#" class="nav-link dropdown-toggle">Submenu 1</a>
 									<ul class="dropdown-menu">
 										<li class="nav-item">
-											<a href="#" class="nav-link" style="color:turquoise">Item 1</a>
+											<a href="#" class="nav-link" >Item 1</a>
 										</li>
 										<li class="nav-item">
 											<a href="#" class="nav-link">Item 2</a>
