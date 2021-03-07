@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
     
-<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+
 <style>
 .bg-cover {
     background-size: cover !important;
