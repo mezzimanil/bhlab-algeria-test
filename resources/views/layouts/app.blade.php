@@ -86,83 +86,101 @@
                 </button>
 
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-                        
-
-
-                        
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
-                        <!-- Authentication Links -->
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a href="#" class="nav-link dropdown-toggle active">Home</a>
+                      <ul class="dropdown-menu">
                         <li class="nav-item">
-                          <a class="nav-link"  href="#">{{ __('About us') }}</a>
-                      </li>
-                       
-                      
-                    <li class="nav-item" >
-                      <a class="nav-link "   href="#">{{ __('Produit') }}</a>
-                  </li>
-                        <li class="nav-item" >
-                          <a class="nav-link"   href="{{ route('fournisseur') }}">{{ __('fournisseurs') }}</a>
-                      </li>
-
-                     
-
-                      <li class="nav-item ">
-                        <a href="#" class="nav-link dropdown-toggle">Dropdown</a>
-                        <ul class="dropdown-menu">
-                          <li class="nav-item">
-                            <a href="#" class="nav-link dropdown-toggle">Submenu 1</a>
-                            <ul class="dropdown-menu">
-                              <li class="nav-item">
-                                <a href="#" class="nav-link">Item 1</a>
-                              </li>
-                              <li class="nav-item">
-                                <a href="#" class="nav-link">Item 2</a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a href="#" class="nav-link dropdown-toggle">Submenu 2</a>
-                            <ul class="dropdown-menu">
-                              <li class="nav-item">
-                                <a href="#" class="nav-link">Item 1</a>
-                              </li>
-                              <li class="nav-item">
-                                <a href="#" class="nav-link">Item 2</a>
-                              </li>
-                              <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">Submenu 3</a>
-                                <ul class="dropdown-menu">
-                                  <li class="nav-item">
-                                    <a href="#" class="nav-link">Item 1</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a href="#" class="nav-link">Item 2</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a href="#" class="nav-link">Item 3</a>
-                                  </li>
-                                </ul>
-                              </li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      
-                   
-
-
-                  <li class="nav-item">
-                      <a class="nav-link"  href="#">{{ __('Support') }}</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link"  href="{{ route('contact') }}">{{ __('contacter-nous') }}</a>
-                </li>
-                    </ul>
+                          <a href="#" class="nav-link">Home Page 2</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Home Page 3</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Home Page 4</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Home Page 5</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Team</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link dropdown-toggle">Pages</a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Team</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">Contact</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link dropdown-toggle">Dropdown</a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item">
+                          <a href="#" class="nav-link dropdown-toggle">Submenu 1</a>
+                          <ul class="dropdown-menu">
+                            <li class="nav-item">
+                              <a href="#" class="nav-link">Item 1</a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="#" class="nav-link">Item 2</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class="nav-link dropdown-toggle">Submenu 2</a>
+                          <ul class="dropdown-menu">
+                            <li class="nav-item">
+                              <a href="#" class="nav-link">Item 1</a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="#" class="nav-link">Item 2</a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="#" class="nav-link dropdown-toggle">Submenu 3</a>
+                              <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                  <a href="#" class="nav-link">Item 1</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a href="#" class="nav-link">Item 2</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a href="#" class="nav-link">Item 3</a>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
                 </div>
 
               
@@ -278,16 +296,16 @@
   </div>
 
 
-
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!-- MeanMenu JS -->
+  <script src="https://techsolutionshere.com/wp-content/themes/techsolution/assets/blog-post-css-js/jquery.meanmenu.js"></script>
+  <script>
+    // Mean Menu
+    jQuery('.mean-menu').meanmenu({
+      meanScreenWidth: "991"
+    });
+  </script>
   <!-- Footer -->
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<!-- MeanMenu JS -->
-<script src="https://techsolutionshere.com/wp-content/themes/techsolution/assets/blog-post-css-js/jquery.meanmenu.js"></script>
-<script>
-	// Mean Menu
-	jQuery('.mean-menu').meanmenu({
-		meanScreenWidth: "991"
-	});
-</script>
+
 </html>
