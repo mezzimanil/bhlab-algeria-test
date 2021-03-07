@@ -30,7 +30,7 @@
 				<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a href="#" class="nav-link dropdown-toggle active">Home</a>
+							<a href="#" class="nav-link dropdown-toggle ">Home</a>
 							<ul class="dropdown-menu">
 								<li class="nav-item">
 									<a href="#" class="nav-link">Home Page 2</a>
