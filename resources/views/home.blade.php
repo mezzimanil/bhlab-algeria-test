@@ -198,7 +198,7 @@ body {
 	
 	   
 	<!-- Welcome -->
-	<section class="section-welcome bg1-pattern p-t-120 p-b-105">
+	<section class="section-welcome bg1-pattern  p-b-105">
 	
 		<div class="content-intro bg-white p-t-77 p-b-133">
 			<div class="container">
