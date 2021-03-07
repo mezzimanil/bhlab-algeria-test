@@ -182,7 +182,7 @@ body {
 		  <span class="sr-only">Next</span>
 		</a>
 	  </div>
-	  <div class="header-intro parallax100 t-center p-t-135 p-b-80" style="background-image: url('{{ asset('image/bl.jpg')}}');">
+	  <div class="header-intro parallax100 t-center p-t-135 p-b-80" style="background-image: url('{{ asset('image/t.jpg')}}');">
 		<span class="tit2 p-l-15 p-r-15">
 			Ct eget metus. Nullam id dolor
 		</span>
