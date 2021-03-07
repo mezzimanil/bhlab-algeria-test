@@ -2957,7 +2957,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .tit1 {
 	font-family: Poppins;
 	font-weight: 700;
-	font-size: 90px;
+	font-size: 30px;
 	line-height: 1.1;
 	color: white;
 	text-transform: uppercase;
@@ -2969,7 +2969,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-family: Courgette;
 	font-size: 30px;
 	line-height: 1.2;
-	color:rgb(240, 240, 240);
+	color:rgb(255, 255, 255);
 }
 
 .tit3 {
