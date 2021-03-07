@@ -9,7 +9,7 @@
 <!-- Bootstrap Min CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <!-- MeanMenu CSS -->
-<link rel="stylesheet" href="https://techsolutionshere.com/wp-content/themes/techsolution/assets/blog-post-css-js/meanmenu.css">
+<link href="{{ asset('css/mean.css') }}" rel="stylesheet">
 </head>
 <body>
     <div class="navbar-area">
