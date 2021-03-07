@@ -28,3 +28,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::post('/sen-message',[App\Http\Controllers\ContactController::class, 'sendEmail'])->name('contact.send');
 
 
+Route::get('/test', function () {
+    return view('test');
+});
