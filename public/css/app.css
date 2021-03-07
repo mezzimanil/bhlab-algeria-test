@@ -7142,7 +7142,7 @@ button.bg-dark:focus {
 
 .border-success {
   border-color: #38c172 !important;
-  border-width: medium;
+  border-width: 10px;
 }
 
 .border-info {
