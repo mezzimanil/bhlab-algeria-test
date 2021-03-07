@@ -189,6 +189,15 @@ body {
 	   
 	<!-- Welcome -->
 	<section class="section-welcome bg1-pattern p-t-120 p-b-105">
+		<div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url('{{ asset('image/o.jpg')}}');">
+			<span class="tit2 p-l-15 p-r-15">
+			  Rester en 
+			</span>
+	  
+			<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
+			  Sécurité
+			</h3>
+		  </div>
 		<div class="content-intro bg-white p-t-77 p-b-133">
 			<div class="container">
 				<div class="row">
