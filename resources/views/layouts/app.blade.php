@@ -114,7 +114,12 @@
                           Dropdown
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <div class="btn-group dropright">
                           <a class="dropdown-item" href="#">Action</a>
+                          <div class="dropdown-menu">
+    <!-- Dropdown menu links -->
+                          </div>
+                          </div>
                           <a class="dropdown-item" href="#">Another action</a>
                           <div class="dropdown-divider"></div>
                           <a class="dropdown-item" href="#">Something else here</a>
