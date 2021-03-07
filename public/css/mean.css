@@ -147,10 +147,10 @@ a.meanmenu-reveal {
     display: none;
 }
 .mobile-nav.mean-container .mean-nav ul li a.active {
-    color: #FF2D55;
+    color: #f5dee2;
 }
 .main-nav {
-    background: rgb(211, 53, 53);
+    background: rgb(194, 154, 154);
     position: absolute;
     top: 0;
     left: 0;
@@ -192,10 +192,10 @@ a.meanmenu-reveal {
 .main-nav nav .navbar-nav .nav-item a:hover, 
 .main-nav nav .navbar-nav .nav-item a:focus, 
 .main-nav nav .navbar-nav .nav-item a.active {
-    color: #FF2D55;
+    color: #e6d1d4;
 }
 .main-nav nav .navbar-nav .nav-item:hover a {
-    color: #FF2D55;
+    color: #faeaed;
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu {
     -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
