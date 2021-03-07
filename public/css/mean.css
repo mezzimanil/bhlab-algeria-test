@@ -74,7 +74,7 @@ a.meanmenu-reveal {
 	text-decoration: none;
 }
 .mean-container .mean-nav ul li a.active {
-	color: #000000;
+	color: #e6dede;
 }
 .mean-container .mean-nav ul li li a {
 	width: 80%;
@@ -150,7 +150,7 @@ a.meanmenu-reveal {
     color: #FF2D55;
 }
 .main-nav {
-    background: #000;
+    background: rgb(255, 255, 255);
     position: absolute;
     top: 0;
     left: 0;
@@ -181,7 +181,7 @@ a.meanmenu-reveal {
     font-weight: 500;
     font-size: 16px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #201de4;
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
