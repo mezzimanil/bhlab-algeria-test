@@ -169,7 +169,7 @@
                 <a href="" class="footerLogo">Company</a>
                 <ul class="social-icons">
                     <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
                     <li><a href="#"><i class="fa fa-xing"></i></a></li>
                     <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
