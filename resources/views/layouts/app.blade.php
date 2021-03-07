@@ -28,18 +28,7 @@
    
    
     <style>
-.navbar-light .navbar-nav .nav-link {
-  position:relative;
- 
-  color: blue
-}
 
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: rgb(22, 236, 207);
-  
-  width: 100%;
-}
 
 
   
