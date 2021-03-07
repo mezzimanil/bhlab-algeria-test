@@ -12,7 +12,9 @@
     
   
     <!-- Scripts -->
-   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- MeanMenu CSS -->
+    <link rel="stylesheet" href="https://techsolutionshere.com/wp-content/themes/techsolution/assets/blog-post-css-js/meanmenu.css">
     
     <script src="{{ asset('js/app.js') }}" defer></script>
 
@@ -109,7 +111,7 @@
 
                      
 
-                      <li class="nav-item">
+                      <li class="nav-item ">
                         <a href="#" class="nav-link dropdown-toggle">Dropdown</a>
                         <ul class="dropdown-menu">
                           <li class="nav-item">
@@ -279,4 +281,13 @@
 
   <!-- Footer -->
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- MeanMenu JS -->
+<script src="https://techsolutionshere.com/wp-content/themes/techsolution/assets/blog-post-css-js/jquery.meanmenu.js"></script>
+<script>
+	// Mean Menu
+	jQuery('.mean-menu').meanmenu({
+		meanScreenWidth: "991"
+	});
+</script>
 </html>
