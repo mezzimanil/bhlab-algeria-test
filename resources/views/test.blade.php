@@ -23,7 +23,7 @@
 	<!-- Menu For Desktop Device -->
 	<div class="main-nav">
 		<div class="container">
-			<nav class="navbar navbar-expand-md navbar-light" style="background-color: white">
+			<nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: white">
 				<a class="navbar-brand" href="#">
 					<img src="{{ asset('image/lol.png') }}">
 				</a>
