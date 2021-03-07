@@ -16,7 +16,7 @@
     <!-- MeanMenu CSS -->
     <link rel="stylesheet" href="https://techsolutionshere.com/wp-content/themes/techsolution/assets/blog-post-css-js/meanmenu.css">
     
-   
+    <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     
@@ -76,116 +76,7 @@
 <body>
     <div id="app">
 
-        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light border-bottom border-success" >
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    BH LAB
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <a href="#" class="nav-link dropdown-toggle active">Home</a>
-                      <ul class="dropdown-menu">
-                        <li class="nav-item">
-                          <a href="#" class="nav-link">Home Page 2</a>
-                        </li>
-                        <li class="nav-item">
-                          <a href="#" class="nav-link">Home Page 3</a>
-                        </li>
-                        <li class="nav-item">
-                          <a href="#" class="nav-link">Home Page 4</a>
-                        </li>
-                        <li class="nav-item">
-                          <a href="#" class="nav-link">Home Page 5</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">Services</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">Team</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link dropdown-toggle">Pages</a>
-                      <ul class="dropdown-menu">
-                        <li class="nav-item">
-                          <a href="#" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                          <a href="#" class="nav-link">Services</a>
-                        </li>
-                        <li class="nav-item">
-                          <a href="#" class="nav-link">Team</a>
-                        </li>
-                        <li class="nav-item">
-                          <a href="#" class="nav-link">Testimonials</a>
-                        </li>
-                        <li class="nav-item">
-                          <a href="#" class="nav-link">Contact</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#" class="nav-link dropdown-toggle">Dropdown</a>
-                      <ul class="dropdown-menu">
-                        <li class="nav-item">
-                          <a href="#" class="nav-link dropdown-toggle">Submenu 1</a>
-                          <ul class="dropdown-menu">
-                            <li class="nav-item">
-                              <a href="#" class="nav-link">Item 1</a>
-                            </li>
-                            <li class="nav-item">
-                              <a href="#" class="nav-link">Item 2</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li class="nav-item">
-                          <a href="#" class="nav-link dropdown-toggle">Submenu 2</a>
-                          <ul class="dropdown-menu">
-                            <li class="nav-item">
-                              <a href="#" class="nav-link">Item 1</a>
-                            </li>
-                            <li class="nav-item">
-                              <a href="#" class="nav-link">Item 2</a>
-                            </li>
-                            <li class="nav-item">
-                              <a href="#" class="nav-link dropdown-toggle">Submenu 3</a>
-                              <ul class="dropdown-menu">
-                                <li class="nav-item">
-                                  <a href="#" class="nav-link">Item 1</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a href="#" class="nav-link">Item 2</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a href="#" class="nav-link">Item 3</a>
-                                </li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-
-              
-            </div>
-        </nav>
+       @include('view.test');
        
               
              
