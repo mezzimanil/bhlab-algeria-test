@@ -183,11 +183,11 @@ body {
 		</a>
 	  </div>
 	  <div class="header-intro parallax100 t-center p-t-135 p-b-80" style="background-image: url('{{ asset('image/t.jpg')}}');">
-		<span class="tit2 p-l-15 p-r-15">
+		<span class="tit1 p-l-15 p-r-15">
 			Ct eget metus. Nullam id dolor
 		</span>
 	
-		<h3 class="tit2 t-center p-l-15 p-r-15 p-t-3">
+		<h3 class="tit1 t-center p-l-15 p-r-15 p-t-3">
 			Ct eget metus. Nullam id dolorssssdee szdze
 		</h3>
 		<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
