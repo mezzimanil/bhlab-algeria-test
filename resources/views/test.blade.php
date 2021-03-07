@@ -59,7 +59,7 @@
 							<a href="#" class="nav-link">Testimonials</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link">Contact</a>
+							<a href="{{route('contact')}}" class="nav-link">Contact</a>
 						</li>
 						<li class="nav-item">
 							<a href="#" class="nav-link dropdown-toggle">Pages</a>
