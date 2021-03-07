@@ -200,7 +200,7 @@ a.meanmenu-reveal {
 .main-nav nav .navbar-nav .nav-item .dropdown-menu {
     -webkit-box-shadow: 0 0 30px 0 rgb(223, 201, 201);
             box-shadow: 0 0 30px 0 rgb(223, 201, 201);
-    background: #0d1028;
+    background: #d9dae4;
     position: absolute;
     top: 80px;
     left: 0;
@@ -227,12 +227,12 @@ a.meanmenu-reveal {
     padding: 9px 15px;
     margin: 0;
     display: block;
-    color: #ffffff;
+    color: #0832e9;
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-    color: #faf9f9;
+    color: #21dd21;
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
     position: absolute;
