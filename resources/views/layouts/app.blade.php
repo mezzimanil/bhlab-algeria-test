@@ -62,6 +62,11 @@
       ul.contact li a{color:#e0e3e9}
       ul.contact li a:hover{color:#e18127; text-decoration: none;}
       .copyright{background:#faf3f5;text-align:center;color:#fff;padding:12px 0 4px}
+
+
+      .nav{
+        border-width: medium;
+      }
       </style>
 </head>
 <body>
