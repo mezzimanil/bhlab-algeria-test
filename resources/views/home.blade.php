@@ -42,7 +42,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  
    
 
 
@@ -105,7 +105,7 @@ body {
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
   .carousel-caption p {
-    margin-bottom: 1.25rem;
+    
     font-size: 1.25rem;
     line-height: 1.4;
   }
@@ -182,7 +182,7 @@ body {
 		  <span class="sr-only">Next</span>
 		</a>
 	  </div>
-	  <div class="header-intro parallax100 t-center " style="background-image: url('{{ asset('image/o.jpg')}}');">
+	  <div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url('{{ asset('image/o.jpg')}}');">
 		<span class="tit2 p-l-15 p-r-15">
 		  Rester en 
 		</span>
