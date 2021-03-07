@@ -24,7 +24,7 @@
 	<div class="main-nav">
 		<div class="container">
 			<nav class="navbar navbar-expand-md navbar-light fixed-top  border-success" style="background-color: white">
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="{{ url('/') }}">
 					<img src="{{ asset('image/lol.png') }}">
 				</a>
 				<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
