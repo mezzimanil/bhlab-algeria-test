@@ -50,7 +50,7 @@
 							<a href="#" class="nav-link">About</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link">Services</a>
+							<a href="{{route('fournisseur')}}" class="nav-link">Fournisseur</a>
 						</li>
 						<li class="nav-item">
 							<a href="#" class="nav-link">Team</a>
@@ -68,7 +68,7 @@
 									<a href="#" class="nav-link">About</a>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">Services</a>
+									<a href="{{route('fournisseur')}}" class="nav-link">Fournisseur</a>
 								</li>
 								<li class="nav-item">
 									<a href="#" class="nav-link">Team</a>
