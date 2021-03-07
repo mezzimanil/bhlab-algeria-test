@@ -187,7 +187,7 @@ body {
 			Ct eget metus. Nullam id dolor
 		</span>
 	
-		<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
+		<h3 class="tit2 t-center p-l-15 p-r-15 p-t-3">
 			Ct eget metus. Nullam id dolorssssdee szdze
 		</h3>
 		<button class="btn btn-primary ">Button</button>
