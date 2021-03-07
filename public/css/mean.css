@@ -164,7 +164,7 @@ a.meanmenu-reveal {
 	display: none;
 }
 .navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {
-    color: #fff;
+    color: rgb(17, 1, 1);
     font-weight: bold;
     text-transform: uppercase;
 }
