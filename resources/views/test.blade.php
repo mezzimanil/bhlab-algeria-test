@@ -15,7 +15,7 @@
     <div class="navbar-area">
 	<!-- Menu For Mobile Device -->
 	<div class="mobile-nav">
-		<a href="#" class="logo">
+		<a href="#" class="logo" >
 			Logo
 		</a>
 	</div>
@@ -25,7 +25,7 @@
 		<div class="container">
 			<nav class="navbar navbar-expand-md navbar-light">
 				<a class="navbar-brand" href="#">
-					Logo
+					<img src="{{ asset('image/lo.png') }}">
 				</a>
 				<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
