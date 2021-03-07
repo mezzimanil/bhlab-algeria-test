@@ -24,7 +24,7 @@
  
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
    
-   
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <style>
 .navbar-light .navbar-nav .nav-link {
   position:relative;
