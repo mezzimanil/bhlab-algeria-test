@@ -105,8 +105,8 @@ a.meanmenu-reveal {
 	padding: 1em 25%;
 }
 .mean-container .mean-nav ul li a:hover {
-	background: #252525;
-	background: rgba(255,255,255,0.1);
+	background: #f0efef;
+	background: rgba(243, 243, 243, 0.1);
 }
 .mean-container .mean-nav ul li a.mean-expand {
 	margin-top: 3px;
