@@ -76,7 +76,7 @@
 <body>
     <div id="app">
 
-       @include('view.test');
+       @include('test');
        
               
              
