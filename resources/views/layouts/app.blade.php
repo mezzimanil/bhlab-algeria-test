@@ -34,7 +34,7 @@
 
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: rgb(236, 22, 22);
+  color: rgb(22, 236, 207);
   
   width: 100%;
 }
