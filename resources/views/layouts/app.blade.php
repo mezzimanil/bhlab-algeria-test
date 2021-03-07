@@ -24,7 +24,7 @@
  
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
    
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+   
     <style>
 .navbar-light .navbar-nav .nav-link {
   position:relative;
@@ -101,16 +101,7 @@
                        
                       
                     <li class="nav-item" >
-                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"  href="#">{{ __('Produit') }}</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li class="dropdown-header">Nav header</li>
-                        <li><a href="#">Separated link</a></li>
-                        <li><a href="#">One more separated link</a></li>
-                      </ul>
+                      <a class="nav-link "   href="#">{{ __('Produit') }}</a>
                   </li>
                         <li class="nav-item" >
                           <a class="nav-link"   href="{{ route('fournisseur') }}">{{ __('fournisseurs') }}</a>
@@ -118,7 +109,17 @@
 
                      
 
-                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </li>
                       
                    
 
