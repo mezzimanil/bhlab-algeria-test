@@ -18,7 +18,7 @@ a.meanmenu-reveal {
 	background: transparent;
 	padding: 20px 0 0;
 	z-index: 999;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+	border-bottom: 1px solid rgba(5, 185, 230, 0.03);
 	height: 55px;
 }
 .mean-container a.meanmenu-reveal {
@@ -106,7 +106,7 @@ a.meanmenu-reveal {
 }
 .mean-container .mean-nav ul li a:hover {
 	background: #f0efef;
-	background: rgba(243, 243, 243, 0.1);
+	
 }
 .mean-container .mean-nav ul li a.mean-expand {
 	margin-top: 3px;
