@@ -12,8 +12,7 @@
     
   
     <!-- Scripts -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <!-- MeanMenu CSS -->
+    
     
     
     <script src="{{ asset('js/app.js') }}" defer></script>
