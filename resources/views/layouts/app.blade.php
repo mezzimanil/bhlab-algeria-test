@@ -64,7 +64,8 @@
       .copyright{background:#faf3f5;text-align:center;color:#fff;padding:12px 0 4px}
 
 
-      .nav{
+      .navbar{
+        border-style: solid;
         border-width: medium;
       }
       </style>
