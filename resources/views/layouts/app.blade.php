@@ -78,7 +78,7 @@
 	}
 	.dropdown-menu{	
 		margin:0; 
-    display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0; 
+    display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0
 	}
 	.megasubmenu{ 
 		left:100%; top: 0; min-height: 100%; min-width:992px; width:100%; padding:20px; 
@@ -89,7 +89,7 @@
 	}
   .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
 
-   .dropdown-menu:hover{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+  .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 }
       </style>
 </head>
