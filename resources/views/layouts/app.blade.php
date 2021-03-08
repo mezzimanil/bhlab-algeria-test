@@ -86,9 +86,11 @@
 		left:100%; top: 0; min-height: 100%; min-width:992px; width:100%; padding:20px; 
 	}
 	
-	
+	.dropdown-menu > li:hover .megasubmenu{
+		display: block;
+	}
   .navbar .dropdown-menu.fade-down{ top:180%; }
-  .navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+  .navbar .nav-item:hover .dropdown-menu{ transition: .3s;  }
 
 }
       </style>
@@ -113,7 +115,7 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Mega submenu </a>
-              <ul class="dropdown-menu fade-down">
+              <ul class="dropdown-menu ">
               <li><a class="dropdown-item dropdown-toggle " href="#"> Dropdown item 1 </a> <div class="megasubmenu dropdown-menu">
                  <div class="row">
                     <div class="col-md-2">
