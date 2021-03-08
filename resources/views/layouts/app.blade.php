@@ -114,7 +114,7 @@
               <li><a class="dropdown-item dropdown-toggle " href="#"> Dropdown item 1 </a> <div class="megasubmenu dropdown-menu">
                  <div class="row">
                     <div class="col-6">
-                        <h6 class="title">Title Menu One</h6>
+                        <h6 class="title">Title super</h6>
                         <ul class="list-unstyled">
                           <li><a href="#">Custom Menu</a></li>
                           <li><a href="#">Custom Menu</a></li>
@@ -124,7 +124,7 @@
                         </ul>
                     </div><!-- end col-3 -->
                     <div class="col-6">
-                      <h6 class="title">Title Menu Two</h6>
+                      <h6 class="title">Title Menu super two</h6>
                         <ul class="list-unstyled">
                           <li><a href="#">Custom Menu</a></li>
                           <li><a href="#">Custom Menu</a></li>
