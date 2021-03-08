@@ -94,7 +94,7 @@
     <div id="app">
    
 
-      <nav class="navbar navbar-expand-lg navbar-dark ">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-light ">
         <div class="container">
           <a class="navbar-brand" href="{{ url('/') }}">
             <img src="{{ asset('image/lol.png') }}">
