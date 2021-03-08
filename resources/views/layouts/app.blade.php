@@ -205,7 +205,7 @@
                     </div><!-- end col-3 -->
                   </div><!-- end row -->
                  </div></li>
-              <li class="has-submenu">
+              <li>
                  <a class="dropdown-item dropdown-toggle" href="#"> Dropdown item 4 </a>
                  <div class="megasubmenu dropdown-menu">
                  <div class="row">
