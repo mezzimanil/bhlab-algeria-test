@@ -77,9 +77,7 @@
 		border-left: .3em solid;
 	}
 
-  .dropdown-menu:hover{
-    top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%;
-  }
+  
 	.dropdown-menu{	
 		margin:0; 
     display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;
@@ -91,7 +89,7 @@
 	.dropdown-menu > li:hover .megasubmenu{
 		display: block;
 	}
- 
+  .navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 
  
 }
