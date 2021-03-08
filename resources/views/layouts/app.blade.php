@@ -86,7 +86,9 @@
 	.dropdown-menu > li:hover .megasubmenu{
 		display: block;
 	}
+  .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
 
+  .navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 }
       </style>
 </head>
@@ -110,7 +112,7 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Mega submenu </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu fade-down">
               <li><a class="dropdown-item dropdown-toggle " href="#"> Dropdown item 1 </a> <div class="megasubmenu dropdown-menu">
                  <div class="row">
                     <div class="col-md-2">
