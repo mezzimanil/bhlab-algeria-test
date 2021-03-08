@@ -87,7 +87,7 @@
 	.dropdown-menu > li:hover .megasubmenu{
 		display: block;
 	}
-  .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+ 
 
  
 }
