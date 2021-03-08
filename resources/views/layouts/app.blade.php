@@ -77,7 +77,7 @@
 		border-left: .3em solid;
 	}
 
-  .dropdown-menu .dropdown-toggle:hover{
+  .dropdown-menu:hover{
     top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%;
   }
 	.dropdown-menu{	
