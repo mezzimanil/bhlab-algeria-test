@@ -89,7 +89,7 @@
 	.dropdown-menu > li:hover .megasubmenu{
 		display: block;
 	}
-  .navbar .nav-link:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+  .navbar .nav-item:hover { transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 
  
 }
