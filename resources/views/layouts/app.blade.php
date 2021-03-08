@@ -114,7 +114,7 @@
               <li><a class="dropdown-item dropdown-toggle " href="#"> Dropdown item 1 </a> <div class="megasubmenu dropdown-menu">
                  <div class="row">
                     <div class="col-6">
-                        <h6 class="title">Title super</h6>
+                        <h6 class="title">Title Menu One</h6>
                         <ul class="list-unstyled">
                           <li><a href="#">Custom Menu</a></li>
                           <li><a href="#">Custom Menu</a></li>
@@ -124,7 +124,7 @@
                         </ul>
                     </div><!-- end col-3 -->
                     <div class="col-6">
-                      <h6 class="title">Title Menu super two</h6>
+                      <h6 class="title">Title Menu two</h6>
                         <ul class="list-unstyled">
                           <li><a href="#">Custom Menu</a></li>
                           <li><a href="#">Custom Menu</a></li>
@@ -133,7 +133,7 @@
                         </ul>
                     </div><!-- end col-3 -->
                     <div class="col-6">
-                      <h6 class="title">Title super</h6>
+                      <h6 class="title">Title Menu three</h6>
                       <ul class="list-unstyled">
                         <li><a href="#">Custom Menu</a></li>
                         <li><a href="#">Custom Menu</a></li>
@@ -143,7 +143,7 @@
                       </ul>
                   </div><!-- end col-3 -->
                   <div class="col-6">
-                    <h6 class="title">Title Menu super two</h6>
+                    <h6 class="title">Title Menu four</h6>
                       <ul class="list-unstyled">
                         <li><a href="#">Custom Menu</a></li>
                         <li><a href="#">Custom Menu</a></li>
@@ -151,25 +151,7 @@
                         <li><a href="#">Custom Menu</a></li>
                       </ul>
                   </div><!-- end col-3 -->
-                  <div class="col-6">
-                    <h6 class="title">Title super</h6>
-                    <ul class="list-unstyled">
-                      <li><a href="#">Custom Menu</a></li>
-                      <li><a href="#">Custom Menu</a></li>
-                      <li><a href="#">Custom Menu</a></li>
-                      <li><a href="#">Custom Menu</a></li>
-                      <li><a href="#">Custom Menu</a></li>
-                    </ul>
-                </div><!-- end col-3 -->
-                <div class="col-6">
-                  <h6 class="title">Title Menu super two</h6>
-                    <ul class="list-unstyled">
-                      <li><a href="#">Custom Menu</a></li>
-                      <li><a href="#">Custom Menu</a></li>
-                      <li><a href="#">Custom Menu</a></li>
-                      <li><a href="#">Custom Menu</a></li>
-                    </ul>
-                </div><!-- end col-3 -->
+           
                   </div><!-- end row -->
                  </div></li>
               <li><a class="dropdown-item dropdown-toggle" href="#"> Dropdown item 2 </a> <div class="megasubmenu dropdown-menu">
