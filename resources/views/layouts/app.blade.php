@@ -116,7 +116,7 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Mega submenu </a>
-              <ul class="dropdown-menu fade-down">
+              <ul class="dropdown-menu">
               <li><a class="dropdown-item dropdown-toggle " href="#"> Dropdown item 1 </a> <div class="megasubmenu dropdown-menu">
                  <div class="row">
                     <div class="col-md-2">
