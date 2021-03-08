@@ -89,7 +89,7 @@
 	.dropdown-menu > li:hover .megasubmenu{
 		display: block;
 	}
-  .navbar .nav-item:hover .dropdown-menu{display: block;}
+  .navbar .nav-item:hover {display: block;}
  
  
 }
