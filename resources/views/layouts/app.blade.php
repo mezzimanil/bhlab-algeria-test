@@ -89,9 +89,10 @@
 	.dropdown-menu > li:hover .megasubmenu{
 		display: block;
 	}
-  .navbar .dropdown-menu.fade-down{ top:180%; }
-  .navbar .nav-item:hover .dropdown-menu{ transition: .3s;  }
+  
+  .navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 
+ 
 }
       </style>
 </head>
@@ -115,7 +116,7 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Mega submenu </a>
-              <ul class="dropdown-menu ">
+              <ul class="dropdown-menu fade-down">
               <li><a class="dropdown-item dropdown-toggle " href="#"> Dropdown item 1 </a> <div class="megasubmenu dropdown-menu">
                  <div class="row">
                     <div class="col-md-2">
@@ -205,7 +206,7 @@
                     </div><!-- end col-3 -->
                   </div><!-- end row -->
                  </div></li>
-              <li>
+              <li class="has-submenu">
                  <a class="dropdown-item dropdown-toggle" href="#"> Dropdown item 4 </a>
                  <div class="megasubmenu dropdown-menu">
                  <div class="row">
@@ -231,7 +232,21 @@
                   </div><!-- end row -->
                  </div>
               </li>
-             
+              <li class="has-submenu">
+                 <a class="dropdown-item dropdown-toggle" href="#"> Dropdown item 5 </a>
+                 <div class="megasubmenu dropdown-menu">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                 </div>
+              </li>
               <li><a class="dropdown-item" href="#"> Dropdown item 6 </a></li>
               </ul>
             </li>
