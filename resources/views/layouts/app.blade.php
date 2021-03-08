@@ -80,7 +80,7 @@
   
 	.dropdown-menu{	
 		margin:0; 
-    display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;
+    
 	}
 	.megasubmenu{ 
 		left:100%; top: 0; min-height: 100%; min-width:992px; width:100%; padding:20px; 
@@ -90,8 +90,7 @@
 		display: block;
 	}
   
-  .navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
-
+ 
  
 }
       </style>
