@@ -69,6 +69,10 @@
       .megasubmenu{ padding: 20px; }
 
 @media (min-width: 992px){
+  .navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 
 	.dropdown-menu .dropdown-toggle:after{
 		border-top: .3em solid transparent;
@@ -89,10 +93,7 @@
 	.dropdown-menu > li:hover .megasubmenu{
 		display: block;
 	}
-  .navbar .nav-item .dropdown-menu{ display: none; }
-  ..navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
- 
+
  
 }
       </style>
