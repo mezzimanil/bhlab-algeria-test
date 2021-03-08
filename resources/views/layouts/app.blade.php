@@ -80,7 +80,7 @@
 		margin:0; 
 	}
 	.megasubmenu{ 
-		left:100%; top:0; min-height: 100%; min-width:992px ;
+		left:100%; right:0; min-height: 100%; min-width:992px ;
 	}
 	
 	.dropdown-menu > li:hover .megasubmenu{
