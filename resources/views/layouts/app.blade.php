@@ -91,7 +91,7 @@
 	}
   .navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
   .navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
-
+.megasubmenu .dropdown-menu{ display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;}
  
 }
       </style>
