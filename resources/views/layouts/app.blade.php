@@ -94,6 +94,10 @@
    
 
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="{{ url('/') }}">
+            <img src="{{ asset('image/lol.png') }}">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -170,7 +174,7 @@
         </ul>
         
         </div> <!-- navbar-collapse.// -->
-        
+        </div>
         </nav>
        
               
