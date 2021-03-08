@@ -78,6 +78,7 @@
 	}
 	.dropdown-menu{	
 		margin:0; 
+    display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0; 
 	}
 	.megasubmenu{ 
 		left:100%; top: 0; min-height: 100%; min-width:992px; width:100%; padding:20px; 
