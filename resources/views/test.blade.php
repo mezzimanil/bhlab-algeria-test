@@ -5,156 +5,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    
 <!-- Bootstrap Min CSS -->
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+crossorigin="anonymous"></script>
+
+<!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 </head>
-<style>
-	.dropdown-large {
-  position: static !important;
-}
-.dropdown-menu-large {
-  margin-left: 16px;
-  margin-right: 16px;
-  padding: 20px 0px;
-}
-.dropdown-menu-large > li > ul {
-  padding: 0;
-  margin: 0;
-}
-.dropdown-menu-large > li > ul > li {
-  list-style: none;
-}
-.dropdown-menu-large > li > ul > li > a {
-  display: block;
-  padding: 3px 20px;
-  clear: both;
-  font-weight: normal;
-  line-height: 1.428571429;
-  color: #333333;
-  white-space: normal;
-}
-.dropdown-menu-large > li ul > li > a:hover,
-.dropdown-menu-large > li ul > li > a:focus {
-  text-decoration: none;
-  color: #262626;
-  background-color: #f5f5f5;
-}
-.dropdown-menu-large .disabled > a,
-.dropdown-menu-large .disabled > a:hover,
-.dropdown-menu-large .disabled > a:focus {
-  color: #999999;
-}
-.dropdown-menu-large .disabled > a:hover,
-.dropdown-menu-large .disabled > a:focus {
-  text-decoration: none;
-  background-color: transparent;
-  background-image: none;
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  cursor: not-allowed;
-}
-.dropdown-menu-large .dropdown-header {
-  color: #428bca;
-  font-size: 18px;
-}
-@media (max-width: 768px) {
-  .dropdown-menu-large {
-    margin-left: 0 ;
-    margin-right: 0 ;
-  }
-  .dropdown-menu-large > li {
-    margin-bottom: 30px;
-  }
-  .dropdown-menu-large > li:last-child {
-    margin-bottom: 0;
-  }
-  .dropdown-menu-large .dropdown-header {
-    padding: 3px 15px !important;
-  }
+<style type="text/css">
+	.megasubmenu{ padding: 20px; }
+
+@media (min-width: 992px){
+
+	.dropdown-menu .dropdown-toggle:after{
+		border-top: .3em solid transparent;
+		border-right: 0;
+		border-bottom: .3em solid transparent;
+		border-left: .3em solid;
+	}
+	.dropdown-menu{	
+		margin:0; 
+	}
+	.megasubmenu{ 
+		left:100%; top:0; min-height: 100%; min-width:500px;
+	}
+	
+	.dropdown-menu > li:hover .megasubmenu{
+		display: block;
+	}
+
 }
 
 </style>
 <body>
-	<nav class="navbar navbar-default navbar-static">
-		<div class="navbar-header">
-			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">Large Dropdown Menu</a>
-		</div>
-		
-		
-		<div class="collapse navbar-collapse js-navbar-collapse">
-			<ul class="nav navbar-nav">
-				<li class="dropdown dropdown-large">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-					
-					<ul class="dropdown-menu dropdown-menu-large row">
-						<li class="col-sm-3">
-							<ul>
-								<li class="dropdown-header">Glyphicons</li>
-								<li><a href="#">Available glyphs</a></li>
-								<li class="disabled"><a href="#">How to use</a></li>
-								<li><a href="#">Examples</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header">Dropdowns</li>
-								<li><a href="#">Example</a></li>
-								<li><a href="#">Aligninment options</a></li>
-								<li><a href="#">Headers</a></li>
-								<li><a href="#">Disabled menu items</a></li>
-							</ul>
-						</li>
-						<li class="col-sm-3">
-							<ul>
-								<li class="dropdown-header">Button groups</li>
-								<li><a href="#">Basic example</a></li>
-								<li><a href="#">Button toolbar</a></li>
-								<li><a href="#">Sizing</a></li>
-								<li><a href="#">Nesting</a></li>
-								<li><a href="#">Vertical variation</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header">Button dropdowns</li>
-								<li><a href="#">Single button dropdowns</a></li>
-							</ul>
-						</li>
-						<li class="col-sm-3">
-							<ul>
-								<li class="dropdown-header">Input groups</li>
-								<li><a href="#">Basic example</a></li>
-								<li><a href="#">Sizing</a></li>
-								<li><a href="#">Checkboxes and radio addons</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header">Navs</li>
-								<li><a href="#">Tabs</a></li>
-								<li><a href="#">Pills</a></li>
-								<li><a href="#">Justified</a></li>
-							</ul>
-						</li>
-						<li class="col-sm-3">
-							<ul>
-								<li class="dropdown-header">Navbar</li>
-								<li><a href="#">Default navbar</a></li>
-								<li><a href="#">Buttons</a></li>
-								<li><a href="#">Text</a></li>
-								<li><a href="#">Non-nav links</a></li>
-								<li><a href="#">Component alignment</a></li>
-								<li><a href="#">Fixed to top</a></li>
-								<li><a href="#">Fixed to bottom</a></li>
-								<li><a href="#">Static top</a></li>
-								<li><a href="#">Inverted navbar</a></li>
-							</ul>
-						</li>
-					</ul>
-					
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="main_nav">
+	  
+	  <ul class="navbar-nav">
+		  <li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Mega submenu </a>
+			  <ul class="dropdown-menu">
+				<li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
+				<li><a class="dropdown-item" href="#"> Dropdown item 2 </a></li>
+				<li><a class="dropdown-item" href="#"> Dropdown item 3 </a></li>
+				<li class="has-submenu">
+					 <a class="dropdown-item dropdown-toggle" href="#"> Dropdown item 4 </a>
+					 <div class="megasubmenu dropdown-menu">
+					 <div class="row">
+						  <div class="col-6">
+								  <h6 class="title">Title Menu One</h6>
+								  <ul class="list-unstyled">
+									  <li><a href="#">Custom Menu</a></li>
+									  <li><a href="#">Custom Menu</a></li>
+									  <li><a href="#">Custom Menu</a></li>
+									  <li><a href="#">Custom Menu</a></li>
+									  <li><a href="#">Custom Menu</a></li>
+								  </ul>
+						  </div><!-- end col-3 -->
+						  <div class="col-6">
+							  <h6 class="title">Title Menu Two</h6>
+								  <ul class="list-unstyled">
+									  <li><a href="#">Custom Menu</a></li>
+									  <li><a href="#">Custom Menu</a></li>
+									  <li><a href="#">Custom Menu</a></li>
+									  <li><a href="#">Custom Menu</a></li>
+								  </ul>
+						  </div><!-- end col-3 -->
+					  </div><!-- end row -->
+				   </div>
 				</li>
-			</ul>
-			
-		</div><!-- /.nav-collapse -->
-	</nav>
+				<li class="has-submenu">
+					 <a class="dropdown-item dropdown-toggle" href="#"> Dropdown item 5 </a>
+					 <div class="megasubmenu dropdown-menu">
+					  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					  proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+					  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					  consequat.
+				   </div>
+				</li>
+				<li><a class="dropdown-item" href="#"> Dropdown item 6 </a></li>
+			  </ul>
+		  </li>
+		  <li class="nav-item"> <a class="nav-link" href="#">Menu item </a> </li>
+		  <li class="nav-item"><a class="nav-link" href="#"> About </a></li>
+		  <li class="nav-item"><a class="nav-link" href="#"> Services </a></li>
+	  </ul>
+	  
+	  <ul class="navbar-nav ml-auto">
+		  <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
+		  <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
+		  <li class="nav-item dropdown">
+			  <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Dropdown right </a>
+			  <ul class="dropdown-menu dropdown-menu-right">
+				<li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+				<li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  </ul>
+		  </li>
+	  
+	  </ul>
+	  
+		</div> <!-- navbar-collapse.// -->
+	  
+	  </nav>
 </body>
+<script type="text/javascript">
+	/// some script
+	
+	// jquery ready start
+	$(document).ready(function() {
+		// jQuery code
+		//////////////////////// Prevent closing from click inside dropdown
+		$(document).on('click', '.dropdown-menu', function (e) {
+		  e.stopPropagation();
+		});
+	
+		if ($(window).width() < 992) {
+	
+			  $('.has-submenu a').click(function(e){
+				  e.preventDefault();
+				$(this).next('.megasubmenu').toggle();
+	
+				$('.dropdown').on('hide.bs.dropdown', function () {
+				   $(this).find('.megasubmenu').hide();
+				})
+			  });
+	
+		}
+	
+		
+	}); // jquery end
+	</script>
 </html>
