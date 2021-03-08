@@ -111,9 +111,75 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Mega submenu </a>
               <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
-              <li><a class="dropdown-item" href="#"> Dropdown item 2 </a></li>
-              <li><a class="dropdown-item" href="#"> Dropdown item 3 </a></li>
+              <li><a class="dropdown-item dropdown-toggle " href="#"> Dropdown item 1 </a> <div class="megasubmenu dropdown-menu">
+                 <div class="row">
+                    <div class="col-6">
+                        <h6 class="title">Title Menu One</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                        </ul>
+                    </div><!-- end col-3 -->
+                    <div class="col-6">
+                      <h6 class="title">Title Menu Two</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                        </ul>
+                    </div><!-- end col-3 -->
+                  </div><!-- end row -->
+                 </div></li>
+              <li><a class="dropdown-item dropdown-toggle" href="#"> Dropdown item 2 </a> <div class="megasubmenu dropdown-menu">
+                 <div class="row">
+                    <div class="col-6">
+                        <h6 class="title">Title Menu One</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                        </ul>
+                    </div><!-- end col-3 -->
+                    <div class="col-6">
+                      <h6 class="title">Title Menu Two</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                        </ul>
+                    </div><!-- end col-3 -->
+                  </div><!-- end row -->
+                 </div></li>
+              <li><a class="dropdown-item dropdown-toggle" href="#"> Dropdown item 3 </a> <div class="megasubmenu dropdown-menu">
+                 <div class="row">
+                    <div class="col-6">
+                        <h6 class="title">Title Menu One</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                        </ul>
+                    </div><!-- end col-3 -->
+                    <div class="col-6">
+                      <h6 class="title">Title Menu Two</h6>
+                        <ul class="list-unstyled">
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                          <li><a href="#">Custom Menu</a></li>
+                        </ul>
+                    </div><!-- end col-3 -->
+                  </div><!-- end row -->
+                 </div></li>
               <li class="has-submenu">
                  <a class="dropdown-item dropdown-toggle" href="#"> Dropdown item 4 </a>
                  <div class="megasubmenu dropdown-menu">
