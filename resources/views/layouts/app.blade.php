@@ -37,7 +37,6 @@
 
 
   
-}
       #footer{background:rgb(19, 17, 17);position:relative}
       .footerLogo { font-size: 1.8em; font-weight: 600; color: rgb(250, 249, 249); margin-bottom: 22px; display: block; }
       #footer::before{content:"";background:linear-gradient(to right,rgb(235, 99, 9) 0,#c453f1 50%,#fff 100%);height:25px;width:100%;position:absolute}
@@ -66,208 +65,70 @@
         border-bottom: 10px solid;
       }
 
-      .megasubmenu{ padding: 20px; }
-
-@media (min-width: 992px){
-  
-
-	.dropdown-menu .dropdown-toggle:after{
-		border-top: .3em solid transparent;
-		border-right: 0;
-		border-bottom: .3em solid transparent;
-		border-left: .3em solid;
-	}
-
-  
-	.dropdown-menu{	
-		margin:0; 
     
-	}
-	.megasubmenu{ 
-		left:100%; top: 0; min-height: 100%; min-width:992px; width:100%; padding:20px; 
-	}
-	
-	.dropdown-menu > li:hover .megasubmenu{
-		display: block;
-	}
-
  
-}
+
       </style>
 </head>
 <body>
     <div id="app">
    
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="{{ url('/') }}">
-            <img src="{{ asset('image/lol.png') }}">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
-          <span class="navbar-toggler-icon"></span>
+      <nav class="navbar navbar-light bg-light navbar-expand-lg" id="myNavbar">
+ 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="main_nav">
         
-       
-        
-        <ul class="navbar-nav ml-auto">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> Mega submenu </a>
-              <ul class="dropdown-menu fade-down">
-              <li><a class="dropdown-item dropdown-toggle " href="#"> Dropdown item 1 </a> <div class="megasubmenu dropdown-menu">
-                 <div class="row">
-                    <div class="col-md-2">
-                        <h6 class="title">Title Menu One</h6>
-                        <ul class="list-unstyled">
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                        </ul>
-                    </div><!-- end col-3 -->
-                    <div class="col-md-2">
-                      <h6 class="title">Title Menu two</h6>
-                        <ul class="list-unstyled">
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                        </ul>
-                    </div><!-- end col-3 -->
-                    <div class="col-md-2">
-                      <h6 class="title">Title Menu three</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="#">Custom Menu</a></li>
-                        <li><a href="#">Custom Menu</a></li>
-                        <li><a href="#">Custom Menu</a></li>
-                        <li><a href="#">Custom Menu</a></li>
-                        <li><a href="#">Custom Menu</a></li>
-                      </ul>
-                  </div><!-- end col-3 -->
-                  <div class="col-md-2">
-                    <h6 class="title">Title Menu four</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="#">Custom Menu</a></li>
-                        <li><a href="#">Custom Menu</a></li>
-                        <li><a href="#">Custom Menu</a></li>
-                        <li><a href="#">Custom Menu</a></li>
-                      </ul>
-                  </div><!-- end col-3 -->
-           
-                  </div><!-- end row -->
-                 </div></li>
-              <li><a class="dropdown-item dropdown-toggle" href="#"> Dropdown item 2 </a> <div class="megasubmenu dropdown-menu">
-                 <div class="row">
-                    <div class="col-md-3">
-                        <h6 class="title">Title Menu One</h6>
-                        <ul class="list-unstyled">
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                        </ul>
-                    </div><!-- end col-3 -->
-                    <div class="col-md-3">
-                      <h6 class="title">Title Menu Two</h6>
-                        <ul class="list-unstyled">
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                        </ul>
-                    </div><!-- end col-3 -->
-                  </div><!-- end row -->
-                 </div></li>
-              <li><a class="dropdown-item dropdown-toggle" href="#"> Dropdown item 3 </a> <div class="megasubmenu dropdown-menu">
-                 <div class="row">
-                    <div class="col-md-3">
-                        <h6 class="title">Title Menu three</h6>
-                        <ul class="list-unstyled">
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                        </ul>
-                    </div><!-- end col-3 -->
-                    <div class="col-md-3">
-                      <h6 class="title">Title Menu four</h6>
-                        <ul class="list-unstyled">
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                        </ul>
-                    </div><!-- end col-3 -->
-                  </div><!-- end row -->
-                 </div></li>
-              <li class="has-submenu">
-                 <a class="dropdown-item dropdown-toggle" href="#"> Dropdown item 4 </a>
-                 <div class="megasubmenu dropdown-menu">
-                 <div class="row">
-                    <div class="col-md-3">
-                        <h6 class="title">Title Menu five</h6>
-                        <ul class="list-unstyled">
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                        </ul>
-                    </div><!-- end col-3 -->
-                    <div class="col-md-3">
-                      <h6 class="title">Title Menu six</h6>
-                        <ul class="list-unstyled">
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                          <li><a href="#">Custom Menu</a></li>
-                        </ul>
-                    </div><!-- end col-3 -->
-                  </div><!-- end row -->
-                 </div>
-              </li>
-              <li class="has-submenu">
-                 <a class="dropdown-item dropdown-toggle" href="#"> Dropdown item 5 </a>
-                 <div class="megasubmenu dropdown-menu">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat.
-                 </div>
-              </li>
-              <li><a class="dropdown-item" href="#"> Dropdown item 6 </a></li>
-              </ul>
-            </li>
-            <li class="nav-item"> <a class="nav-link" href="#">Menu item </a> </li>
-            <li class="nav-item"><a class="nav-link" href="#"> About </a></li>
-            <li class="nav-item"><a class="nav-link" href="#"> Services </a></li>
-          </ul>
-          <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
-          <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Dropdown right </a>
-            <ul class="dropdown-menu dropdown-menu-right">
-            <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
-            <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
-            </ul>
+        <a href="#" class="navbar-brand">Navbar Brand</a>
+        <div class="collapse navbar-collapse" id="mainNav">
+         <ul class="navbar-nav ml-auto nav-fill">
+          
+          <li class="nav-item px-4">
+           <a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a>
           </li>
-        
-        </ul>
-        
-        </div> <!-- navbar-collapse.// -->
+          
+          <li class="nav-item px-4 dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="servicesDropdown">
+            <a class="dropdown-item" href="#">What we do</a>
+            <a class="dropdown-item" href="#">How we fit your needs</a>
+            <div class="dropdown-divider"></div>
+            <div class="d-md-flex align-items-start justify-content-start">
+             <div>   
+              <div class="dropdown-header">Development</div>
+              <a class="dropdown-item" href="#">Bespoke software</a>
+              <a class="dropdown-item" href="#">Mobile apps</a>
+              <a class="dropdown-item" href="#">Websites</a>
+             </div>
+             <div>
+              <div class="dropdown-header">Professional Services</div>
+              <a class="dropdown-item" href="#">Project rescue</a>
+              <a class="dropdown-item" href="#">Source code recovery</a>
+              <a class="dropdown-item" href="#">Application support &amp; maintenance</a>
+             </div>
+             <div>
+              <div class="dropdown-header">Fixed Price Services</div>
+              <a class="dropdown-item" href="#">Add cookie consent</a>
+              <a class="dropdown-item" href="#">Add captcha</a>
+              <a class="dropdown-item" href="#">Add core data</a>
+              <a class="dropdown-item" href="#">Custom error pages</a>
+              <a class="dropdown-item" href="#">Contact form creation</a>
+              <a class="dropdown-item" href="#">Automated backups</a>
+              <a class="dropdown-item" href="#">Image to HTML</a>
+             </div>
+            </div>
+           </div>
+          </li>
+          <li class="nav-item px-4">
+           <a href="#" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item px-4">
+           <a href="#" class="nav-link">Blog</a>
+          </li>
+         </ul>
         </div>
-        </nav>
+       </nav>
        
               
              
