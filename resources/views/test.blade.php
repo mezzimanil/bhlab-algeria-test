@@ -100,12 +100,12 @@
 
 		<nav class="megamenu fixed-top bg-light">
 <div class="container">
-			<a class="navbar-brand" href="{{ url('/') }}">
-				<img src="{{ asset('image/lol.png') }}" >
-			</a>
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		
+			
  <ul class="megamenu-nav d-flex justify-content-center" role="menu">
-
+	<a class="navbar-brand" href="{{ url('/') }}">
+		<img src="{{ asset('image/lol.png') }}" >
+	</a>
 	
  <li class="nav-item">
   <a class="nav-link" href="{{ url('/') }}">
@@ -388,7 +388,7 @@
  </li>
  </ul>
  <div class="megamenu-background" id="megamenu-background"></div>
-</div>
+
 </div>
 </nav>
 
