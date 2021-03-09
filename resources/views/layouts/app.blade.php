@@ -54,11 +54,7 @@
       .copyright{background:#faf3f5;text-align:center;color:#fff;padding:12px 0 4px}
 
 
-      .navbar{
-        
-        
-        border-bottom: 10px solid;
-      }
+      
 
 
     
