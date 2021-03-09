@@ -18,10 +18,11 @@
 	
 
 		<nav class="megamenu fixed-top">
-			<a class="navbar-brand" href="{{ url('/') }}">
-				<img src="{{ asset('image/lol.png') }}" >
-			</a>
+			
 <ul class="megamenu-nav d-flex justify-content-center" role="menu">
+	<a class="navbar-brand" href="{{ url('/') }}">
+		<img src="{{ asset('image/lol.png') }}" >
+	</a>
 <li class="nav-item">
   <a class="nav-link" href="{{ url('/') }}">
 	  <i class="fa fa-home"></i>
