@@ -17,7 +17,7 @@
 <body>
 	
 
-		<nav class="megamenu fixed-top">
+		<nav class="megamenu fixed-top bg-light">
 			
 <ul class="megamenu-nav d-flex justify-content-center" role="menu">
 	<a class="navbar-brand" href="{{ url('/') }}">
