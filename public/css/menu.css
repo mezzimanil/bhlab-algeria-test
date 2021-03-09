@@ -28,7 +28,7 @@ body {
   }
   
   .megamenu {
-    background: #007bff;
+    background: #e7e7e7;
     z-index: 15;
   }
   .megamenu .megamenu-nav {
@@ -43,7 +43,7 @@ body {
     opacity: 1;
   }
   .megamenu .megamenu-nav .nav-item.is-open > .nav-link {
-    background: #fff;
+    background: rgb(36, 50, 136);
     color: #333;
   }
   .megamenu .megamenu-nav .nav-link {
