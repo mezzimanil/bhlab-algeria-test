@@ -7,12 +7,93 @@
     <title>Document</title>
     
 <!-- Bootstrap Min CSS -->
-<link href="{{ asset('css/menu.css') }}" rel="stylesheet">
+
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 </head>
 <style type="text/css">
-	
+	 .megamenu {
+    background: #e7e2e2;
+    z-index: 15;
+  }
+  .megamenu .megamenu-nav {
+    padding: 0;
+    margin: 0;
+  }
+  .megamenu .megamenu-nav .nav-item {
+    display: block;
+  }
+  .megamenu .megamenu-nav .nav-item.is-open > .megamenu-content {
+    visibility: visible;
+    opacity: 1;
+  }
+  .megamenu .megamenu-nav .nav-item.is-open > .nav-link {
+    background: rgb(36, 50, 136);
+    
+  }
+  .megamenu .megamenu-nav .nav-link {
+    color: rgb(36, 50, 136);
+    padding: 15px 30px;
+  }
+  .megamenu .megamenu-nav .nav-link:hover {
+    background: #fff;
+    color: #333;
+  }
+  .megamenu .megamenu-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 54px;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 14;
+    transition: all .3s ease-in-out;
+  }
+  .megamenu .megamenu-content .container {
+    padding: 45px 15px;
+  }
+  .megamenu .megamenu-content .subnav {
+    margin: 0;
+    padding: 0;
+  }
+  .megamenu .megamenu-content .subnav-item {
+    display: block;
+  }
+  .megamenu .megamenu-content .subnav-item .subnav-link {
+    padding: 10px 0;
+    display: block;
+  }
+  
+  .megamenu-background {
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 54px;
+    right: 0;
+    height: 0;
+    transition: all .3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    z-index: 13;
+  }
+  
+  .megamenu-dim {
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 54px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -12;
+    transition: all .3s ease-in-out;
+  }
+  body.megamenu-visible .megamenu-dim {
+    z-index: 12;
+    visibility: visible;
+    opacity: 1;
+  }
 </style>
 <body>
 	
