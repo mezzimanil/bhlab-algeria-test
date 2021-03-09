@@ -36,7 +36,7 @@
     padding: 15px 30px;
   }
   .megamenu .megamenu-nav .nav-link:hover {
-    background: #fff;
+    background: rgb(0,168,186);
     color: #333;
   }
   .megamenu .megamenu-content {
