@@ -31,3 +31,8 @@ Route::post('/sen-message',[App\Http\Controllers\ContactController::class, 'send
 Route::get('/test', function () {
     return view('test');
 });
+
+
+Route::get('/map', function () {
+    return view('map');
+});
