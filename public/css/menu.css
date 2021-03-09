@@ -44,7 +44,7 @@ body {
   }
   .megamenu .megamenu-nav .nav-item.is-open > .nav-link {
     background: rgb(36, 50, 136);
-    color: #333;
+    
   }
   .megamenu .megamenu-nav .nav-link {
     color: rgb(36, 50, 136);
