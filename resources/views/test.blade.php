@@ -99,19 +99,20 @@
 	
 
 		<nav class="megamenu fixed-top bg-light">
+<div class="container">
 			<a class="navbar-brand" href="{{ url('/') }}">
 				<img src="{{ asset('image/lol.png') }}" >
 			</a>
-<ul class="megamenu-nav d-flex justify-content-center" role="menu">
+ <ul class="megamenu-nav d-flex justify-content-center" role="menu">
+
 	
-	
-<li class="nav-item">
+ <li class="nav-item">
   <a class="nav-link" href="{{ url('/') }}">
 	  <i class="fa fa-home"></i>
 	  <span class="sr-only">Home</span>
   </a>
-</li>
-<li class="nav-item is-parent">
+ </li>
+ <li class="nav-item is-parent">
   <a class="nav-link" href="#" id="megamenu-dropdown-1" aria-haspopup="true" aria-expanded="false">
 	  Link 1 <i class="fa fa-angle-down"></i>
   </a>
@@ -180,8 +181,8 @@
 		  </div>
 	  </div>
   </div>
-</li>
-<li class="nav-item is-parent">
+ </li>
+ <li class="nav-item is-parent">
   <a class="nav-link" href="#" id="megamenu-dropdown-2" aria-haspopup="true" aria-expanded="false">
 	  Link 2 <i class="fa fa-angle-down"></i>
   </a>
@@ -245,8 +246,8 @@
 		  </div>
 	  </div>
   </div>
-</li>
-<li class="nav-item is-parent">
+ </li>
+ <li class="nav-item is-parent">
   <a class="nav-link" href="#" id="megamenu-dropdown-3" aria-haspopup="true" aria-expanded="false">
 	  Link 3 <i class="fa fa-angle-down"></i>
   </a>
@@ -313,8 +314,8 @@
 		  </div>
 	  </div>
   </div>
-</li>
-<li class="nav-item is-parent">
+ </li>
+ <li class="nav-item is-parent">
   <a class="nav-link" href="#" id="megamenu-dropdown-4" aria-haspopup="true" aria-expanded="false">
 	  Link 4 <i class="fa fa-angle-down"></i>
   </a>
@@ -378,15 +379,18 @@
 		  </div>
 	  </div>
   </div>
-</li>
-<li class="nav-item">
+ </li> 
+ <li class="nav-item">
   <a class="nav-link" href="#">
 	  Link without megamenu
   </a>
-</li>
-</ul>
-<div class="megamenu-background" id="megamenu-background"></div>
+ </li>
+ </ul>
+ <div class="megamenu-background" id="megamenu-background"></div>
+
+</div>
 </nav>
+
 </body>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.9.0/jquery.hoverIntent.min.js'></script>
