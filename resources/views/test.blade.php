@@ -28,11 +28,11 @@
     opacity: 1;
   }
   .megamenu .megamenu-nav .nav-item.is-open > .nav-link {
-    background: rgb(36, 50, 136);
+    background: rgb(0,168,186);
     
   }
   .megamenu .megamenu-nav .nav-link {
-    color: rgb(0, 138, 186);
+    color: rgb(36, 50, 136);
     padding: 15px 30px;
   }
   .megamenu .megamenu-nav .nav-link:hover {
