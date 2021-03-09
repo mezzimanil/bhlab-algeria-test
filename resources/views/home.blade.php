@@ -18,7 +18,7 @@
 	
 
     
-    <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+    
     <link href="{{ asset('css/util.css') }}" rel="stylesheet">
 
 @section('content')
