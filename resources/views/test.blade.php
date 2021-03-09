@@ -20,7 +20,7 @@
 		<nav class="megamenu fixed-top">
 <ul class="megamenu-nav d-flex justify-content-center" role="menu">
 <li class="nav-item">
-  <a class="nav-link" href="#">
+  <a class="nav-link" href="{{ url('/') }}">
 	  <i class="fa fa-home"></i>
 	  <span class="sr-only">Home</span>
   </a>
