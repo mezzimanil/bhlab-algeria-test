@@ -17,7 +17,7 @@
 <body>
 	
 
-		<nav class="megamenu">
+		<nav class="megamenu fixed-top">
 <ul class="megamenu-nav d-flex justify-content-center" role="menu">
 <li class="nav-item">
   <a class="nav-link" href="#">
