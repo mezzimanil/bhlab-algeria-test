@@ -188,9 +188,9 @@
                                 <hr>
                                 <ul class="subnav">
                                   <li class="subnav-item">
-                                    <div class="cd-dropdown-wrapper">
+                                   
                                    @include('drop')
-                                    </div>
+                                    
                                   </li>
                                   <li class="subnav-item">
                                     <a href="#" class="subnav-link">Another menuitem</a>
