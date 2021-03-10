@@ -159,7 +159,7 @@
 			</div>
 		  </div>
 		  <div class="carousel-item">
-			<img class="third-slide" src="{{ asset('image/3.jpg') }}" alt="Third slide">
+			<img class="third-slide" src="{{ asset('image/coro.jpg') }}" alt="Third slide">
 			<div class="container">
 			  <div class="carousel-caption text-right">
 				<h1>One more for good measure.</h1>
