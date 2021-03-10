@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
+    <link href="{{ asset('css/reset.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
 
@@ -260,7 +260,11 @@
 						</ul> <!-- .cd-dropdown-icons -->
 					</li> <!-- .has-children -->
 
-				
+					<li class="cd-divider">Divider</li>
+
+					<li><a href="http://codyhouse.co/?p=748">Page 1</a></li>
+					<li><a href="http://codyhouse.co/?p=748">Page 2</a></li>
+					<li><a href="http://codyhouse.co/?p=748">Page 3</a></li>
 				</ul> <!-- .cd-dropdown-content -->
 			</nav> <!-- .cd-dropdown -->
 		<!-- .cd-dropdown-wrapper -->
