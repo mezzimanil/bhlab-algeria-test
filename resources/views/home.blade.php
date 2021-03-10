@@ -139,7 +139,7 @@
 			<div class="container">
 			  <div class="carousel-caption text-left">
 				
-				<p style="color: white">12ans expertise dans le domaine du diagnostic médical .</p>
+				<p style="color: rgb(26, 2, 2)">12ans expertise dans le domaine du diagnostic médical .</p>
 				
 				<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
 			  </div>
