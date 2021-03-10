@@ -1,493 +1,456 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    
-<!-- Bootstrap Min CSS -->
-
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- MeanMenu CSS -->
 </head>
-<style type="text/css">
-	 .megamenu {
-    background: #e7e2e2;
-    z-index: 15;
-  }
-  .megamenu .megamenu-nav {
+<style>
+	@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700");
+body {
+    font-family: "Oswald", sans-serif;
     padding: 0;
     margin: 0;
-  }
-  .megamenu .megamenu-nav .nav-item {
-    display: block;
-  }
-  .megamenu .megamenu-nav .nav-item.is-open > .megamenu-content {
-    visibility: visible;
-    opacity: 1;
-  }
-  .megamenu .megamenu-nav .nav-item.is-open > .nav-link {
-    background: rgb(0,168,186);
-    
-  }
-  .megamenu .megamenu-nav .nav-link {
-    color: rgb(36, 50, 136);
-    padding: 15px 30px;
-  }
-  .megamenu .megamenu-nav .nav-link:hover {
-    background: rgb(0,168,186);
-    color: #333;
-  }
-  .megamenu .megamenu-content {
+    font-size: 15px;
+    background-color: #f1f1f1;
+}
+
+a.meanmenu-reveal {
+	display: none;
+}
+/* when under viewport size, .mean-container is added to body */
+.mean-container .mean-bar {
+	float: left;
+	width: 100%;
+	position: absolute;
+	background: transparent;
+	padding: 20px 0 0;
+	z-index: 999;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+	height: 55px;
+}
+.mean-container a.meanmenu-reveal {
+	width: 35px;
+	height: 30px;
+	padding: 12px 15px 0 0;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 16px;
+	text-indent: -9999em;
+	line-height: 22px;
+	font-size: 1px;
+	display: block;
+	font-weight: 700;
+}
+.mean-container a.meanmenu-reveal span {
+	display: block;
+	background: #ffffff;
+	height: 4px;
+    margin-top: 3px;
+    border-radius: 3px;
+}
+.mean-container .mean-nav {
+	float: left;
+	width: 100%;
+	background: #ffffff;
+	margin-top: 55px;
+}
+.mean-container .mean-nav ul {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	border: none;
+	list-style-type: none;
+}
+.mean-container .mean-nav ul li {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.mean-container .mean-nav ul li a {
+	display: block;
+	float: left;
+	width: 90%;
+	padding: 1em 5%;
+	margin: 0;
+	text-align: left;
+	color: #677294;
+	border-top: 1px solid #DBEEFD;
+	text-decoration: none;
+}
+.mean-container .mean-nav ul li a.active {
+	color: #000000;
+}
+.mean-container .mean-nav ul li li a {
+	width: 80%;
+	padding: 1em 10%;
+	color: #677294;
+	border-top: 1px solid #DBEEFD;
+	opacity: 1;
+	filter: alpha(opacity=75);
+	text-shadow: none !important;
+	visibility: visible;
+	text-transform: none;
+	font-size: 14px;
+}
+.mean-container .mean-nav ul li.mean-last a {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+.mean-container .mean-nav ul li li li a {
+	width: 70%;
+	padding: 1em 15%;
+}
+.mean-container .mean-nav ul li li li li a {
+	width: 60%;
+	padding: 1em 20%;
+}
+.mean-container .mean-nav ul li li li li li a {
+	width: 50%;
+	padding: 1em 25%;
+}
+.mean-container .mean-nav ul li a:hover {
+	background: #252525;
+	background: rgba(255,255,255,0.1);
+}
+.mean-container .mean-nav ul li a.mean-expand {
+	margin-top: 3px;
+	width: 100%;
+	height: 24px;
+	padding: 12px !important;
+	text-align: right ;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	font-weight: 700;
+	background: transparent;
+	border: none !important;
+}
+.mean-container .mean-push {
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	clear: both;
+}
+.mean-nav .wrapper {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+/* Fix for box sizing on Foundation Framework etc. */
+.mean-container .mean-bar, .mean-container .mean-bar * {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.mean-remove {
+	display: none !important;
+}
+.mobile-nav {
+    display: none;
+}
+.mobile-nav.mean-container .mean-nav ul li a.active {
+    color: #FF2D55;
+}
+.main-nav {
+    background: #000;
     position: absolute;
+    top: 0;
     left: 0;
-    right: 0;
-    top: 54px;
-    overflow: hidden;
-    visibility: hidden;
-    opacity: 0;
-    z-index: 14;
-    transition: all .3s ease-in-out;
-  }
-  .megamenu .megamenu-content .container {
-    padding: 45px 15px;
-  }
-  .megamenu .megamenu-content .subnav {
-    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    z-index: 999;
+    height: auto;
+}
+.mean-nav .dropdown-toggle::after {
+	display: none;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.main-nav nav ul {
     padding: 0;
-  }
-  .megamenu .megamenu-content .subnav-item {
-    display: block;
-  }
-  .megamenu .megamenu-content .subnav-item .subnav-link {
-    padding: 10px 0;
-    display: block;
-  }
-  
-  .megamenu-background {
-    background: #fff;
+    margin: 0;
+    list-style-type: none;
+}
+.main-nav nav .navbar-nav .nav-item {
+    position: relative;
+    padding: 15px 0;
+}
+.main-nav nav .navbar-nav .nav-item a {
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.main-nav nav .navbar-nav .nav-item a:hover, 
+.main-nav nav .navbar-nav .nav-item a:focus, 
+.main-nav nav .navbar-nav .nav-item a.active {
+    color: #FF2D55;
+}
+.main-nav nav .navbar-nav .nav-item:hover a {
+    color: #FF2D55;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu {
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+    background: #0d1028;
     position: absolute;
+    top: 80px;
     left: 0;
-    top: 54px;
-    right: 0;
-    height: 0;
-    transition: all .3s ease-in-out;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
-    z-index: 13;
-  }
-  
-  .megamenu-dim {
-    background: rgba(0, 0, 0, 0.6);
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 54px;
-    visibility: hidden;
+    width: 250px;
+    z-index: 99;
+    display: block;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
     opacity: 0;
-    z-index: -12;
-    transition: all .3s ease-in-out;
-  }
-  body.megamenu-visible .megamenu-dim {
-    z-index: 12;
-    visibility: visible;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li {
+    position: relative;
+    padding: 0;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 9px 15px;
+    margin: 0;
+    display: block;
+    color: #ffffff;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, 
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, 
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
+    color: #FF2D55;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    top: -20px !important;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu li:hover .dropdown-menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    top: -20px !important;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, 
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, 
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+    color: #FF2D55;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a {
+    color: #FF2D55;
+}
+.main-nav nav .navbar-nav .nav-item:hover ul {
     opacity: 1;
-  }
+    visibility: visible;
+    top: 100%;
+}
+.main-nav nav .navbar-nav .nav-item:last-child .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+/* Responsive Style */
+@media only screen and (max-width: 991px) {
+    .mobile-nav {
+        display: block;
+        position: relative;
+    }
+    .mobile-nav .logo {
+		text-decoration: none;
+        position: absolute;
+        top: 11px;
+        z-index: 999;
+        left: 15px;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    .mean-container .mean-bar {
+        background-color: #000;
+        padding: 0;
+    }
+    .mean-container a.meanmenu-reveal {
+        padding: 15px 15px 0 0;
+    }
+    .mobile-nav nav .navbar-nav .nav-item a i {
+        display: none;
+    }
+    .main-nav {
+        display: none !important;
+    }
+}
 </style>
 <body>
-	
+	<!-- Start Navbar Area -->
+<div class="navbar-area">
+	<!-- Menu For Mobile Device -->
+	<div class="mobile-nav">
+		<a href="#" class="logo">
+			Logo
+		</a>
+	</div>
 
-		<nav class="megamenu fixed-top bg-light">
-<div class="container">
-		
-			
- <ul class="megamenu-nav d-flex justify-content-center" role="menu">
-	<a class="navbar-brand mr-5" href="{{ url('/') }}">
-		<img src="{{ asset('image/lol.png') }}" >
-	</a>
-	
- <li class="nav-item">
-  <a class="nav-link" href="{{ url('/') }}">
-	  <i class="fa fa-home"></i>
-	  <span class="sr-only">Home</span>
-  </a>
- </li>
- <li class="nav-item is-parent">
-  <a class="nav-link" href="#" id="megamenu-dropdown-1" aria-haspopup="true" aria-expanded="false">
-	  Link 1 <i class="fa fa-angle-down"></i>
-  </a>
-  <div class="megamenu-content" aria-labelledby="megamenu-dropdown-1">
-	  <div class="container">
-		  <div class="row">
-			  <div class="col-8 pr-5">
-				  <div class="row">
-					  <div class="col-6">
-						  <h3 class="">Another title</h3>
-						  <hr>
-						  <ul class="subnav">
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 1</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Another menuitem</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 3</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 1</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Another menuitem</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 3</a>
-							  </li>
-						  </ul>
-					  </div>
-					  <div class="col-6">
-						  <h3 class="">Some title</h3>
-						  <hr>
-						  <ul class="subnav">
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 1</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Another menuitem</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 3</a>
-							  </li>
-						  </ul>
-					  </div>
-				  </div>
-				  <hr>
-				  <div class="d-flex">
-					  <div class="align-self-center pr-4">
-						  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti reprehenderit provident ipsam quibusdam, iste ad amet exercitationem sunt. Impedit libero aperiam ratione reiciendis dolorem itaque aut quas eos labore.
-					  </div>
-					  <div class="align-self-center">
-						  <a href="#" class="btn btn-outline-primary">Click me</a>
-					  </div>
-				  </div>
-			  </div>
-			  <div class="col-4">
-				  <img src="{{ asset('image/1.jpg') }}" class="img-fluid mb-3" alt="test image">
-				  <p>
-					  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, expedita sint quis rem amet, a nihil, non sunt ea quasi.
-				  </p>
-				  <a href="#">See more <i class="fa fa-angle-double-right"></i></a>
-			  </div>
-		  </div>
-	  </div>
-  </div>
- </li>
- <li class="nav-item is-parent">
-  <a class="nav-link" href="#" id="megamenu-dropdown-2" aria-haspopup="true" aria-expanded="false">
-	  Link 2 <i class="fa fa-angle-down"></i>
-  </a>
-  <div class="megamenu-content" aria-labelledby="megamenu-dropdown-2">
-	  <div class="container">
-		  <div class="row">
-			  <div class="col-8 pr-5">
-				  <div class="row">
-					  <div class="col-6">
-						  <h3 class="">Some title</h3>
-						  <hr>
-						  <ul class="subnav">
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 1</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Another menuitem</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 3</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 4</a>
-							  </li>
-						  </ul>
-					  </div>
-					  <div class="col-6">
-						  <h3 class="">Another title</h3>
-						  <hr>
-						  <ul class="subnav">
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 1</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Another menuitem</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 3</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Another menuitem 2</a>
-							  </li>
-						  </ul>
-					  </div>
-				  </div>
-				  <hr>
-				  <div class="d-flex">
-					  <div class="align-self-center pr-4">
-						  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti reprehenderit provident ipsam quibusdam, iste ad amet exercitationem sunt. Impedit libero aperiam ratione reiciendis dolorem itaque aut quas eos labore.
-					  </div>
-					  <div class="align-self-center">
-						  <a href="#" class="btn btn-outline-primary">Click me</a>
-					  </div>
-				  </div>
-			  </div>
-			  <div class="col-4">
-				  <img src="{{ asset('image/2.jpg') }}" class="img-fluid mb-3" alt="test image">
-				  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, expedita sint quis rem amet, a nihil, non sunt ea quasi.</p>
-				  <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
-			  </div>
-		  </div>
-	  </div>
-  </div>
- </li>
- <li class="nav-item is-parent">
-  <a class="nav-link" href="#" id="megamenu-dropdown-3" aria-haspopup="true" aria-expanded="false">
-	  Link 3 <i class="fa fa-angle-down"></i>
-  </a>
-  <div class="megamenu-content" aria-labelledby="megamenu-dropdown-3">
-	  <div class="container">
-		  <div class="row">
-			  <div class="col-8 pr-5">
-				  <div class="row">
-					  <div class="col-6">
-						  <h3 class="">Another title</h3>
-						  <hr>
-						  <ul class="subnav">
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 1</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Another menuitem</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 3</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 1</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Another menuitem</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 3</a>
-							  </li>
-						  </ul>
-					  </div>
-					  <div class="col-6">
-						  <h3 class="">Some title</h3>
-						  <hr>
-						  <ul class="subnav">
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 1</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Another menuitem</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 3</a>
-							  </li>
-						  </ul>
-					  </div>
-				  </div>
-				  <hr>
-				  <div class="d-flex">
-					  <div class="align-self-center pr-4">
-						  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti reprehenderit provident ipsam quibusdam, iste ad amet exercitationem sunt. Impedit libero aperiam ratione reiciendis dolorem itaque aut quas eos labore.
-					  </div>
-					  <div class="align-self-center">
-						  <a href="#" class="btn btn-outline-primary">Click me</a>
-					  </div>
-				  </div>
-			  </div>
-			  <div class="col-4">
-				  <img src="{{ asset('image/3.jpg') }}" class="img-fluid mb-3" alt="test image">
-				  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, expedita sint quis rem amet, a nihil, non sunt ea quasi.</p>
-				  <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
-			  </div>
-		  </div>
-	  </div>
-  </div>
- </li>
- <li class="nav-item is-parent">
-  <a class="nav-link" href="#" id="megamenu-dropdown-4" aria-haspopup="true" aria-expanded="false">
-	  Link 4 <i class="fa fa-angle-down"></i>
-  </a>
-  <div class="megamenu-content" aria-labelledby="megamenu-dropdown-4">
-	  <div class="container">
-		  <div class="row">
-			  <div class="col-8 pr-5">
-				  <div class="row">
-					  <div class="col-6">
-						  <h3 class="">Some title</h3>
-						  <hr>
-						  <ul class="subnav">
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 1</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Another menuitem</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 3</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 4</a>
-							  </li>
-						  </ul>
-					  </div>
-					  <div class="col-6">
-						  <h3 class="">Another title</h3>
-						  <hr>
-						  <ul class="subnav">
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 1</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Another menuitem</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Menuitem 3</a>
-							  </li>
-							  <li class="subnav-item">
-								  <a href="#" class="subnav-link">Another menuitem 2</a>
-							  </li>
-						  </ul>
-					  </div>
-				  </div>
-				  <hr>
-				  <div class="d-flex">
-					  <div class="align-self-center pr-4">
-						  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti reprehenderit provident ipsam quibusdam, iste ad amet exercitationem sunt. Impedit libero aperiam ratione reiciendis dolorem itaque aut quas eos labore.
-					  </div>
-					  <div class="align-self-center">
-						  <a href="#" class="btn btn-outline-primary">Click me</a>
-					  </div>
-				  </div>
-			  </div>
-			  <div class="col-4">
-				  <img src="{{ asset('image/wizard-city2.jpg') }}" class="img-fluid mb-3" alt="test image">
-				  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, expedita sint quis rem amet, a nihil, non sunt ea quasi.</p>
-				  <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
-			  </div>
-		  </div>
-	  </div>
-  </div>
- </li> 
- <li class="nav-item">
-  <a class="nav-link" href="#">
-	  Link without megamenu
-  </a>
- </li>
- </ul>
- <div class="megamenu-background" id="megamenu-background"></div>
-
+	<!-- Menu For Desktop Device -->
+	<div class="main-nav">
+		<div class="container">
+			<nav class="navbar navbar-expand-md navbar-light">
+				<a class="navbar-brand" href="#">
+					Logo
+				</a>
+				<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="#" class="nav-link dropdown-toggle active">Home</a>
+							<ul class="dropdown-menu">
+								<li class="nav-item">
+									<a href="#" class="nav-link">Home Page 2</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Home Page 3</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Home Page 4</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Home Page 5</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">About</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Services</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Team</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Testimonials</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link dropdown-toggle">Pages</a>
+							<ul class="dropdown-menu">
+								<li class="nav-item">
+									<a href="#" class="nav-link">About</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Services</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Team</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Testimonials</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">Contact</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link dropdown-toggle">Dropdown</a>
+							<ul class="dropdown-menu">
+								<li class="nav-item">
+									<a href="#" class="nav-link dropdown-toggle">Submenu 1</a>
+									<ul class="dropdown-menu">
+										<li class="nav-item">
+											<a href="#" class="nav-link">Item 1</a>
+										</li>
+										<li class="nav-item">
+											<a href="#" class="nav-link">Item 2</a>
+										</li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link dropdown-toggle">Submenu 2</a>
+									<ul class="dropdown-menu">
+										<li class="nav-item">
+											<a href="#" class="nav-link">Item 1</a>
+										</li>
+										<li class="nav-item">
+											<a href="#" class="nav-link">Item 2</a>
+										</li>
+										<li class="nav-item">
+											<a href="#" class="nav-link dropdown-toggle">Submenu 3</a>
+											<ul class="dropdown-menu">
+												<li class="nav-item">
+													<a href="#" class="nav-link">Item 1</a>
+												</li>
+												<li class="nav-item">
+													<a href="#" class="nav-link">Item 2</a>
+												</li>
+												<li class="nav-item">
+													<a href="#" class="nav-link">Item 3</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
 </div>
-</nav>
-
+<!-- End Navbar Area -->
 </body>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.9.0/jquery.hoverIntent.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js'></script>
-
-<script type="text/javascript">
-	/// some script
-	
-	// jquery ready start
-	const $megamenuParentListItem = $('.megamenu-nav > li.is-parent');
-
-const $megamenuBackground = $('#megamenu-background');
-
-const isTouch = 'ontouchstart' in window || !!navigator.msMaxTouchPoints;
-
-const handleMenuItemOpenState = elem => {
-  elem.addClass('is-open');
-  elem.find('a').first().attr('aria-expanded', true);
-};
-
-const handleMenuItemCloseState = elem => {
-  elem.removeClass('is-open');
-  elem.find('a').first().attr('aria-expanded', false);
-};
-
-const openMegamenu = (bgElem, heightVal) => {
-  $('body').addClass('megamenu-visible');
-  bgElem.height(heightVal);
-};
-
-const closeMegamenu = (bgElem, heightVal) => {
-  $('body').removeClass('megamenu-visible');
-  bgElem.height(heightVal);
-};
-
-const $megamenuContentElem = $('.megamenu-nav .megamenu-content');
-
-const getTallestMenuHeight = () => {
-  let maxHeight = 0;
-  $megamenuContentElem.each((index, item) => {
-    if ($(item).outerHeight() > maxHeight) {
-      maxHeight = $(item).outerHeight();
-    }
-  });
-  return maxHeight;
-};
-
-const debouncedClose = _.debounce(closeMegamenu, 400);
-const throttledContentHeightCount = _.throttle(getTallestMenuHeight, 100);
-
-let megamenuContentMaxHeight = 0;
-
-window.onresize = () => {
-  megamenuContentMaxHeight = throttledContentHeightCount();
-};
-
-$(() => {
-  megamenuContentMaxHeight = getTallestMenuHeight();
-
-  $megamenuParentListItem.each((index, item) => {
-    if (!isTouch) {
-      $(item).hoverIntent({
-        sensitivity: 10,
-        interval: 50,
-        over: () => {
-          debouncedClose.cancel();
-          $megamenuParentListItem.removeClass('is-open');
-          handleMenuItemOpenState($(item));
-          openMegamenu($megamenuBackground, megamenuContentMaxHeight);
-        },
-        out: () => {
-          handleMenuItemCloseState($(item));
-          debouncedClose($megamenuBackground, 0);
-        } });
-
-    }
-
-    $(item).find('a').first().on('click touch', () => {
-      if (!$(item).hasClass('is-open')) {
-        $megamenuParentListItem.removeClass('is-open');
-        handleMenuItemOpenState($(item));
-        openMegamenu($megamenuBackground, megamenuContentMaxHeight);
-      } else {
-        handleMenuItemCloseState($(item));
-        closeMegamenu($megamenuBackground, 0);
-      }
-    });
-  });
-
-  $('#megamenu-dim').on('click touch', e => {
-    if ($('body').hasClass('megamenu-visible')) {
-      e.preventDefault();
-      $megamenuParentListItem.removeClass('is-open');
-      closeMegamenu($megamenuBackground, 0);
-    }
-  });
-});
-	</script>
+<!-- JQuery Min JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- MeanMenu JS -->
+<script src="https://techsolutionshere.com/wp-content/themes/techsolution/assets/blog-post-css-js/jquery.meanmenu.js"></script>
+<script>
+	// Mean Menu
+	jQuery('.mean-menu').meanmenu({
+		meanScreenWidth: "991"
+	});
+</script>
 </html>
