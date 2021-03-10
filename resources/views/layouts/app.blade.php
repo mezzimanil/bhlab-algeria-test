@@ -836,8 +836,7 @@
 
 
 <script src="{{ asset('js/main.js') }}"></script>
-<script src="{{ asset('js/jquery-2.1.1.js') }}"></script>
-<script src="{{ asset('js/jquery.menu-aim.js') }}"></script>
+
 <script type="text/javascript">
 	/// some script
 	
