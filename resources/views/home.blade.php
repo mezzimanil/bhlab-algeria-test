@@ -149,7 +149,7 @@
 			</div>
 		  </div>
 		  <div class="carousel-item">
-			<img class="second-slide" src="{{ asset('image/part.jpg') }}" alt="Second slide">
+			<img class="second-slide" src="{{ asset('image/part.JPG') }}" alt="Second slide">
 			<div class="container">
 			  <div class="carousel-caption">
 				<h1>Another example headline.</h1>
