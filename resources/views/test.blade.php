@@ -240,7 +240,7 @@
 				  </div>
 			  </div>
 			  <div class="col-4">
-				  <img src="https://source.unsplash.com/640x480/?yoga" class="img-fluid mb-3" alt="test image">
+				  <img src="{{ asset('image/2.jpg') }}" class="img-fluid mb-3" alt="test image">
 				  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, expedita sint quis rem amet, a nihil, non sunt ea quasi.</p>
 				  <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
 			  </div>
@@ -308,7 +308,7 @@
 				  </div>
 			  </div>
 			  <div class="col-4">
-				  <img src="https://source.unsplash.com/640x480/?rose" class="img-fluid mb-3" alt="test image">
+				  <img src="{{ asset('image/3.jpg') }}" class="img-fluid mb-3" alt="test image">
 				  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, expedita sint quis rem amet, a nihil, non sunt ea quasi.</p>
 				  <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
 			  </div>
@@ -373,7 +373,7 @@
 				  </div>
 			  </div>
 			  <div class="col-4">
-				  <img src="https://source.unsplash.com/640x480/?bike" class="img-fluid mb-3" alt="test image">
+				  <img src="{{ asset('image/wizard-city2.jpg') }}" class="img-fluid mb-3" alt="test image">
 				  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, expedita sint quis rem amet, a nihil, non sunt ea quasi.</p>
 				  <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
 			  </div>
