@@ -12,7 +12,7 @@
 	<title>Mega Dropdown | CodyHouse</title>
 </head>
 <body>
-	<header>
+	
 		<div class="cd-dropdown-wrapper">
 			<a class="cd-dropdown-trigger" href="#0">Dropdown</a>
 			<nav class="cd-dropdown">
@@ -268,7 +268,7 @@
 				</ul> <!-- .cd-dropdown-content -->
 			</nav> <!-- .cd-dropdown -->
 		</div> <!-- .cd-dropdown-wrapper -->
-	</header>
+
 
 	<main class="cd-main-content">
 		<!-- your content here -->
