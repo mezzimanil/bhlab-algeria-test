@@ -13,7 +13,7 @@
 </head>
 <body>
 	
-		<div class="cd-dropdown-wrapper">
+	
 			<a class="cd-dropdown-trigger" href="#0">Dropdown</a>
 			<nav class="cd-dropdown">
 				<h2>Title</h2>
@@ -267,12 +267,10 @@
 					<li><a href="http://codyhouse.co/?p=748">Page 3</a></li>
 				</ul> <!-- .cd-dropdown-content -->
 			</nav> <!-- .cd-dropdown -->
-		</div> <!-- .cd-dropdown-wrapper -->
+		<!-- .cd-dropdown-wrapper -->
 
 
-	<main class="cd-main-content">
-		<!-- your content here -->
-	</main>
+
 	
 
 <script src="{{ asset('js/jquery-2.1.1.js') }}"></script>
