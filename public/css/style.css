@@ -599,7 +599,7 @@ header {
   }
   .cd-dropdown-content .cd-secondary-dropdown {
     overflow: hidden;
-    width: 400px;
+    width: 550px;
     padding-bottom: 35px;
   }
   .cd-dropdown-content .cd-secondary-dropdown::before {
