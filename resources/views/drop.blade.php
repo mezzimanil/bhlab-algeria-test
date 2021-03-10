@@ -29,7 +29,7 @@
 
 						<ul class="cd-secondary-dropdown is-hidden">
 							<li class="go-back"><a href="#0">Menu</a></li>
-							<li class="see-all"><a href="http://codyhouse.co/?p=748">All Clothing</a></li>
+						
 							<li class="has-children">
 								<a href="http://codyhouse.co/?p=748">Accessories</a>
 
