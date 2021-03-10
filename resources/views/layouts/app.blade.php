@@ -18,14 +18,7 @@
     <script src="{{ asset('js/app.js') }}"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- Fonts -->
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-crossorigin="anonymous"></script>
-
-<!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
-
-
+    
     
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
@@ -249,25 +242,49 @@ crossorigin="anonymous"></script>
                               <div class="col-6">
                                 <h3 class="">Another title</h3>
                                 <hr>
-                                <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
-                                  <li><a class="dropdown-item" href="#"> Dropdown item 2 &raquo </a>
-                                     <ul class="submenu dropdown-menu">
-                                      <li><a class="dropdown-item" href="">Submenu item 1</a></li>
-                                      <li><a class="dropdown-item" href="">Submenu item 2</a></li>
-                                      <li><a class="dropdown-item" href="">Submenu item 3 &raquo </a>
-                                        <ul class="submenu dropdown-menu">
-                                          <li><a class="dropdown-item" href="">Multi level 1</a></li>
-                                          <li><a class="dropdown-item" href="">Multi level 2</a></li>
-                                      </ul>
+                                <ul class="subnav">
+                                 
+                                   
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">  Treeview menu  </a>
+                                      <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
+                                      <li><a class="dropdown-item" href="#"> Dropdown item 2 &raquo </a>
+                                         <ul class="submenu dropdown-menu">
+                                          <li><a class="dropdown-item" href="">Submenu item 1</a></li>
+                                          <li><a class="dropdown-item" href="">Submenu item 2</a></li>
+                                          <li><a class="dropdown-item" href="">Submenu item 3 &raquo </a>
+                                            <ul class="submenu dropdown-menu">
+                                              <li><a class="dropdown-item" href="">Multi level 1</a></li>
+                                              <li><a class="dropdown-item" href="">Multi level 2</a></li>
+                                          </ul>
+                                          </li>
+                                          <li><a class="dropdown-item" href="">Submenu item 4</a></li>
+                                          <li><a class="dropdown-item" href="">Submenu item 5</a></li>
+                                       </ul>
                                       </li>
-                                      <li><a class="dropdown-item" href="">Submenu item 4</a></li>
-                                      <li><a class="dropdown-item" href="">Submenu item 5</a></li>
-                                   </ul>
+                                      <li><a class="dropdown-item" href="#"> Dropdown item 3 </a></li>
+                                      <li><a class="dropdown-item" href="#"> Dropdown item 4 </a>
+                                      </ul>
                                   </li>
-                                  <li><a class="dropdown-item" href="#"> Dropdown item 3 </a></li>
-                                  <li><a class="dropdown-item" href="#"> Dropdown item 4 </a>
-                                  </ul>
+                                    
+                                  
+                                  <li class="subnav-item">
+                                    <a href="#" class="subnav-link">Another menuitem</a>
+                                  </li>
+                                  <li class="subnav-item">
+                                    <a href="#" class="subnav-link">Menuitem 3</a>
+                                  </li>
+                                  <li class="subnav-item">
+                                    <a href="#" class="subnav-link">Menuitem 1</a>
+                                  </li>
+                                  <li class="subnav-item">
+                                    <a href="#" class="subnav-link">Another menuitem</a>
+                                  </li>
+                                  <li class="subnav-item">
+                                    <a href="#" class="subnav-link">Menuitem 3</a>
+                                  </li>
+                                </ul>
                               </div>
                               <div class="col-6">
                                 <h3 class="">Some title</h3>
