@@ -156,11 +156,7 @@
               <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <!-- Left Side Of Navbar -->
-              <ul class="navbar-nav mr-auto">
-
-              </ul>
+       
 
               <!-- Right Side Of Navbar -->
               <ul class="megamenu-nav d-flex justify-content-center">
@@ -450,7 +446,7 @@
                   </div>
               </ul>
           </div>
-      </div>
+      
   </nav>
               
              
