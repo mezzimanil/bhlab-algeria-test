@@ -99,13 +99,17 @@
 	
 
 		<nav class="megamenu fixed-top bg-light">
+
+			
+			
 <div class="container">
 		
-			
+	<ul class="navbar-nav ml-auto mr-35">
+				<a class="navbar-brand" href="{{ url('/') }}">
+					<img src="{{ asset('image/lol.png') }}" >
+				</a>
+			</ul>
  <ul class="megamenu-nav d-flex justify-content-center" role="menu">
-	<a class="navbar-brand" href="{{ url('/') }}">
-		<img src="{{ asset('image/lol.png') }}" >
-	</a>
 	
  <li class="nav-item">
   <a class="nav-link" href="{{ url('/') }}">
