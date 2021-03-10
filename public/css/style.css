@@ -599,8 +599,8 @@ header {
   }
   .cd-dropdown-content .cd-secondary-dropdown {
     overflow: hidden;
-    width: 550px;
-    padding-bottom: 35px;
+    width: 560px;
+   
   }
   .cd-dropdown-content .cd-secondary-dropdown::before {
     /* this is the separation line in the middle of the .cd-secondary-dropdown element */
