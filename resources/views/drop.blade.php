@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    
 
 
     <script src="{{ asset('js/modernizr.js') }}"></script> <!-- Modernizr -->
