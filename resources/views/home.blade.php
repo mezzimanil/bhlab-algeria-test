@@ -125,6 +125,7 @@
     width: 50px;
     height: 86px;
 	color: black;
+	border-radius: 10px;
 }
 </style>
 <body>
