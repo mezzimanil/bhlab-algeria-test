@@ -529,7 +529,7 @@ header {
     left: 100%;
     height: auto;
     background-color: #ffffff;
-    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   }
   .cd-dropdown-content .cd-secondary-dropdown::after, .cd-dropdown-content .cd-dropdown-gallery::after, .cd-dropdown-content .cd-dropdown-icons::after {
     clear: both;
