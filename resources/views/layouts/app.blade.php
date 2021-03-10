@@ -155,7 +155,7 @@
                 <a class="navbar-brand" href="{{ url('/') }}">
                   <img src="{{ asset('image/lol.png') }}" >
                 </a>
-                <div class="container">
+                
                   <!-- Authentication Links -->
                   <li class="nav-item">
                     <a class="nav-link" href="{{ url('/') }}">
@@ -441,7 +441,7 @@
                   
                   </div>
               </ul>
-          </div>
+          
       
   </nav>
               
