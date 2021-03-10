@@ -138,9 +138,9 @@
 			<img class="first-slide" src="{{ asset('image/labo.jpg') }}" alt="First slide">
 			<div class="container">
 			  <div class="carousel-caption text-left">
-				<h1>Example headline.</h1>
-				<p style="color: white">Ct eget metus. Nullam id dolor .</p>
-				<p style="color: white">Cras justo odio, dapibus ac faci.</p>
+				
+				<p style="color: white">12ans expertise dans le domaine du diagnostic médical .</p>
+				
 				<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
 			  </div>
 			</div>
