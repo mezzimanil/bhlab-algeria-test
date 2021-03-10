@@ -60,6 +60,16 @@
     background: #e7e2e2;
     z-index: 15;
   }
+
+  .megamenu .navbar-brand {
+  display: inline-block;
+  padding-top: 0.32rem;
+  padding-bottom: 0.32rem;
+  margin-right: 1rem;
+  font-size: 1.125rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
   .megamenu .megamenu-nav {
     padding: 0;
     margin: 0;
