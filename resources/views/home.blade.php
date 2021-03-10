@@ -173,7 +173,7 @@
 		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		  <span class="sr-only">Previous</span>
 		</a>
-		<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+		<a class="carousel-control-next " style="border-radius: 10px" href="#myCarousel" role="button" data-slide="next">
 		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
 		  <span class="sr-only">Next</span>
 		</a>
