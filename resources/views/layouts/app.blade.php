@@ -149,9 +149,7 @@
      
      <nav class="megamenu fixed-top bg-light">
       <div class="container">
-          <a class="navbar-brand" href="{{ url('/') }}">
-            <img src="{{ asset('image/lol.png') }}" >
-          </a>
+         
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
               <span class="navbar-toggler-icon"></span>
           </button>
@@ -160,6 +158,9 @@
 
               <!-- Right Side Of Navbar -->
               <ul class="megamenu-nav d-flex justify-content-center">
+                <a class="navbar-brand" href="{{ url('/') }}">
+                  <img src="{{ asset('image/lol.png') }}" >
+                </a>
                   <!-- Authentication Links -->
                   <li class="nav-item">
                     <a class="nav-link" href="{{ url('/') }}">
