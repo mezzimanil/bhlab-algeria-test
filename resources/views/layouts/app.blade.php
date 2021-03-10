@@ -150,8 +150,64 @@
     opacity: 1;
   }
 
+  @media (min-width: 992px){
+		.dropdown-menu .dropdown-toggle:after{
+			border-top: .3em solid transparent;
+		    border-right: 0;
+		    border-bottom: .3em solid transparent;
+		    border-left: .3em solid;
+		}
+
+		.dropdown-menu .dropdown-menu{
+			margin-left:0; margin-right: 0;
+		}
+
+		.dropdown-menu li{
+			position: relative;
+		}
+		.nav-item .submenu{ 
+			display: none;
+			position: absolute;
+			left:100%; top:-7px;
+		}
+		.nav-item .submenu-left{ 
+			right:100%; left:auto;
+		}
+
+		.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+		.dropdown-menu > li:hover > .submenu{
+			display: block;
+		}
+	}
     
       </style>
+      <script type="text/javascript">
+        /// some script
+        
+        // jquery ready start
+        $(document).ready(function() {
+          // jQuery code
+        
+          //////////////////////// Prevent closing from click inside dropdown
+            $(document).on('click', '.dropdown-menu', function (e) {
+              e.stopPropagation();
+            });
+        
+            // make it as accordion for smaller screens
+            if ($(window).width() < 992) {
+              $('.dropdown-menu a').click(function(e){
+                e.preventDefault();
+                  if($(this).next('.submenu').length){
+                    $(this).next('.submenu').toggle();
+                  }
+                  $('.dropdown').on('hide.bs.dropdown', function () {
+                 $(this).find('.submenu').hide();
+              })
+              });
+          }
+          
+        }); // jquery end
+        </script>
 </head>
 <body>
     <div id="app">
@@ -187,11 +243,24 @@
                                 <h3 class="">Another title</h3>
                                 <hr>
                                 <ul class="subnav">
-                                  <li class="subnav-item">
+                                 
                                    
-                                    <a href="#" class="subnav-link"> menuitem</a>
+                                    <li><a class="dropdown-item" href="#"> Dropdown item 2 &raquo </a>
+                                      <ul class="submenu dropdown-menu">
+                                       <li><a class="dropdown-item" href="">Submenu item 1</a></li>
+                                       <li><a class="dropdown-item" href="">Submenu item 2</a></li>
+                                       <li><a class="dropdown-item" href="">Submenu item 3 &raquo </a>
+                                         <ul class="submenu dropdown-menu">
+                                           <li><a class="dropdown-item" href="">Multi level 1</a></li>
+                                           <li><a class="dropdown-item" href="">Multi level 2</a></li>
+                                       </ul>
+                                       </li>
+                                       <li><a class="dropdown-item" href="">Submenu item 4</a></li>
+                                       <li><a class="dropdown-item" href="">Submenu item 5</a></li>
+                                    </ul>
+                                   </li>
                                     
-                                  </li>
+                                  
                                   <li class="subnav-item">
                                     <a href="#" class="subnav-link">Another menuitem</a>
                                   </li>
