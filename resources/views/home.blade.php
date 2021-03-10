@@ -48,7 +48,7 @@
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 50rem;
+  height: 60rem;
   background-color: #777;
 }
 .carousel-item > img {
@@ -56,7 +56,7 @@
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 50rem;
+  height: 60rem;
 }
 
 
