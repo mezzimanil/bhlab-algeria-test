@@ -137,9 +137,9 @@
 		  <div class="carousel-item active">
 			<img class="first-slide" src="{{ asset('image/labo.jpg') }}" alt="First slide">
 			<div class="container">
-			  <div class="carousel-caption text-left">
+			  <div class="carousel-caption ">
 				
-				<p style="color: rgb(26, 2, 2)">12ans expertise dans le domaine du diagnostic médical .</p>
+				<h1 style="color: rgb(26, 2, 2)">12ans exh1ertise dans le domaine du diagnostic médical .</p>
 				
 				<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
 			  </div>
