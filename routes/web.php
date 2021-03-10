@@ -36,3 +36,7 @@ Route::get('/test', function () {
 Route::get('/map', function () {
     return view('map');
 });
+
+Route::get('/drop', function () {
+    return view('drop');
+});
