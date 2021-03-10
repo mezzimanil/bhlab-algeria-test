@@ -65,11 +65,11 @@
   display: inline-block;
   padding-top: 0.32rem;
   padding-bottom: 0.32rem;
-  margin-right: 1rem;
+  margin-right: 3rem;
   font-size: 1.125rem;
   line-height: inherit;
   white-space: nowrap;
-  margin-right: 100px;
+ 
 }
   .megamenu .megamenu-nav {
     padding: 0;
