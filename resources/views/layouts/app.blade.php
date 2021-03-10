@@ -151,7 +151,7 @@
   }
 
   @media (min-width: 992px){
-		.dropdown-menu .dropdown-toggle:after{
+		. .dropdown-menu .dropdown-toggle:after{
 			border-top: .3em solid transparent;
 		    border-right: 0;
 		    border-bottom: .3em solid transparent;
@@ -242,41 +242,25 @@
                               <div class="col-6">
                                 <h3 class="">Another title</h3>
                                 <hr>
-                                <ul class="subnav">
-                                 
-                                   
-                                    <li><a class="dropdown-item" href="#"> Dropdown item 2 &raquo </a>
-                                      <ul class="submenu dropdown-menu">
-                                       <li><a class="dropdown-item" href="">Submenu item 1</a></li>
-                                       <li><a class="dropdown-item" href="">Submenu item 2</a></li>
-                                       <li><a class="dropdown-item" href="">Submenu item 3 &raquo </a>
-                                         <ul class="submenu dropdown-menu">
-                                           <li><a class="dropdown-item" href="">Multi level 1</a></li>
-                                           <li><a class="dropdown-item" href="">Multi level 2</a></li>
-                                       </ul>
-                                       </li>
-                                       <li><a class="dropdown-item" href="">Submenu item 4</a></li>
-                                       <li><a class="dropdown-item" href="">Submenu item 5</a></li>
-                                    </ul>
-                                   </li>
-                                    
-                                  
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Another menuitem</a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
+                                  <li><a class="dropdown-item" href="#"> Dropdown item 2 &raquo </a>
+                                     <ul class="submenu dropdown-menu">
+                                      <li><a class="dropdown-item" href="">Submenu item 1</a></li>
+                                      <li><a class="dropdown-item" href="">Submenu item 2</a></li>
+                                      <li><a class="dropdown-item" href="">Submenu item 3 &raquo </a>
+                                        <ul class="submenu dropdown-menu">
+                                          <li><a class="dropdown-item" href="">Multi level 1</a></li>
+                                          <li><a class="dropdown-item" href="">Multi level 2</a></li>
+                                      </ul>
+                                      </li>
+                                      <li><a class="dropdown-item" href="">Submenu item 4</a></li>
+                                      <li><a class="dropdown-item" href="">Submenu item 5</a></li>
+                                   </ul>
                                   </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 3</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 1</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Another menuitem</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 3</a>
-                                  </li>
-                                </ul>
+                                  <li><a class="dropdown-item" href="#"> Dropdown item 3 </a></li>
+                                  <li><a class="dropdown-item" href="#"> Dropdown item 4 </a>
+                                  </ul>
                               </div>
                               <div class="col-6">
                                 <h3 class="">Some title</h3>
