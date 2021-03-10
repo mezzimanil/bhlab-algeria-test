@@ -164,6 +164,7 @@
 
 		.dropdown-menu li{
 			position: relative;
+      left:100%; top:-7px;
 		}
 		.nav-item .submenu{ 
 			display: none;
