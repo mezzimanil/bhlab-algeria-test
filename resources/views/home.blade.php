@@ -135,7 +135,7 @@
 		</ol>
 		<div class="carousel-inner">
 		  <div class="carousel-item active">
-			<img class="first-slide" src="{{ asset('image/1.jpg') }}" alt="First slide">
+			<img class="first-slide" src="{{ asset('image/labo.jpg') }}" alt="First slide">
 			<div class="container">
 			  <div class="carousel-caption text-left">
 				<h1>Example headline.</h1>
