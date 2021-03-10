@@ -4,7 +4,29 @@
 Primary style
 
 -------------------------------- */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
 
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  color: #111433;
+  background-color: #ffffff;
+}
+
+a {
+  color: #3f8654;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
 
 input {
   font-family: sans-serif;
@@ -529,7 +551,7 @@ header {
     left: 100%;
     height: auto;
     background-color: #ffffff;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
   }
   .cd-dropdown-content .cd-secondary-dropdown::after, .cd-dropdown-content .cd-dropdown-gallery::after, .cd-dropdown-content .cd-dropdown-icons::after {
     clear: both;
@@ -599,8 +621,8 @@ header {
   }
   .cd-dropdown-content .cd-secondary-dropdown {
     overflow: hidden;
-    width: 560px;
-   
+    width: 550px;
+    padding-bottom: 65px;
   }
   .cd-dropdown-content .cd-secondary-dropdown::before {
     /* this is the separation line in the middle of the .cd-secondary-dropdown element */
