@@ -61,7 +61,7 @@
     z-index: 15;
   }
 
-  .megamenu .navbar-brand {
+  .megamenu .megamenu-nav .navbar-brand {
   display: inline-block;
   padding-top: 0.32rem;
   padding-bottom: 0.32rem;
