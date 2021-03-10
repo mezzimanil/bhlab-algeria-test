@@ -16,7 +16,7 @@
     
     
     
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- Fonts -->
     
     
@@ -150,7 +150,85 @@
     opacity: 1;
   }
 
-    
+  .megamenu .megamenu-nav .subnav-item .dropdown-menu {
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+    background: #0d1028;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 250px;
+    z-index: 99;
+    display: block;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li {
+    position: relative;
+    padding: 0;
+}
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li a {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 9px 15px;
+    margin: 0;
+    display: block;
+    color: #ffffff;
+}
+
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li .dropdown-menu {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li:hover .dropdown-menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    top: -20px !important;
+}
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li:hover .dropdown-menu li:hover .dropdown-menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    top: -20px !important;
+}
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li .dropdown-menu li a {
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li .dropdown-menu li a:hover, 
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li .dropdown-menu li a:focus, 
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li .dropdown-menu li a.active {
+    color: #FF2D55;
+}
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li:hover a {
+    color: #FF2D55;
+}
+.megamenu .megamenu-nav .subnav-item:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+.megamenu .megamenu-nav .subnav-item:last-child .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
       </style>
 </head>
 <body>
@@ -188,7 +266,45 @@
                                 <hr>
                                 <ul class="subnav">
                                   <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 1</a>
+                                    <a href="#" class="subnav-link dropdown-toggle">Menuitem 1</a>
+                                    <ul class="dropdown-menu">
+                                      <li class="nav-item">
+                                        <a href="#" class="nav-link dropdown-toggle">Submenu 1</a>
+                                        <ul class="dropdown-menu">
+                                          <li class="nav-item">
+                                            <a href="#" class="nav-link">Item 1</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a href="#" class="nav-link">Item 2</a>
+                                          </li>
+                                        </ul>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a href="#" class="nav-link dropdown-toggle">Submenu 2</a>
+                                        <ul class="dropdown-menu">
+                                          <li class="nav-item">
+                                            <a href="#" class="nav-link">Item 1</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a href="#" class="nav-link">Item 2</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a href="#" class="nav-link dropdown-toggle">Submenu 3</a>
+                                            <ul class="dropdown-menu">
+                                              <li class="nav-item">
+                                                <a href="#" class="nav-link">Item 1</a>
+                                              </li>
+                                              <li class="nav-item">
+                                                <a href="#" class="nav-link">Item 2</a>
+                                              </li>
+                                              <li class="nav-item">
+                                                <a href="#" class="nav-link">Item 3</a>
+                                              </li>
+                                            </ul>
+                                          </li>
+                                        </ul>
+                                      </li>
+                                    </ul>
                                   </li>
                                   <li class="subnav-item">
                                     <a href="#" class="subnav-link">Another menuitem</a>
@@ -566,7 +682,16 @@
 
   <!-- Footer -->
 </body>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- MeanMenu JS -->
+<script src="https://techsolutionshere.com/wp-content/themes/techsolution/assets/blog-post-css-js/jquery.meanmenu.js"></script>
+<script>
+	// Mean Menu
+	jQuery('.mean-menu').meanmenu({
+		meanScreenWidth: "991"
+	});
+</script>
+
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.9.0/jquery.hoverIntent.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js'></script>
 
