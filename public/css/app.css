@@ -6819,11 +6819,13 @@ a.close.disabled {
 }
 
 .carousel-control-prev {
+  color: black;
   left: 0;
 }
 
 .carousel-control-next {
   right: 0;
+  color: #000;
 }
 
 .carousel-control-prev-icon,
