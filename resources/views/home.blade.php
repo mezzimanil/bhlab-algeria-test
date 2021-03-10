@@ -117,12 +117,14 @@
 {
     width: 50px;
     height: 86px;
+	color: black;
 }
     
 #myCarousel .carousel-control-next-icon
 {
     width: 50px;
     height: 86px;
+	color: black;
 }
 </style>
 <body>
