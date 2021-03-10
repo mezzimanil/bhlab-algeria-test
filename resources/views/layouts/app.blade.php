@@ -69,7 +69,7 @@
   font-size: 1.125rem;
   line-height: inherit;
   white-space: nowrap;
-  margin-right: 10px;
+  margin-right: 100px;
 }
   .megamenu .megamenu-nav {
     padding: 0;
