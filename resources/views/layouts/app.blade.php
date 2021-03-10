@@ -163,7 +163,7 @@
               </ul>
 
               <!-- Right Side Of Navbar -->
-              <ul class="navbar-nav ml-auto megamenu-nav d-flex justify-content-center">
+              <ul class="megamenu-nav d-flex justify-content-center">
                   <!-- Authentication Links -->
                   <li class="nav-item">
                     <a class="nav-link" href="{{ url('/') }}">
