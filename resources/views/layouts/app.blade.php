@@ -159,12 +159,13 @@
 		}
 
 		.dropdown-menu .dropdown-menu{
-			margin-left:0; margin-right: 0;
+			margin-left:2; margin-right: 0;
+
 		}
 
 		.dropdown-menu li{
 			position: relative;
-      left:100%; top:-7px;
+      
 		}
 		.nav-item .submenu{ 
 			display: none;
