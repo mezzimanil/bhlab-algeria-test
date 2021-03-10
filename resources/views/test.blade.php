@@ -173,7 +173,7 @@
 				  </div>
 			  </div>
 			  <div class="col-4">
-				  <img src="https://source.unsplash.com/640x480/?bikini" class="img-fluid mb-3" alt="test image">
+				  <img src="{{ asset('image/1.jpg') }}" class="img-fluid mb-3" alt="test image">
 				  <p>
 					  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, expedita sint quis rem amet, a nihil, non sunt ea quasi.
 				  </p>
