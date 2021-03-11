@@ -256,7 +256,7 @@
             <div class="col-md-6  order-md-1 order-2"> <img src="{{ asset('image/parte.png') }}" class="mx-auto" alt="slide" style="height: 800px">
             </div>
             <div class="col-md-6 col-12 order-md-2 order-1">
-              <h4>Plus de 15 marques pour répondre aux différents besoins de nos partenaire:
+              <h4>Plus de 15 marques pour répondre aux différents besoins de nos partenaire:
             </h4>
               <p style="color: rgb(0,168,186)">
                   -Immuno Analyses
