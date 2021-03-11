@@ -239,7 +239,7 @@
                 </h4>
               <p class="ml-5" style="color: rgb(0,168,186)">Avec plus de 12 ans d’expériences dans le domaine du diagnostic médical et forte de ses 60 employés, BH LAB s’impose comme un acteur majeur dans le marché algérien.
                 Présente aussi bien chez les grands laboratoires privés qu’en milieu hospitalier, BH LAB séduit par la diversité des produits qu’elle propose.Notre politique tend à répondre au maximum aux différents besoins de nos partenaires et cela au travers des différentes gammes que nous proposons.</p>
-              </div>
+              <a class="ml-5" href="#">BUY NOW</a> </div>
             <div class="col-md-7 col-12 order-md-2 order-1"><img src="{{ asset('image/labo.jpg') }}" class="mx-auto" alt="slide" style="height: 800px"> </div>
           </div>
         
@@ -297,7 +297,7 @@
                  <br>
                +PCR
             </p>
-             </div>
+              <a class="ml-5" href="#">BUY NOW</a> </div>
             <div class="col-md-7 col-12 order-md-2 order-1"><img src="{{ asset('image/coro.jpg') }}" class="mx-auto" alt="slide" style="height: 800px"></div>
           </div>
         
