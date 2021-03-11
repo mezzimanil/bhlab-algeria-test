@@ -235,7 +235,7 @@
       <div class="mask flex-center">
         
           <div class="row align-items-center">
-            <div class="col-md-5 col-12 order-md-1 order-2 " style="background-color: rgb(0,168,186), ">
+            <div class="col-md-5 col-12 order-md-1 order-2 " style="background-color: rgb(0,168,186); ">
               <h4 class="ml-5">Present your <br>
                 awesome product</h4>
               <p class="ml-5">Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
