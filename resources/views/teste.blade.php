@@ -238,8 +238,8 @@
               <h4 class="ml-5 " style="color: rgb(36,50,136)">Plus de 12 ans d’expérience dans le domaine du diagnostic médical
                 </h4>
               <p class="ml-5" style="color: rgb(0,168,186)">Avec plus de 12 ans d’expériences dans le domaine du diagnostic médical et forte de ses 60 employés, BH LAB s’impose comme un acteur majeur dans le marché algérien.
-                Présente aussi bien chez les grands laboratoires privés qu’en milieu hospitalier, BH LAB séduit par la diversité des produits qu’elle propose.Notre politique tend à répondre au maximum aux différents besoins de nos partenaires et cela au travers des différentes gammes que nous proposons.</p>
-              <a class="ml-5" href="#">BUY NOW</a> </div>
+                Présente aussi bien chez les grands laboratoires privés qu’en milieu hospitalier, BH LAB séduit par la diversité des produits qu’elle propose.Notre politique tend à répondre au maximum aux différents besoins de nos partenaires et cela au travers des différentes gammes que nous proposons.</p>
+              
             <div class="col-md-7 col-12 order-md-2 order-1"><img src="{{ asset('image/labo.jpg') }}" class="mx-auto" alt="slide" style="height: 800px"> </div>
           </div>
         
@@ -255,29 +255,29 @@
               <h4>Plus de 15 marques pour répondre aux différents besoins de nos partenaire:
             </h4>
               <p style="color:rgb(36,50,136)">
-                  -Immuno Analyses
+                  * Immuno Analyses
                   <br>
                   -Chimie Clinique
                   <br>
-                  -Immuno Hémathologie
+                  * Immuno Hémathologie
                   <br>
-                  -Auto Immunité
+                  * Auto Immunité
                   <br>
-                  -Hémostase
+                  * Hémostase
                   <br>
-                  -Acute Care (Gaz de sang)
+                  * Acute Care (Gaz de sang)
                   <br>
-                  -Consomables
+                  * Consomables
                   <br>
                   Typage HLA
                   <br>
                   Bio moléculaire
                   <br>
-                  -Immuno Chimie
+                  * Immuno Chimie
                   <br>
-                  -Hémathologie
+                  * Hémathologie
               </p>
-              <a href="#">BUY NOW</a> </div>
+               </div>
         
           </div>
         
@@ -291,13 +291,13 @@
               <h4 class="ml-5" style="color: rgb(36,50,136)" >Présent dans la crise de la COVID :</h4>
               <p class="ml-5" style="color: rgb(0,168,186)">BH LAB relève le défi dans le combat contre la COVID et cela au travers des différents tests de dépistage :
                 <br>
-                -Anti gène
+               * Anti gène
                  <br>
-                 -Sérologie
+               * Sérologie
                  <br>
-                -PCR
+               * PCR
             </p>
-              <a class="ml-5" href="#">BUY NOW</a> </div>
+               </div>
             <div class="col-md-7 col-12 order-md-2 order-1"><img src="{{ asset('image/coro.jpg') }}" class="mx-auto" alt="slide" style="height: 800px"></div>
           </div>
         
