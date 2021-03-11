@@ -61,7 +61,7 @@
 }
 #myCarousel .container {max-width: 1430px;  }
 #myCarousel .carousel-item{height:100%; min-height:800px; }
-#myCarousel{position:relative; z-index:1; background-color: rgb(0,168,186) }
+#myCarousel{position:relative; z-index:1;  background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(0,168,186)); }
 
 .carousel-control-next, .carousel-control-prev{height:40px; width:40px; padding:12px; top:50%; bottom:auto; transform:translateY(-50%); background-color: #f47735; }
 
