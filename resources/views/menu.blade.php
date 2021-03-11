@@ -428,32 +428,7 @@
     <div class="megamenu-background" id="megamenu-background"></div>
 </nav>
 
-<div class="megamenu-dim" id="megamenu-dim"></div>
 
-<section class="hero">
-    <div class="container pt-4">
-        <h1 class="display-2 mb-4">Megamenu</h1>
-        <p class="lead">
-            Dependencies are: <strong>Bootstrap 4, jQuery, jQuery.hoverIntent, Lodash (debounce and throttle)</strong>
-        </p>
-        <p class="lead"><em>Should work quite well™  </em>with mouse hover, clicks/keyboard and touch devices.</p>
-        <p class="lead">Hover Intent plugin is used to track user mouse movement and not fire the megamenu event if cursor is moved rapidly over the main menu elements.</p>
-        <p class="lead">Adjusts the menu background height automatically when resizing the browser window. Calculates menu background height from the tallest megamenu content.</p>
-        <p class="lead">Missing responsive styling :(</p>
-    </div>
-</section>
-
-<section class="bg-light">
-    <div class="container">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt cumque hic ipsam et. Perferendis voluptatum incidunt maxime eos et officiis exercitationem! Expedita ipsa tenetur porro dolores possimus cum ab sapiente.</p>
-    </div>
-</section>
-
-<section class="bg-white">
-    <div class="container">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt cumque hic ipsam et. Perferendis voluptatum incidunt maxime eos et officiis exercitationem! Expedita ipsa tenetur porro dolores possimus cum ab sapiente.</p>
-    </div>
-</section>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.9.0/jquery.hoverIntent.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js'></script>
