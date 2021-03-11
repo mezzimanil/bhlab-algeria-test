@@ -239,7 +239,7 @@
         
           <div class="row align-items-center">
             <div class="col-md-5 col-12 order-md-1 order-2 " >
-              <h4 class="ml-5 " style="color: rgb(36,50,136)">Plus de 12 ans d’expérience dans le domaine du diagnostic médical<br>
+              <h4 class="ml-5 " style="color: rgb(36,50,136)">Plus de 12 ans d’expérience dans le domaine du diagnostic médical
                 </h4>
               <p class="ml-5" style="color: rgb(0,168,186)">Avec plus de 12 ans d’expériences dans le domaine du diagnostic médical et forte de ses 60 employés, BH LAB s’impose comme un acteur majeur dans le marché algérien.
                 Présente aussi bien chez les grands laboratoires privés qu’en milieu hospitalier, BH LAB séduit par la diversité des produits qu’elle propose.Notre politique tend à répondre au maximum aux différents besoins de nos partenaires et cela au travers des différentes gammes que nous proposons.</p>
@@ -256,10 +256,31 @@
             <div class="col-md-6  order-md-1 order-2"> <img src="{{ asset('image/parte.png') }}" class="mx-auto" alt="slide" style="height: 800px">
             </div>
             <div class="col-md-6 col-12 order-md-2 order-1">
-              <h4>Present your <br>
-                awesome product</h4>
-              <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
-                necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
+              <h4>Plus de 15 marques pour répondre aux différents besoins de nos partenaire:
+            </h4>
+              <p>
+                  -Immuno Analyses
+                  <br>
+                  -Chimie Clinique
+                  <br>
+                  -Immuno Hémathologie
+                  <br>
+                  -Auto Immunité
+                  <br>
+                  -Hémostase
+                  <br>
+                  -Acute Care (Gaz de sang)
+                  <br>
+                  -Consomables
+                  <br>
+                  Typage HLA
+                  <br>
+                  Bio moléculaire
+                  <br>
+                  -Immuno Chimie
+                  <br>
+                  -Hémathologie
+              </p>
               <a href="#">BUY NOW</a> </div>
         
           </div>
@@ -271,10 +292,15 @@
         
           <div class="row align-items-center">
             <div class="col-md-5 col-12 order-md-1 order-2">
-              <h4 class="ml-5" style="color: rgb(36,50,136)" >Present your <br>
-                awesome product</h4>
-              <p class="ml-5" style="color: rgb(0,168,186)">Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
-                necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
+              <h4 class="ml-5" style="color: rgb(36,50,136)" >Présent dans la crise de la COVID :</h4>
+              <p class="ml-5" style="color: rgb(0,168,186)">BH LAB relève le défi dans le combat contre la COVID et cela au travers des différents tests de dépistage :
+                <br>
+                -Anti gène
+                 <br>
+                 -Sérologie
+                 <br>
+                -PCR
+            </p>
               <a class="ml-5" href="#">BUY NOW</a> </div>
             <div class="col-md-7 col-12 order-md-2 order-1"><img src="{{ asset('image/coro.jpg') }}" class="mx-auto" alt="slide" style="height: 800px"></div>
           </div>
