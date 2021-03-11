@@ -234,7 +234,7 @@
       <div class="mask flex-center">
         <div class="container">
             <img src="{{ asset('image/labo.jpg') }}" class="mx-auto" alt="slide">
-          <div class="row align-items-center">
+          
             <div class="col-md-7 col-12 order-md-1 order-2">
               <h4>Present your <br>
                 awesome product</h4>
@@ -242,7 +242,7 @@
                 necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
               <a href="#">BUY NOW</a> </div>
            
-          </div>
+         
         </div>
       </div>
     </div>
