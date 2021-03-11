@@ -222,12 +222,12 @@
      
               <!-- Right Side Of Navbar -->
               <ul class="megamenu-nav d-flex justify-content-center">
-               <div class="container">
+              
       <a class="navbar-brand" href="{{ url('/') }}">
         
         <img src="{{ asset('image/loc.png') }}" >
       </a>
-      <div>
+      
                   <!-- Authentication Links -->
                   <li class="nav-item">
                     <a class="nav-link" href="{{ url('/') }}">
