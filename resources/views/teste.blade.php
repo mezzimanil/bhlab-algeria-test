@@ -240,7 +240,7 @@
               <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
                 necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
               <a href="#">BUY NOW</a> </div>
-            =<img src="https://i.imgur.com/NKvkfTT.png" class="mx-auto" alt="slide">
+            <img src="https://i.imgur.com/NKvkfTT.png" class="mx-auto" alt="slide">
           </div>
         </div>
       </div>
