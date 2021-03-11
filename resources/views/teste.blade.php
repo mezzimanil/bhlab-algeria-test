@@ -272,9 +272,9 @@
               <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
                 necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
               <a href="#">BUY NOW</a> </div>
-            <div class="col-md-8 col-12 order-md-2 order-1"><img src="{{ asset('image/coro.jpg') }}" class="mx-auto" alt="slide"></div>
+           
           </div>
-        
+          <div class="col-md-7 col-12 order-md-2 order-1"><img src="{{ asset('image/coro.jpg') }}" class="mx-auto" alt="slide"></div>
       </div>
     </div>
   </div>
