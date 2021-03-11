@@ -298,7 +298,7 @@
                 *PCR
             </p>
                </div>
-            <div class="col-md-7 col-12 order-md-2 order-1"><img src="{{ asset('image/coro.jpg') }}" class="mx-auto" width="1320px" alt="slide" style="height: 800px"></div>
+            <div class="col-md-7 col-12 order-md-2 order-1"><img src="{{ asset('image/coro.jpg') }}" class="mx-auto" width="1400px" alt="slide" style="height: 800px"></div>
           </div>
         
       </div>
