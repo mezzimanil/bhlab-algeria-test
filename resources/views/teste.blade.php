@@ -257,25 +257,25 @@
               <p style="color:rgb(36,50,136)">
                   * Immuno Analyses
                   <br>
-                  -Chimie Clinique
+                 * Chimie Clinique
                   <br>
-                  -Immuno Hémathologie
+                 * Immuno Hémathologie
                   <br>
-                  -Auto Immunité
+                 * Auto Immunité
                   <br>
-                  -Hémostase
+                 * Hémostase
                   <br>
-                  -Acute Care (Gaz de sang)
+                 * Acute Care (Gaz de sang)
                   <br>
-                  -Consomables
+                 * Consomables
                   <br>
-                  Typage HLA
+                 * Typage HLA
                   <br>
-                  Bio moléculaire
+                 * Bio moléculaire
                   <br>
-                  -Immuno Chimie
+                 * Immuno Chimie
                   <br>
-                  -Hémathologie
+                 * Hémathologie
               </p>
               </div>
         
