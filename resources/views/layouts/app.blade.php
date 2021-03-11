@@ -197,7 +197,7 @@
               <!-- Right Side Of Navbar -->
              
 
-                <ul class="navbar-nav ml-auto">
+              
               <ul class="megamenu-nav d-flex justify-content-center">
                 <a class="navbar-brand" href="{{ url('/') }}">
                   <img src="{{ asset('image/loe.png') }}" >
@@ -508,7 +508,7 @@
                    </li>
                    </ul>
                    <div class="megamenu-background" id="megamenu-background"></div>
-                </ul>
+                
               
               
           
