@@ -73,6 +73,7 @@
     -ms-flex-align: center;
     align-items: center;
     width: 100%;
+    height: 100%;
     transition: -webkit-transform .6s ease;
     transition: transform .6s ease;
     transition: transform .6s ease,-webkit-transform .6s ease;
