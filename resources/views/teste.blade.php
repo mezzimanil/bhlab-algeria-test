@@ -233,7 +233,7 @@
     <div class="carousel-item active">
       <div class="mask flex-center">
         <div class="container">
-            <img src="{{ asset('image/labo.jpg') }}" class="mx-auto" alt="slide">
+           
           
             <div class="col-md-7 col-12 order-md-1 order-2">
               <h4>Present your <br>
@@ -241,7 +241,7 @@
               <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
                 necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
               <a href="#">BUY NOW</a> </div>
-           
+              <img src="{{ asset('image/labo.jpg') }}" class="mx-auto" alt="slide">
          
         </div>
       </div>
