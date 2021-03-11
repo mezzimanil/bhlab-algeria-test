@@ -249,7 +249,7 @@
       <div class="mask flex-center">
       
           <div class="row align-items-center">
-            <div class="col-md-7 col-12 order-md-2 order-1"><img src="{{ asset('image/part.JPG') }}" class="mx-auto" alt="slide"></div>
+          <img src="{{ asset('image/part.JPG') }}" class="mx-auto" alt="slide">
             <div class="col-md-5 col-12 order-md-1 order-2">
               <h4>Present your <br>
                 awesome product</h4>
