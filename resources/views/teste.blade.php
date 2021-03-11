@@ -30,8 +30,8 @@
     position: absolute;
     top: 0;
 	left:0;
-	height:80rem;
-    width: 80rem;
+	height:200%;
+    width: 100%;
     background-attachment: fixed;
 }
 #myCarousel h4{
