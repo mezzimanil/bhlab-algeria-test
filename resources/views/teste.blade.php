@@ -33,7 +33,7 @@
 	height:100%;
     width: 100%;
     background-attachment: fixed;
-    font-family: 'Montserrat';
+    
 }
 #myCarousel h4{
 	font-size:50px;
@@ -42,11 +42,13 @@
 	line-height:100%;
 	letter-spacing:0.5px;
 	font-weight:600;
+    font-family: 'Montserrat';
 }
 #myCarousel p{
 	font-size:18px;
 	margin-bottom:15px;
 	color:#d5d5d5;
+    font-family: 'Montserrat';
 }
 #myCarousel .carousel-item a{background:#F47735; font-size:14px; color:#FFF; padding:13px 32px; display:inline-block; }
 #myCarousel .carousel-item a:hover{background:#394fa2; text-decoration:none;  }
