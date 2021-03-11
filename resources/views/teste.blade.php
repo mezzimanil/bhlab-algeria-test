@@ -250,7 +250,7 @@
       <div class="mask flex-center">
       
           <div class="row align-items-center">
-            <div class="col-md-7  order-md-2 order-1"> <img src="{{ asset('image/parte.png') }}" class="mx-auto" alt="slide" style="height: 800px">
+            <div class=" order-md-2 order-1"> <img src="{{ asset('image/parte.png') }}" class="mx-auto" alt="slide" style="height: 800px">
             </div>
             <div class="col-md-5 col-12 order-md-1 order-2">
               <h4>Present your <br>
