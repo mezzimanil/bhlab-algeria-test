@@ -232,7 +232,7 @@
                   <!-- Authentication Links -->
                   <li class="nav-item">
                     <a class="nav-link" href="{{ url('/') }}">
-                      <i class="fa fa-home"></i>
+                      
                       <span class="sr-only">Home</span>
                     </a>
                    </li>
