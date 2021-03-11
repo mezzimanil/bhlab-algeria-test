@@ -65,10 +65,11 @@
   display: inline-block;
   padding-top: 0.32rem;
   padding-bottom: 0.32rem;
-  margin-right: 30rem;
+  margin-right: 50rem;
   font-size: 1.125rem;
   line-height: inherit;
   white-space: nowrap;
+  position: relative;
   
  
 }
