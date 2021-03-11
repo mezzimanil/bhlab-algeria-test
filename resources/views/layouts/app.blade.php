@@ -69,7 +69,7 @@
   font-size: 1.125rem;
   line-height: inherit;
   white-space: nowrap;
-  position: absolute;
+  
   
  
 }
