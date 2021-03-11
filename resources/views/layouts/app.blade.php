@@ -224,7 +224,7 @@
               <!-- Right Side Of Navbar -->
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="megamenu-nav d-flex justify-content-center">
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a class="navbar-brand mr-5" href="{{ url('/') }}">
                   <img src="{{ asset('image/loe.png') }}" >
                 </a>
                 
