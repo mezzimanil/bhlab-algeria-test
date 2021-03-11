@@ -297,7 +297,7 @@
                  <br>
                 -PCR
             </p>
-              <a class="ml-5" href="#">BUY NOW</a> </div>
+               </div>
             <div class="col-md-7 col-12 order-md-2 order-1"><img src="{{ asset('image/coro.jpg') }}" class="mx-auto" alt="slide" style="height: 800px"></div>
           </div>
         
