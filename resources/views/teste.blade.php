@@ -291,11 +291,11 @@
               <h4 class="ml-5" style="color: rgb(36,50,136)" >Présent dans la crise de la COVID :</h4>
               <p class="ml-5" style="color: rgb(0,168,186)">BH LAB relève le défi dans le combat contre la COVID et cela au travers des différents tests de dépistage :
                 <br>
-                -Anti gène
+                *Anti gène
                  <br>
-                 -Sérologie
+                 *Sérologie
                  <br>
-                -PCR
+                *PCR
             </p>
                </div>
             <div class="col-md-7 col-12 order-md-2 order-1"><img src="{{ asset('image/coro.jpg') }}" class="mx-auto" alt="slide" style="height: 800px"></div>
