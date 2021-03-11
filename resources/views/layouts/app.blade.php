@@ -184,33 +184,7 @@
 	}
     
       </style>
-      <script type="text/javascript">
-        /// some script
-        
-        // jquery ready start
-        $(document).ready(function() {
-          // jQuery code
-        
-          //////////////////////// Prevent closing from click inside dropdown
-            $(document).on('click', '.dropdown-menu', function (e) {
-              e.stopPropagation();
-            });
-        
-            // make it as accordion for smaller screens
-            if ($(window).width() < 992) {
-              $('.dropdown-menu a').click(function(e){
-                e.preventDefault();
-                  if($(this).next('.submenu').length){
-                    $(this).next('.submenu').toggle();
-                  }
-                  $('.dropdown').on('hide.bs.dropdown', function () {
-                 $(this).find('.submenu').hide();
-              })
-              });
-          }
-          
-        }); // jquery end
-        </script>
+     
 </head>
 <body>
     <div id="app">
@@ -663,7 +637,33 @@
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.9.0/jquery.hoverIntent.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js'></script>
-
+<script type="text/javascript">
+  /// some script
+  
+  // jquery ready start
+  $(document).ready(function() {
+    // jQuery code
+  
+    //////////////////////// Prevent closing from click inside dropdown
+      $(document).on('click', '.dropdown-menu', function (e) {
+        e.stopPropagation();
+      });
+  
+      // make it as accordion for smaller screens
+      if ($(window).width() < 992) {
+        $('.dropdown-menu a').click(function(e){
+          e.preventDefault();
+            if($(this).next('.submenu').length){
+              $(this).next('.submenu').toggle();
+            }
+            $('.dropdown').on('hide.bs.dropdown', function () {
+           $(this).find('.submenu').hide();
+        })
+        });
+    }
+    
+  }); // jquery end
+  </script>
 <script type="text/javascript">
 	/// some script
 	
