@@ -30,7 +30,7 @@
     position: absolute;
     top: 0;
 	left:0;
-	height:200%;
+	height:500%;
     width: 100%;
     background-attachment: fixed;
 }
