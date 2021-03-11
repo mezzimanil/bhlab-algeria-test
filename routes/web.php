@@ -40,3 +40,7 @@ Route::get('/map', function () {
 Route::get('/drop', function () {
     return view('drop');
 });
+
+Route::get('/teste', function () {
+    return view('teste');
+});
