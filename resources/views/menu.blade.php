@@ -10,11 +10,137 @@
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 
-      <link rel="stylesheet" href="css/style.css">
+    
 
   
 </head>
+<style>
+      .megamenu {
+    background: #e7e2e2;
+    z-index: 15;
+  }
 
+  .megamenu .megamenu-nav .navbar-brand {
+  display: inline-block;
+  padding-top: 0.32rem;
+  padding-bottom: 0.32rem;
+  
+  font-size: 1.125rem;
+  line-height: inherit;
+  white-space: nowrap;
+ 
+}
+  .megamenu .megamenu-nav {
+    padding: 0;
+    margin: 0;
+  }
+  .megamenu .megamenu-nav .nav-item {
+    display: block;
+  }
+  .megamenu .megamenu-nav .nav-item.is-open > .megamenu-content {
+    visibility: visible;
+    opacity: 1;
+  }
+  .megamenu .megamenu-nav .nav-item.is-open > .nav-link {
+    background: rgb(0,168,186);
+    
+  }
+  .megamenu .megamenu-nav .nav-link {
+    color: rgb(36, 50, 136);
+    padding: 15px 30px;
+  }
+  .megamenu .megamenu-nav .nav-link:hover {
+    background: rgb(0,168,186);
+    color: #333;
+  }
+  .megamenu .megamenu-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 54px;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 14;
+    transition: all .3s ease-in-out;
+  }
+  .megamenu .megamenu-content .container {
+    padding: 45px 15px;
+  }
+  .megamenu .megamenu-content .subnav {
+    margin: 0;
+    padding: 0;
+  }
+  .megamenu .megamenu-content .subnav-item {
+    display: block;
+  }
+  .megamenu .megamenu-content .subnav-item .subnav-link {
+    padding: 10px 0;
+    display: block;
+  }
+  
+  .megamenu-background {
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 54px;
+    right: 0;
+    height: 0;
+    transition: all .3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    z-index: 13;
+  }
+  
+  .megamenu-dim {
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 54px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -12;
+    transition: all .3s ease-in-out;
+  }
+  body.megamenu-visible .megamenu-dim {
+    z-index: 12;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  @media (min-width: 992px){
+		. .dropdown-menu .dropdown-toggle:after{
+			border-top: .3em solid transparent;
+		    border-right: 0;
+		    border-bottom: .3em solid transparent;
+		    border-left: .3em solid;
+		}
+
+		.dropdown-menu .dropdown-menu{
+			margin-left:2; margin-right: 0;
+
+		}
+
+		.dropdown-menu li{
+			position: relative;
+      
+		}
+		.nav-item .submenu{ 
+			display: none;
+			position: absolute;
+			left:100%; top:-7px;
+		}
+		.nav-item .submenu-left{ 
+			right:100%; left:auto;
+		}
+
+		.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+		.dropdown-menu > li:hover > .submenu{
+			display: block;
+		}
+	}
+</style>
 <body>
 
                   <nav class="megamenu">
