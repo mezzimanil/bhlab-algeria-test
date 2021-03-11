@@ -255,27 +255,27 @@
               <h4>Plus de 15 marques pour répondre aux différents besoins de nos partenaire:
             </h4>
               <p style="color:rgb(36,50,136)">
-                 +Immuno Analyses
+                  * Immuno Analyses
                   <br>
-                  +Chimie Clinique
+                  -Chimie Clinique
                   <br>
-                 +Immuno Hémathologie
+                  -Immuno Hémathologie
                   <br>
-                 +Auto Immunité
+                  -Auto Immunité
                   <br>
-                 +Hémostase
+                  -Hémostase
                   <br>
-                 +Acute Care (Gaz de sang)
+                  -Acute Care (Gaz de sang)
                   <br>
-                 +Consomables
+                  -Consomables
                   <br>
-                  +Typage HLA
+                  Typage HLA
                   <br>
-                  +Bio moléculaire
+                  Bio moléculaire
                   <br>
-                 +Immuno Chimie
+                  -Immuno Chimie
                   <br>
-                 +Hémathologie
+                  -Hémathologie
               </p>
               <a href="#">BUY NOW</a> </div>
         
@@ -291,11 +291,11 @@
               <h4 class="ml-5" style="color: rgb(36,50,136)" >Présent dans la crise de la COVID :</h4>
               <p class="ml-5" style="color: rgb(0,168,186)">BH LAB relève le défi dans le combat contre la COVID et cela au travers des différents tests de dépistage :
                 <br>
-               +Anti gène
+                -Anti gène
                  <br>
-               +Sérologie
+                 -Sérologie
                  <br>
-               +PCR
+                -PCR
             </p>
               <a class="ml-5" href="#">BUY NOW</a> </div>
             <div class="col-md-7 col-12 order-md-2 order-1"><img src="{{ asset('image/coro.jpg') }}" class="mx-auto" alt="slide" style="height: 800px"></div>
