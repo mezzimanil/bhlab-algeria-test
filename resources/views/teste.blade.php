@@ -253,7 +253,7 @@
       <div class="mask flex-center">
       
           <div class="row align-items-center">
-            <div class="col-md-6  order-md-1 order-2"> <img src="{{ asset('image/parte.png') }}" class="mx-auto" alt="slide" style="height: 800px">
+            <div class="col-md-6  order-md-1 order-2"> <img src="{{ asset('image/pa.png') }}" class="mx-auto" alt="slide" style="height: 800px">
             </div>
             <div class="col-md-6 col-12 order-md-2 order-1">
               <h4>Plus de 15 marques pour répondre aux différents besoins de nos partenaire:
