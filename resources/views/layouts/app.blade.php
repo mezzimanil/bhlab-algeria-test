@@ -217,14 +217,14 @@
 
      
      <nav class="megamenu fixed-top bg-light">
-     <div class="container">
+     
      
       <a class="navbar-brand" href="{{ url('/') }}">
         
         <img src="{{ asset('image/loc.png') }}" >
       </a>
       
-     </div>
+     
               <!-- Right Side Of Navbar -->
               <ul class="megamenu-nav d-flex justify-content-center">
                
