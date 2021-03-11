@@ -240,7 +240,7 @@
                 awesome product</h4>
               <p class="ml-5">Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
                 necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
-              <a href="#">BUY NOW</a> </div>
+              <a class="ml-5" href="#">BUY NOW</a> </div>
             <div class="col-md-7 col-12 order-md-2 order-1"><img src="{{ asset('image/labo.jpg') }}" class="mx-auto" alt="slide" style="height: 800px"> </div>
           </div>
         
@@ -272,7 +272,7 @@
                 awesome product</h4>
               <p class="ml-5">Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
                 necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
-              <a href="#">BUY NOW</a> </div>
+              <a class="ml-5" href="#">BUY NOW</a> </div>
             <div class="col-md-7 col-12 order-md-2 order-1"><img src="{{ asset('image/coro.jpg') }}" class="mx-auto" alt="slide" style="height: 800px"></div>
           </div>
         
