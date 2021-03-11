@@ -228,7 +228,7 @@
 </style></head>
 
 <body translate="no" >
-  <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide carousel-fade mt-5" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="mask flex-center">
