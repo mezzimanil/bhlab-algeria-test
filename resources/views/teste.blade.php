@@ -235,8 +235,8 @@
       <div class="mask flex-center">
         
           <div class="row align-items-center">
-            <div class="col-md-4 col-12 order-md-1 order-2 ">
-              <h4>Present your <br>
+            <div class="col-md-5 col-12 order-md-1 order-2 ">
+              <h4 class="mr-2">Present your <br>
                 awesome product</h4>
               <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
                 necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
