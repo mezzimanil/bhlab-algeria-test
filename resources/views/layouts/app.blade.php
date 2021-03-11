@@ -217,7 +217,7 @@
    
 
      
-     <nav class="megamenu fixed-top bg-light">
+     <nav class="megamenu navbar navbar-expand fixed-top bg-light">
      
        <div class="container">
               <!-- Right Side Of Navbar -->
