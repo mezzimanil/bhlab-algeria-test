@@ -221,17 +221,14 @@
      
        <div class="container">
               <!-- Right Side Of Navbar -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ml-auto">
               <ul class="megamenu-nav d-flex justify-content-center">
                 <a class="navbar-brand" href="{{ url('/') }}">
                   <img src="{{ asset('image/loe.png') }}" >
                 </a>
-                
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <ul class="navbar-nav ml-auto">
-             
-                
-                
+            
                   <!-- Authentication Links -->
                   <li class="nav-item">
                     <a class="nav-link" href="{{ url('/') }}">
