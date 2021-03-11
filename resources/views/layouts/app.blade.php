@@ -650,12 +650,6 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <!-- MeanMenu JS -->
 <script src="https://techsolutionshere.com/wp-content/themes/techsolution/assets/blog-post-css-js/jquery.meanmenu.js"></script>
-<script>
-	// Mean Menu
-	jQuery('.mean-menu').meanmenu({
-		meanScreenWidth: "991"
-	});
-</script>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.9.0/jquery.hoverIntent.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js'></script>
