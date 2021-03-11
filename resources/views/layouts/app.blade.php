@@ -524,7 +524,7 @@
                       </div>
                     </div>
                    </li> 
-                   <li class="nav-item">
+                   <li class="nav-item mr-5">
                     <a class="nav-link" href="#">
                       Link without megamenu
                     </a>
