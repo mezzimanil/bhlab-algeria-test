@@ -217,17 +217,17 @@
 
      
      <nav class="megamenu fixed-top bg-light">
-  <div class="container">
-    
-
-      
+     <div class="container">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <a class="navbar-brand" href="{{ url('/') }}">
+        
+        <img src="{{ asset('image/loc.png') }}" >
+      </a>
+      </div>
+     </div>
               <!-- Right Side Of Navbar -->
               <ul class="megamenu-nav d-flex justify-content-center">
-                <a class="navbar-brand" href="{{ url('/') }}">
-        
-                  <img src="{{ asset('image/loc.png') }}" >
-                </a>
-                
+               
                   <!-- Authentication Links -->
                   <li class="nav-item">
                     <a class="nav-link" href="{{ url('/') }}">
@@ -534,12 +534,10 @@
                    </ul>
                    <div class="megamenu-background" id="megamenu-background"></div>
                   
- </div>
-
-
+                  </div>
               </ul>
           
- 
+      
   </nav>
               
              
