@@ -65,11 +65,10 @@
   display: inline-block;
   padding-top: 0.32rem;
   padding-bottom: 0.32rem;
- 
+  margin-right: 30rem;
   font-size: 1.125rem;
   line-height: inherit;
   white-space: nowrap;
-  
   
  
 }
@@ -224,7 +223,7 @@
               <!-- Right Side Of Navbar -->
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="megamenu-nav d-flex justify-content-center">
-                <a class="navbar-brand mr-5" href="{{ url('/') }}">
+                <a class="navbar-brand" href="{{ url('/') }}">
                   <img src="{{ asset('image/loe.png') }}" >
                 </a>
                 
