@@ -218,16 +218,13 @@
      
      <nav class="megamenu fixed-top bg-light">
      
-     
-     
+
               <!-- Right Side Of Navbar -->
               <ul class="megamenu-nav d-flex justify-content-center">
-              
-      <a class="navbar-brand" href="{{ url('/') }}">
-        
-        <img src="{{ asset('image/loc.png') }}" >
-      </a>
-      
+                <a class="navbar-brand" href="{{ url('/') }}">
+                  <img src="{{ asset('image/lol.png') }}" >
+                </a>
+                
                   <!-- Authentication Links -->
                   <li class="nav-item">
                     <a class="nav-link" href="{{ url('/') }}">
