@@ -44,3 +44,7 @@ Route::get('/drop', function () {
 Route::get('/teste', function () {
     return view('teste');
 });
+
+Route::get('/menu', function () {
+    return view('menu');
+});
