@@ -158,17 +158,11 @@
 		    border-left: .3em solid;
 		}
 
-.dropdown-menu .dropdown-menu{
-  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;
-}
-
-.dropdown-menu .fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
 		.dropdown-menu .dropdown-menu{
 			margin-left:2; margin-right: 0;
 
 		}
-   .dropdown-menu .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
-
+    .nav-item:hover .dropdown-menu{  display:block;}
 		.dropdown-menu li{
 			position: relative;
       
@@ -255,7 +249,7 @@
                                    
                                   <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">  Treeview menu  </a>
-                                      <ul class="dropdown-menu fade-down">
+                                      <ul class="dropdown-menu">
                                       <li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
                                       <li><a class="dropdown-item" href="#"> Dropdown item 2 &raquo </a>
                                          <ul class="submenu dropdown-menu">
