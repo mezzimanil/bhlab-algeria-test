@@ -195,7 +195,7 @@
      
        <div class="container">
               <!-- Right Side Of Navbar -->
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             
 
                 <ul class="navbar-nav ml-auto">
               <ul class="megamenu-nav d-flex justify-content-center">
@@ -509,7 +509,7 @@
                    </ul>
                    <div class="megamenu-background" id="megamenu-background"></div>
                 </ul>
-              </div>
+              
               
           
             </div>
