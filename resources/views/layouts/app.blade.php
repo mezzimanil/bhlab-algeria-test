@@ -162,7 +162,7 @@
 			margin-left:2; margin-right: 0;
 
 		}
-    .nav-item:hover .dropdown-menu{  display:block;}
+
 		.dropdown-menu li{
 			position: relative;
       
