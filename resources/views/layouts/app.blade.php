@@ -233,12 +233,12 @@
                   <li class="nav-item">
                     <a class="nav-link" href="{{ url('/') }}">
                       
-                      <span class="sr-only">Home</span>
+                      Home
                     </a>
                    </li>
                    <li class="nav-item is-parent">
                     <a class="nav-link" href="#" id="megamenu-dropdown-1" aria-haspopup="true" aria-expanded="false">
-                      Link 1 <i class="fa fa-angle-down"></i>
+                      About us <i class="fa fa-angle-down"></i>
                     </a>
                     <div class="megamenu-content" aria-labelledby="megamenu-dropdown-1">
                       <div class="container">
@@ -331,7 +331,7 @@
                    </li>
                    <li class="nav-item is-parent">
                     <a class="nav-link" href="#" id="megamenu-dropdown-2" aria-haspopup="true" aria-expanded="false">
-                      Link 2 <i class="fa fa-angle-down"></i>
+                      Fournisseur<i class="fa fa-angle-down"></i>
                     </a>
                     <div class="megamenu-content" aria-labelledby="megamenu-dropdown-2">
                       <div class="container">
@@ -396,7 +396,7 @@
                    </li>
                    <li class="nav-item is-parent">
                     <a class="nav-link" href="#" id="megamenu-dropdown-3" aria-haspopup="true" aria-expanded="false">
-                      Link 3 <i class="fa fa-angle-down"></i>
+                      Contact us <i class="fa fa-angle-down"></i>
                     </a>
                     <div class="megamenu-content" aria-labelledby="megamenu-dropdown-3">
                       <div class="container">
