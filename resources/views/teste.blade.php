@@ -277,7 +277,7 @@
                   <br>
                  +Hémathologie
               </p>
-              
+              <a href="#">BUY NOW</a> </div>
         
           </div>
         
