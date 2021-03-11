@@ -63,7 +63,7 @@
 #myCarousel .carousel-item{height:100%; min-height:800px; }
 #myCarousel{position:relative; z-index:1;  background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(0,168,186)); }
 
-.carousel-control-next, .carousel-control-prev{height:40px; width:40px; padding:12px; top:50%; bottom:auto; transform:translateY(-50%);color: #F47735; }
+.carousel-control-next, .carousel-control-prev{height:40px; width:40px; padding:12px; top:50%; bottom:auto; transform:translateY(-50%); background-color: #49433f; }
 
 
 .carousel-item {
