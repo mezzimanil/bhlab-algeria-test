@@ -219,7 +219,7 @@
      
      <nav class="megamenu fixed-top bg-light">
      
-       
+       <div class="container">
               <!-- Right Side Of Navbar -->
               <ul class="megamenu-nav d-flex justify-content-center">
                 <a class="navbar-brand" href="{{ url('/') }}">
@@ -532,10 +532,10 @@
                    </ul>
                    <div class="megamenu-background" id="megamenu-background"></div>
                   
-                  </div>
-              </ul>
+                  
+              
           
-      
+            </div>
   </nav>
               
              
