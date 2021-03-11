@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <style>
-    #myCarousel .carousel-item .mask {
+  #myCarousel .carousel-item .mask {
     position: absolute;
     top: 0;
 	left:0;
@@ -189,6 +189,7 @@
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
 }
+
 
 </style>
 <script>
