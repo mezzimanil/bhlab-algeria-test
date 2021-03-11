@@ -33,6 +33,7 @@
 	height:100%;
     width: 100%;
     background-attachment: fixed;
+    font-family: 'Montserrat';
 }
 #myCarousel h4{
 	font-size:50px;
@@ -235,7 +236,7 @@
       <div class="mask flex-center">
         
           <div class="row align-items-center">
-            <div class="col-md-5 col-12 order-md-1 order-2 " ">
+            <div class="col-md-5 col-12 order-md-1 order-2 " >
               <h4 class="ml-5 " style="color: rgb(36,50,136)">Plus de 12 ans d’expérience dans le domaine du diagnostic médical<br>
                 </h4>
               <p class="ml-5" style="color: rgb(0,168,186)">Avec plus de 12 ans d’expériences dans le domaine du diagnostic médical et forte de ses 60 employés, BH LAB s’impose comme un acteur majeur dans le marché algérien.
