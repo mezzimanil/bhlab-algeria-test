@@ -69,7 +69,7 @@
   font-size: 1.125rem;
   line-height: inherit;
   white-space: nowrap;
-  position: absolute;
+  
  
 }
   .megamenu .megamenu-nav {
@@ -223,7 +223,7 @@
               <!-- Right Side Of Navbar -->
               <ul class="megamenu-nav d-flex justify-content-center">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                  <img src="{{ asset('image/loc.png') }}" >
+                  <img src="{{ asset('image/loe.png') }}" >
                 </a>
                 
                   <!-- Authentication Links -->
