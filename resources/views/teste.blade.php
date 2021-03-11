@@ -240,9 +240,9 @@
                 awesome product</h4>
               <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
                 necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
-              <a href="#">BUY NOW</a> </div>
+              <a href="#">BUY NOW</a> 
               <img src="{{ asset('image/labo.jpg') }}" class="mx-auto" alt="slide">
-         
+            </div>
         </div>
       </div>
     </div>
