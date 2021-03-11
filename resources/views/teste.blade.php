@@ -240,7 +240,7 @@
               <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
                 necessitatibus praesentium voluptatum deleniti atque corrupti.</p>
               <a href="#">BUY NOW</a> </div>
-            <div class="col-md-7  order-md-2 order-1"><img src="{{ asset('image/labo.jpg') }}" class="mx-auto" alt="slide"></div>
+            <div class="col-md-6  order-md-2 order-1"><img src="{{ asset('image/labo.jpg') }}" class="mx-auto" alt="slide"></div>
           </div>
         </div>
       </div>
