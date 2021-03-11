@@ -250,9 +250,9 @@
       <div class="mask flex-center">
       
           <div class="row align-items-center">
-            <div class="col-md-7  order-md-1 order-2"> <img src="{{ asset('image/parte.png') }}" class="mx-auto bg-light" alt="slide" style="height: 800px">
+            <div class="col-md-5  order-md-1 order-2"> <img src="{{ asset('image/parte.png') }}" class="mx-auto bg-light" alt="slide" style="height: 800px">
             </div>
-            <div class="col-md-5 col-12 order-md-2 order-1">
+            <div class="col-md-7 col-12 order-md-2 order-1">
               <h4>Present your <br>
                 awesome product</h4>
               <p>Lorem ipsum dolor sit amet. Reprehenderit, qui blanditiis quidem rerum <br>
