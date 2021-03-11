@@ -47,7 +47,15 @@
 <body>
 <main role="main">
 	@include('teste')
-	
+	<div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-color:rgb(51, 98, 240);">
+		<span class="tit2 p-l-15 p-r-15">
+			Discover
+		</span>
+
+		<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
+			EXARS Activities
+		</h3>
+	</div>
 </main>
 
 <div class="container">
