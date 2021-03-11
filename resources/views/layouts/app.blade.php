@@ -65,7 +65,7 @@
   display: inline-block;
   padding-top: 0.32rem;
   padding-bottom: 0.32rem;
-  margin-right: 50rem;
+  margin-right: 40rem;
   font-size: 1.125rem;
   line-height: inherit;
   white-space: nowrap;
@@ -524,7 +524,7 @@
                       </div>
                     </div>
                    </li> 
-                   <li class="nav-item mr-5">
+                   <li class="nav-item">
                     <a class="nav-link" href="#">
                       Link without megamenu
                     </a>
