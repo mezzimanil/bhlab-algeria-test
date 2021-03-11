@@ -30,7 +30,7 @@
     position: absolute;
     top: 0;
 	left:0;
-	height:500%;
+	height:100%;
     width: 100%;
     background-attachment: fixed;
 }
@@ -60,7 +60,7 @@
     animation-fill-mode: both;
 }
 #myCarousel .container {max-width: 1430px;  }
-#myCarousel .carousel-item{height:100%; min-height:550px; }
+#myCarousel .carousel-item{height:100%; min-height:650px; }
 #myCarousel{position:relative; z-index:1; background-color: rgb(0,168,186) }
 
 .carousel-control-next, .carousel-control-prev{height:40px; width:40px; padding:12px; top:50%; bottom:auto; transform:translateY(-50%); background-color: #f47735; }
