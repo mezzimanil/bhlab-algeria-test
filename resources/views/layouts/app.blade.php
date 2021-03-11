@@ -193,7 +193,7 @@
      
      <nav class="megamenu  fixed-top bg-light">
      
-       <div class="container">
+       
               <!-- Right Side Of Navbar -->
              
 
@@ -512,7 +512,7 @@
               
               
           
-            </div>
+            
   </nav>
               
              
