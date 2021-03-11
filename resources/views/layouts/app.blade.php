@@ -224,7 +224,7 @@
       </a>
       
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
               <!-- Right Side Of Navbar -->
               <ul class="megamenu-nav d-flex justify-content-center">
                
@@ -533,8 +533,6 @@
                    </li>
                    </ul>
                    <div class="megamenu-background" id="megamenu-background"></div>
-
-      </div>
                   
  </div>
 
