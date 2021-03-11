@@ -158,7 +158,7 @@
 		    border-left: .3em solid;
 		}
 
-.dropdown-menu{
+.dropdown-menu .dropdown-menu{
   display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;
 }
 
@@ -167,7 +167,7 @@
 			margin-left:2; margin-right: 0;
 
 		}
-    .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+   .dropdown-menu .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 
 		.dropdown-menu li{
 			position: relative;
