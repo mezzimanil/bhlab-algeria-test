@@ -298,9 +298,9 @@
                                 <hr>
                                 <ul class="subnav">
                                   <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">  Treeview menu &raquo   </a>
-                                      <ul class="dropdown-menu">
-                                      <li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
+                                    
+                                      
+                                      
                                       <li><a class="dropdown-item" href="#"> Dropdown item 2 &raquo </a>
                                          <ul class="submenu dropdown-menu">
                                           <li><a class="dropdown-item" href="">Submenu item 1</a></li>
@@ -317,7 +317,7 @@
                                       </li>
                                       <li><a class="dropdown-item" href="#"> Dropdown item 3 </a></li>
                                       <li><a class="dropdown-item" href="#"> Dropdown item 4 </a>
-                                      </ul>
+                                      
                                   </li>
                                   <li class="subnav-item">
                                     <a href="#" class="subnav-link">Another menuitem</a>
