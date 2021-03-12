@@ -427,7 +427,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-5">
+                          <div class="col-6">
                             <div class="map bo8 bo-rad-10 of-hidden">
                               <!--data-pin="images/icons/icon-position-map.png" 
                               
