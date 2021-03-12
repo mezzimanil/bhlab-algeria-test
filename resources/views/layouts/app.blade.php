@@ -376,56 +376,84 @@
                       <div class="container">
                         <div class="row">
                           <div class="col-7 pr-5">
-                            <div class="row">
-                              <div class="col-6">
-                                <h3 class="">Another title</h3>
-                                <hr>
-                                <ul class="subnav">
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 1</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Another menuitem</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 3</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 1</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Another menuitem</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 3</a>
-                                  </li>
-                                </ul>
+                            <div class="card">
+                   
+                              <div class="card-header">
+                                  Envoyer un message
+          
                               </div>
-                              <div class="col-6">
-                                <h3 class="">Some title</h3>
-                                <hr>
-                                <ul class="subnav">
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 1</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Another menuitem</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 3</a>
-                                  </li>
-                                </ul>
+                              <div class="card-body bg-secondary">
+                                  @if (Session::get('message_sent'))
+                                 <div class="alert alert-success" role="alert">
+                                      {{Session::get('message_sent')}}
+                                 </div>
+                                  @endif
+                                  <form method="POST" action="{{route('contact.send')}}" enctype="multipart/form-data">
+                                      @csrf
+                                      
+                                      <div class="form-group row">
+                                          <label for="name">{{ __('Votre nom') }}</label>
+              
+                                         
+                                              <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+              
+                                              @error('name')
+                                                  <span class="invalid-feedback" role="alert">
+                                                      <strong>{{ $message }}</strong>
+                                                  </span>
+                                              @enderror
+                                          
+                                      </div>
+              
+                                      <div class="form-group row">
+                                          <label for="email" >{{ __('Votre E-Mail ') }}</label>
+              
+                                          
+                                              <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
+              
+                                              @error('email')
+                                                  <span class="invalid-feedback" role="alert">
+                                                      <strong>{{ $message }}</strong>
+                                                  </span>
+                                              @enderror
+                                          
+                                      </div>
+                                      <div class="form-group row">
+                                          <label for="phone">{{ __('Votre numero de telephone') }}</label>
+              
+                                         
+                                              <input id="phone" type="text" class="form-control @error('phone') is-invalid @enderror" name="phone" value="{{ old('phone') }}" required autocomplete="phone" autofocus>
+              
+                                              @error('phone')
+                                                  <span class="invalid-feedback" role="alert">
+                                                      <strong>{{ $message }}</strong>
+                                                  </span>
+                                              @enderror
+                                          
+                                      </div>
+                                      <div class="form-group">
+                                          <label for="message">{{ __('Votre message') }}</label>
+                                         
+                                            <textarea class="form-control @error('message') is-invalid @enderror" id="message" name="message" placeholder="Entré votre message..." rows="5"></textarea>
+                                            @error('message')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                        @enderror
+                                        </div>
+              
+              
+                                      <div class="form-group row mb-0">
+                                          <div class="col-md-6 offset-md-4">
+                                              <button type="submit" class="btn btn-primary">
+                                                  envoyer message
+                                              </button>
+                                          </div>
+                                      </div>
+                                     
+                                  </form>
                               </div>
-                            </div>
-                            <hr>
-                            <div class="d-flex">
-                              <div class="align-self-center pr-4">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti reprehenderit provident ipsam quibusdam, iste ad amet exercitationem sunt. Impedit libero aperiam ratione reiciendis dolorem itaque aut quas eos labore.
-                              </div>
-                              <div class="align-self-center">
-                                <a href="#" class="btn btn-outline-primary">Click me</a>
-                              </div>
-                            </div>
+                          </div>
                           </div>
                           <div class="col-5">
                             <div class="map bo8 bo-rad-9 of-hidden">
