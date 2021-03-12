@@ -375,7 +375,7 @@
                     <div class="megamenu-content" aria-labelledby="megamenu-dropdown-3">
                       <div class="container">
                         <div class="row">
-                          <div class="col-8 pr-5">
+                          <div class="col-6 pr-5">
                             <div class="row">
                               <div class="col-6">
                                 <h3 class="">Another title</h3>
