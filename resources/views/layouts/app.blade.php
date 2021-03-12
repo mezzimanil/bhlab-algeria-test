@@ -124,7 +124,7 @@
 }
 .megamenu .megamenu-nav .subnav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
     position: absolute;
-    left: -100%;
+    right: -100%;
     top: 0;
     opacity: 0 !important;
     visibility: hidden !important;
