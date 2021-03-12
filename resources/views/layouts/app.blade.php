@@ -78,7 +78,7 @@
             box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
     background: #0d1028;
     position: absolute;
-    
+    top: 80px;
     left: 100%;
     width: 250px;
     z-index: 99;
@@ -405,15 +405,7 @@
                                       </li>
                                     </ul>
                                   </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Another menuitem</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 3</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 4</a>
-                                  </li>
+                                
                                 </ul>
                               </div>
                               <div class="col-6">
