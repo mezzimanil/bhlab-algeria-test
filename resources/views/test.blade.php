@@ -337,63 +337,11 @@ a.meanmenu-reveal {
 	<div class="main-nav">
 		<div class="container">
 			<nav class="navbar navbar-expand-md navbar-light">
-				<a class="navbar-brand" href="#">
-					Logo
-				</a>
+			
 				<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a href="#" class="nav-link dropdown-toggle active">Home</a>
-							<ul class="dropdown-menu">
-								<li class="nav-item">
-									<a href="#" class="nav-link">Home Page 2</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">Home Page 3</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">Home Page 4</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">Home Page 5</a>
-								</li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">About</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">Services</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">Team</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">Testimonials</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">Contact</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link dropdown-toggle">Pages</a>
-							<ul class="dropdown-menu">
-								<li class="nav-item">
-									<a href="#" class="nav-link">About</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">Services</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">Team</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">Testimonials</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">Contact</a>
-								</li>
-							</ul>
-						</li>
+						
+					
 						<li class="nav-item">
 							<a href="#" class="nav-link dropdown-toggle">Dropdown</a>
 							<ul class="dropdown-menu">
