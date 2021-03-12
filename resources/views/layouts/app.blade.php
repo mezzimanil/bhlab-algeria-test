@@ -73,7 +73,7 @@
  
 }
 
-.megamenu .megamenu-nav .nav-item .dropdown-menu {
+.megamenu .megamenu-nav .subnav-item .dropdown-menu {
     -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
             box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
     background: #0d1028;
@@ -92,11 +92,11 @@
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-.megamenu .megamenu-nav .nav-item .dropdown-menu li {
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li {
     position: relative;
     padding: 0;
 }
-.megamenu .megamenu-nav .nav-item .dropdown-menu li a {
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li a {
     font-size: 15px;
     font-weight: 500;
     text-transform: capitalize;
@@ -105,48 +105,48 @@
     display: block;
     color: #ffffff;
 }
-.megamenu .megamenu-nav .nav-item .dropdown-menu li a:hover, 
-.megamenu .megamenu-nav .nav-item .dropdown-menu li a:focus, 
-.megamenu .megamenu-nav .nav-item .dropdown-menu li a.active {
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li a:hover, 
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li a:focus, 
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li a.active {
     color: #FF2D55;
 }
-.megamenu .megamenu-nav .nav-item .dropdown-menu li .dropdown-menu {
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li .dropdown-menu {
     position: absolute;
     left: -100%;
     top: 0;
     opacity: 0 !important;
     visibility: hidden !important;
 }
-.megamenu .megamenu-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li:hover .dropdown-menu {
     opacity: 1 !important;
     visibility: visible !important;
     top: -20px !important;
 }
-.megamenu .megamenu-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
     position: absolute;
     left: -100%;
     top: 0;
     opacity: 0 !important;
     visibility: hidden !important;
 }
-.megamenu .megamenu-nav .nav-item .dropdown-menu li:hover .dropdown-menu li:hover .dropdown-menu {
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li:hover .dropdown-menu li:hover .dropdown-menu {
     opacity: 1 !important;
     visibility: visible !important;
     top: -20px !important;
 }
-.megamenu .megamenu-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li .dropdown-menu li a {
     color: #ffffff;
     text-transform: capitalize;
 }
-.megamenu .megamenu-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, 
-.megamenu .megamenu-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, 
-.megamenu .megamenu-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li .dropdown-menu li a:hover, 
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li .dropdown-menu li a:focus, 
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li .dropdown-menu li a.active {
     color: #FF2D55;
 }
-.megamenu .megamenu-nav .nav-item .dropdown-menu li:hover a {
+.megamenu .megamenu-nav .subnav-item .dropdown-menu li:hover a {
     color: #FF2D55;
 }
-.megamenu .megamenu-nav .nav-item:hover ul {
+.megamenu .megamenu-nav .subnav-item:hover ul {
     opacity: 1;
     visibility: visible;
     top: 100%;
@@ -364,7 +364,7 @@
                                 <h3 class="">Some title</h3>
                                 <hr>
                                 <ul class="subnav">
-                                  <li class="nav-item">
+                                  <li class="subnav-item">
                                     <a href="#" class="nav-link dropdown-toggle">Dropdown</a>
                                     <ul class="dropdown-menu">
                                       <li class="nav-item">
