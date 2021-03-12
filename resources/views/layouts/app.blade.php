@@ -297,27 +297,9 @@
                                 <h3 class="">Some title</h3>
                                 <hr>
                                 <ul class="subnav">
-                                  <li class="nav-item dropdown">
-                                    
-                                    
-                                   
-                                      <li><a class="dropdown-item" href="#"> Dropdown item 2 &raquo </a>
-                                         <ul class="submenu dropdown-menu">
-                                          <li><a class="dropdown-item" href="">Submenu item 1</a></li>
-                                          <li><a class="dropdown-item" href="">Submenu item 2</a></li>
-                                          <li><a class="dropdown-item" href="">Submenu item 3 &raquo </a>
-                                            <ul class="submenu dropdown-menu">
-                                              <li><a class="dropdown-item" href="">Multi level 1</a></li>
-                                              <li><a class="dropdown-item" href="">Multi level 2</a></li>
-                                          </ul>
-                                          </li>
-                                          <li><a class="dropdown-item" href="">Submenu item 4</a></li>
-                                          <li><a class="dropdown-item" href="">Submenu item 5</a></li>
-                                       </ul>
-                                      </li>
-                                  
-                                      
-                                  </li>
+                                 <li class="subnav-item">
+                                         @include('test')
+                                 </li>
                                   <li class="subnav-item">
                                     <a href="#" class="subnav-link">Another menuitem</a>
                                   </li>
