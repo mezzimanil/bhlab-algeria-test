@@ -383,11 +383,7 @@
           
                               </div>
                               <div class="card-body bg-secondary">
-                                  @if (Session::get('message_sent'))
-                                 <div class="alert alert-success" role="alert">
-                                      {{Session::get('message_sent')}}
-                                 </div>
-                                  @endif
+                                
                                   <form method="POST" action="{{route('contact.send')}}" enctype="multipart/form-data">
                                       @csrf
                                       
@@ -558,6 +554,11 @@
         
        
         <main class="py-4">
+          @if (Session::get('message_sent'))
+          <div class="alert alert-success" role="alert">
+               {{Session::get('message_sent')}}
+          </div>
+           @endif
             @if(session('success'))
         <div class="alert alert-success mt-5">
             {{ session('success')}}
