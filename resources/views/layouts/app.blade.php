@@ -434,7 +434,7 @@
                               class="contact-map size37" id="google_map" data-map-x="40.704644" data-map-y="-74.011987" data-scrollwhell="0" data-draggable="1"
                           
                           -->
-                              <div class="contact-map size37">
+                              <div class="contact-map size36">
                                   
                                   <iframe  src="https://maps.google.com/maps?q=BH%20Lab%20Alg%C3%A9rie&t=&z=13&ie=UTF8&iwloc=&output=embed" width="1200" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                               </div>
