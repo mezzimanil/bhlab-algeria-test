@@ -297,10 +297,10 @@
                                 <h3 class="">Some title</h3>
                                 <hr>
                                 <ul class="subnav">
-                                 
+                                  <li class="nav-item dropdown">
                                     
-                                     
-                                      
+                                      <ul class="dropdown-menu">
+                                   
                                       <li><a class="dropdown-item" href="#"> Dropdown item 2 &raquo </a>
                                          <ul class="submenu dropdown-menu">
                                           <li><a class="dropdown-item" href="">Submenu item 1</a></li>
@@ -315,9 +315,9 @@
                                           <li><a class="dropdown-item" href="">Submenu item 5</a></li>
                                        </ul>
                                       </li>
-                                    
-                                     
-                                 
+                                  
+                                      </ul>
+                                  </li>
                                   <li class="subnav-item">
                                     <a href="#" class="subnav-link">Another menuitem</a>
                                   </li>
