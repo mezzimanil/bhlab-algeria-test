@@ -151,9 +151,9 @@
     visibility: visible;
     top: 100%;
 }
-.megamenu .megamenu-nav .nav-item:last-child .dropdown-menu {
-    left: auto;
-    right: 0;
+.megamenu .megamenu-nav .subnav-item:last-child .dropdown-menu {
+    left: 0;
+    right: auto;
 }
   .megamenu .megamenu-nav {
     padding: 0;
