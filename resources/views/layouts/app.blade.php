@@ -428,9 +428,17 @@
                             </div>
                           </div>
                           <div class="col-4">
-                            <img src="{{ asset('image/3.jpg') }}" class="img-fluid mb-3" alt="test image">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, expedita sint quis rem amet, a nihil, non sunt ea quasi.</p>
-                            <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
+                            <div class="map bo8 bo-rad-10 of-hidden">
+                              <!--data-pin="images/icons/icon-position-map.png" 
+                              
+                              class="contact-map size37" id="google_map" data-map-x="40.704644" data-map-y="-74.011987" data-scrollwhell="0" data-draggable="1"
+                          
+                          -->
+                              <div class="contact-map size37">
+                                  
+                                  <iframe  src="https://maps.google.com/maps?q=BH%20Lab%20Alg%C3%A9rie&t=&z=13&ie=UTF8&iwloc=&output=embed" width="1200" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                              </div>
+                          </div>
                           </div>
                         </div>
                       </div>
