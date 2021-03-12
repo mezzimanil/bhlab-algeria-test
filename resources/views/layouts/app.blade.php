@@ -193,7 +193,11 @@
      
      <nav class="megamenu  fixed-top bg-light">
      
-       
+      @if (Session::get('message_sent'))
+      <div class="alert alert-success" role="alert">
+           {{Session::get('message_sent')}}
+      </div>
+       @endif
               <!-- Right Side Of Navbar -->
              
 
@@ -554,11 +558,6 @@
         
        
         <main class="py-4">
-          @if (Session::get('message_sent'))
-          <div class="alert alert-success" role="alert">
-               {{Session::get('message_sent')}}
-          </div>
-           @endif
             @if(session('success'))
         <div class="alert alert-success mt-5">
             {{ session('success')}}
