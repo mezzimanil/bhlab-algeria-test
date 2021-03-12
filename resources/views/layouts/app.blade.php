@@ -428,7 +428,7 @@
                             </div>
                           </div>
                           <div class="col-6">
-                            <div class="map bo8 bo-rad-10 of-hidden">
+                            <div class="map bo8 bo-rad-9 of-hidden">
                               <!--data-pin="images/icons/icon-position-map.png" 
                               
                               class="contact-map size37" id="google_map" data-map-x="40.704644" data-map-y="-74.011987" data-scrollwhell="0" data-draggable="1"
