@@ -366,7 +366,7 @@
                                 <ul class="subnav">
                                   <li class="subnav-item">
                                     <a href="#" class="nav-link dropdown-toggle">Dropdown</a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu dropright">
                                       <li class="nav-item">
                                         <a href="#" class="nav-link dropdown-toggle">Submenu 1</a>
                                         <ul class="dropdown-menu">
