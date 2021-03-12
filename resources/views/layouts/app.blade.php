@@ -369,7 +369,7 @@
                     </div>
                    </li>
                    <li class="nav-item is-parent">
-                    <a class="nav-link" href="#" id="megamenu-dropdown-3" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link" href="{{route('contact')}}" id="megamenu-dropdown-3" aria-haspopup="true" aria-expanded="false">
                       Contact-us <i class="fa fa-angle-down"></i>
                     </a>
                     <div class="megamenu-content" aria-labelledby="megamenu-dropdown-3">
