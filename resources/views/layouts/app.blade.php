@@ -77,7 +77,7 @@
     -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
             box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
     background: #0d1028;
-    position: absolute;
+    position: sticky;
     top: 80px;
     left: 0;
     width: 250px;
