@@ -336,7 +336,7 @@ a.meanmenu-reveal {
 	<!-- Menu For Desktop Device -->
 	<div class="main-nav">
 		<div class="container">
-		
+			<nav class="navbar navbar-expand-md navbar-light">
 			
 				<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
@@ -385,7 +385,7 @@ a.meanmenu-reveal {
 						</li>
 					</ul>
 				</div>
-			
+			</nav>
 		</div>
 	</div>
 </div>
