@@ -79,7 +79,7 @@
     background: #0d1028;
     position: sticky;
     top: 80px;
-    left: 0;
+    left: 100%;
     width: 250px;
     z-index: 99;
     display: block;
@@ -366,7 +366,7 @@
                                 <ul class="subnav">
                                   <li class="subnav-item">
                                     <a href="#" class="nav-link dropdown-toggle">Dropdown</a>
-                                    <ul class="dropdown-menu dropright">
+                                    <ul class="dropdown-menu">
                                       <li class="nav-item">
                                         <a href="#" class="nav-link dropdown-toggle">Submenu 1</a>
                                         <ul class="dropdown-menu">
