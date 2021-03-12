@@ -234,23 +234,7 @@
     opacity: 1;
   }
 
-  @media (min-width: 992px){
-		. .dropdown-menu .dropdown-toggle:after{
-			border-top: .3em solid transparent;
-		    border-right: 0;
-		    border-bottom: .3em solid transparent;
-		    border-left: .3em solid;
-		}
-
-		.dropdown-menu .dropdown-menu{
-			margin-left:2; margin-right: 0;
-
-		}
-
-		.dropdown-menu li{
-			position: relative;
-      
-		}
+ 
 		.nav-item .submenu{ 
 			display: none;
 			position: absolute;
