@@ -200,7 +200,7 @@
               
               <ul class="megamenu-nav d-flex justify-content-center">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                  <img src="{{ asset('image/loe.png') }}" >
+                  <img src="{{ asset('image/lole.png') }}" >
                 </a>
             
                   <!-- Authentication Links -->
