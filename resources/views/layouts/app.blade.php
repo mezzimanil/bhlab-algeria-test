@@ -77,7 +77,7 @@
     -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
             box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
             background: #0d1028;
-    position: absolute;
+    position: relative;
     top: 80px;
     left: 0;
     width: 250px;
@@ -93,7 +93,7 @@
     transition: all 0.3s ease-in-out;
 }
 .megamenu .megamenu-nav .subnav-item .dropdown-menu li {
-    position: absolute;
+    position: relative;
     padding: 0;
 }
 .megamenu .megamenu-nav .subnav-item .dropdown-menu li a {
