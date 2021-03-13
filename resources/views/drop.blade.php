@@ -18,7 +18,7 @@
 
 
 </head>
-<body class="bg-light">
+<body>
 
 	<div class="dropdown">
 		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">
