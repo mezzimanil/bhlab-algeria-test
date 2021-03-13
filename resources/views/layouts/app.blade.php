@@ -304,7 +304,7 @@
                                 <ul class="subnav">
                                
                                       <li class="subnav-item">
-                                        <div class="dropright">
+                                      
 
                                           <div class="btn-group">
                                             <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle"
@@ -336,7 +336,7 @@
                                               </li>
                                             </ul>
                                           </div>
-                                        </div>
+                                        
                                       </li>
                                 
                                 </ul>
