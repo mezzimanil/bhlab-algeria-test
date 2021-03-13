@@ -34,13 +34,22 @@
             .dropdown-submenu:hover>.dropdown-menu {
                 display: block;
             }
+
+			.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  
+}
 </style>
 
 </head>
 <body>
 
-	<div class="container">
-		<div class="row">
+<div class="container">
+	<div class="row">
+
+		<div class="column">
 			<div class="col-lg-12">
 				
 					
@@ -285,7 +294,8 @@
 					
 				
 			</div>
-
+		</div>
+<div class="column">
 			<div class="col-lg-12">
 
 				<div class="row"> 
@@ -422,6 +432,7 @@
 					</div>
 				</div>
 			</div>
+</div>
 		</div>
 	</div>
 
