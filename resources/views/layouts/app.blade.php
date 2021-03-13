@@ -246,6 +246,13 @@
                                </p>
                                <p>
                                   Plus de 50 employés
+                                  <br>
+                                  <h5>
+                                    07 représentants commerciaux
+                                    <br>
+                                    13 ingénieurs & applicatifs
+
+                                  </h5>
                                       
                                </p>
                                 
