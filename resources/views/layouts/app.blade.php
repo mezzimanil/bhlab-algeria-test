@@ -305,7 +305,7 @@
                       <div class="container">
                         <div class="row">
                           <div class="col-8 pr-5">
-                            <h3 class="">Some title</h3>
+                            <h3 class="">Familles</h3>
                                 <hr>
                             <div class="row">
                               
