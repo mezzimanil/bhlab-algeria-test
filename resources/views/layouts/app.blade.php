@@ -379,8 +379,8 @@
                                                                Immuno Hémathologie
                                                             </a>
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                              <li><a class="dropdown-item" href="#">MERCK SARL</a></li>
+                                                              <li><a class="dropdown-item" href="#">OCD ORTHO CLINICAL DIAGNOSTICS</a></li>
                                                             </ul>
                                                           </div>
                                                         </div>
