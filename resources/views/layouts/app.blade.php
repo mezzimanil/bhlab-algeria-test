@@ -475,11 +475,26 @@
                                                           <div class="btn-group">
                                                             <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
                                                                href="">
-                                                              Dropdown
+                                                               Consommables
                                                             </a>
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                              <li><a class="dropdown-item" href="#">CAPP APS</a></li>
+                                                              
+                                                             
+                                                            
+                                                            </ul>
+                                                          </div>
+                                                        </div>
+                                          
+                                                        <div class="col-lg-12 mt-3">
+                                                          <div class="btn-group">
+                                                            <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
+                                                               href="">
+                                                               Typage HLA
+                                                            </a>
+                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                              <li><a class="dropdown-item" href="#">LAGITRE INTERNATIONAL SRL ITALIE</a></li>
+                                                              
                                                              
                                                             
                                                             </ul>
@@ -495,86 +510,54 @@
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
                                                               <li><a class="dropdown-item" href="#">level 1</a></li>
                                                               <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                              <li class="dropdown-divider"></li>
+                                                            
+                                                            </ul>
+                                                          </div>
+                                                        </div>
+                                          
+                                                        <div class="col-lg-12 mt-3">
+                                                          <div class="btn-group">
+                                                            <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
+                                                               href="">
+                                                               Bio moléculaire
+                                                            </a>
+                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                              <li><a class="dropdown-item" href="#">ADALTIS</a></li>
+                                                              <li><a class="dropdown-item" href="#">ENTROGEN USA</a></li>
+                                                              <li><a class="dropdown-item" href="#">	
+                                                                SACACE BIOTECHNOLOGIES</a></li>
+                                                              
+                                                            
+                                                            </ul>
+                                                          </div>
+                                                        </div>
+                                          
+                                                        <div class="col-lg-12 mt-3">
+                                                          <div class="btn-group">
+                                                            <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
+                                                               href="">
+                                                               Immuno chimie
+                                                            </a>
+                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                              <li><a class="dropdown-item" href="#">	
+                                                                BINDING SITE</a></li>
+                                                              
+                                                            
+                                                            </ul>
+                                                          </div>
+                                                        </div>
+                                          
+                                                        <div class="col-lg-12 mt-3">
+                                                          <div class="btn-group">
+                                                            <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
+                                                               href="">
+                                                               Hémathologie
+                                                            </a>
+                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                              <li><a class="dropdown-item" href="#">HORIBA</a></li>
                                                              
                                                             
-                                                            </ul>
-                                                          </div>
-                                                        </div>
-                                          
-                                                        <div class="col-lg-12 mt-3">
-                                                          <div class="btn-group">
-                                                            <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
-                                                               href="">
-                                                              Dropdown
-                                                            </a>
-                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                              <li class="dropdown-divider"></li>
-                                                            
-                                                            </ul>
-                                                          </div>
-                                                        </div>
-                                          
-                                                        <div class="col-lg-12 mt-3">
-                                                          <div class="btn-group">
-                                                            <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
-                                                               href="">
-                                                              Dropdown
-                                                            </a>
-                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                              <li class="dropdown-divider"></li>
-                                                            
-                                                            </ul>
-                                                          </div>
-                                                        </div>
-                                          
-                                                        <div class="col-lg-12 mt-3">
-                                                          <div class="btn-group">
-                                                            <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
-                                                               href="">
-                                                              Dropdown
-                                                            </a>
-                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                              <li class="dropdown-divider"></li>
-                                                            
-                                                            </ul>
-                                                          </div>
-                                                        </div>
-                                          
-                                                        <div class="col-lg-12 mt-3">
-                                                          <div class="btn-group">
-                                                            <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
-                                                               href="">
-                                                              Dropdown
-                                                            </a>
-                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                              <li class="dropdown-divider"></li>
-                                                              <li class="dropdown-submenu">
-                                                                <a class="dropdown-item" tabindex="-1" href="#">
-                                                                  level 1
-                                                                </a>
-                                                                <ul class="dropdown-menu">
-                                                                  <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
-                                                                  <li class="dropdown-submenu">
-                                                                    <a class="dropdown-item" href="#">
-                                                                      level 2
-                                                                    </a>
-                                                                    <ul class="dropdown-menu">
-                                                                      <li><a class="dropdown-item" href="#">3rd level</a></li>
-                                                                      <li><a class="dropdown-item" href="#">3rd level</a></li>
-                                                                    </ul>
-                                                                  </li>
-                                                                  <li><a class="dropdown-item" href="#">level 2</a></li>
-                                                                  <li><a class="dropdown-item" href="#">level 2</a></li>
-                                                                </ul>
-                                                              </li>
                                                             </ul>
                                                           </div>
                                                         </div>
