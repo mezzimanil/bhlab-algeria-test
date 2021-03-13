@@ -76,10 +76,10 @@
 											</ul>
 										</li>
 									</ul>
-
-									
 								</div>
+							</div>
 
+							<div class="col-lg-12">
 								<div class="btn-group">
 									<a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle"
 									   href="">
@@ -109,10 +109,10 @@
 											</ul>
 										</li>
 									</ul>
-
-									
 								</div>
+							</div>
 
+							<div class="col-lg-12">
 								<div class="btn-group">
 									<a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle"
 									   href="">
@@ -142,8 +142,6 @@
 											</ul>
 										</li>
 									</ul>
-
-									
 								</div>
 							</div>
 						</div>
