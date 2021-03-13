@@ -364,47 +364,7 @@
                                 <h3 class="">Some title</h3>
                                 <hr>
                                 <ul class="subnav">
-                                  <li class="subnav-item">
-                                    <a href="#" class="nav-link dropdown-toggle">Dropdown</a>
-                                    <ul class="dropdown-menu">
-                                      <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">Submenu 1</a>
-                                        <ul class="dropdown-menu">
-                                          <li class="nav-item">
-                                            <a href="#" class="nav-link">Item 1</a>
-                                          </li>
-                                          <li class="nav-item">
-                                            <a href="#" class="nav-link">Item 2</a>
-                                          </li>
-                                        </ul>
-                                      </li>
-                                      <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">Submenu 2</a>
-                                        <ul class="dropdown-menu">
-                                          <li class="nav-item">
-                                            <a href="#" class="nav-link">Item 1</a>
-                                          </li>
-                                          <li class="nav-item">
-                                            <a href="#" class="nav-link">Item 2</a>
-                                          </li>
-                                          <li class="nav-item">
-                                            <a href="#" class="nav-link dropdown-toggle">Submenu 3</a>
-                                            <ul class="dropdown-menu">
-                                              <li class="nav-item">
-                                                <a href="#" class="nav-link">Item 1</a>
-                                              </li>
-                                              <li class="nav-item">
-                                                <a href="#" class="nav-link">Item 2</a>
-                                              </li>
-                                              <li class="nav-item">
-                                                <a href="#" class="nav-link">Item 3</a>
-                                              </li>
-                                            </ul>
-                                          </li>
-                                        </ul>
-                                      </li>
-                                    </ul>
-                                  </li>
+                               
                                       <li class="subnav-item">
                                   <div class="btn-group dropright">
                                     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
