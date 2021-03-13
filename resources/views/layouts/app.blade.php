@@ -571,9 +571,9 @@
                                      
                                 </ul>
                               </div>
-                              <div class="col-5">
+                            
                                
-                                  <div class="row">
+                                
                                     <div class="col-5">
                                       <h3 class="">Some title</h3>
                                       <hr>
@@ -840,8 +840,8 @@
                                       </ul>
                                     </div>
                                   
-                                </div>
-                              </div>
+                                
+                              
                             </div>
                             <hr>
                             <div class="d-flex">
