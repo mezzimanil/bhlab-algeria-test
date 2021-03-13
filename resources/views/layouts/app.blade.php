@@ -305,9 +305,10 @@
                       <div class="container">
                         <div class="row">
                           <div class="col-8 pr-5">
-                            <div class="row">
-                              <h3 class="">Some title</h3>
+                            <h3 class="">Some title</h3>
                                 <hr>
+                            <div class="row">
+                              
                               <div class="col-5">
                                 
                                 <ul class="subnav">
