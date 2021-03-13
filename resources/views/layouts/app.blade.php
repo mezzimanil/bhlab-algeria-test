@@ -708,7 +708,22 @@
                                      
                                 </ul>
                               </div>
-                            
+                              <div class="col-5">
+                                <div class="col-8 pr-5">
+                                  <div class="row">
+                                    <div class="col-5">
+                                      <h3 class="">Some title</h3>
+                                      <hr>
+                                      <ul class="subnav">
+                                     
+                                            <li class="subnav-item">
+                                              <a href="#" class="subnav-link">Menuitem 1</a>
+                                            </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                             <hr>
                             <div class="d-flex">
