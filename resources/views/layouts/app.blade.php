@@ -93,7 +93,7 @@
     transition: all 0.3s ease-in-out;
 }
 .megamenu .megamenu-nav .subnav-item .dropdown-menu li {
-    position: relative;
+    position: absolute;
     padding: 0;
 }
 .megamenu .megamenu-nav .subnav-item .dropdown-menu li a {
