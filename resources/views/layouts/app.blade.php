@@ -287,6 +287,15 @@
                                           @include('drop')
                                         </div>
                                       </li>
+                                      <li class="subnav-item">
+                                        <a href="#" class="subnav-link">Another menuitem</a>
+                                      </li>
+                                      <li class="subnav-item">
+                                        <a href="#" class="subnav-link">Menuitem 3</a>
+                                      </li>
+                                      <li class="subnav-item">
+                                        <a href="#" class="subnav-link">Another menuitem 2</a>
+                                      </li>
                                 
                                 </ul>
                               </div>
