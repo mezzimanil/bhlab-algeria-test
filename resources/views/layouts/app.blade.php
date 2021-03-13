@@ -405,6 +405,16 @@
                                       </li>
                                     </ul>
                                   </li>
+                                      <li class="subnav-item">
+                                  <div class="btn-group dropright">
+                                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Dropright
+                                    </button>
+                                    <div class="dropdown-menu">
+                                      <!-- Dropdown menu links -->
+                                    </div>
+                                  </div>
+                                      </li>
                                 
                                 </ul>
                               </div>
