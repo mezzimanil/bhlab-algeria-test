@@ -22,6 +22,10 @@
     
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <!-- Styles -->
  
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -162,7 +166,32 @@
 		.nav-item .submenu-left{ 
 			right:100%; left:auto;
 		}
- 
+    .dropdown-submenu {
+                position: relative;
+            }
+
+            .dropdown-submenu> a:after {
+                content: ">";
+                float: right;
+            }
+
+            .dropdown-submenu>.dropdown-menu {
+                top: 0;
+                left: 100%;
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+
+            .dropdown-submenu:hover>.dropdown-menu {
+                display: block;
+            }
+
+			.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  
+}
     
       </style>
 
@@ -284,7 +313,6 @@
                                
                                       <li class="subnav-item">
                                         <div class="dropright">
-                                          @include('drop')
                                           <div class="container">
                                             <div class="row">
                                           
@@ -674,6 +702,7 @@
                                           </div>
                                               </div>
                                             </div>
+                                          
                                         </div>
                                       </li>
                                      
@@ -993,7 +1022,17 @@
 
   <!-- Footer -->
 </body>
-
+<script type="text/javascript">
+	$(".btn-group, .dropdown").hover(
+                        function () {
+                            $('>.dropdown-menu', this).stop(true, true).fadeIn("fast");
+                            $(this).addClass('open');
+                        },
+                        function () {
+                            $('>.dropdown-menu', this).stop(true, true).fadeOut("fast");
+                            $(this).removeClass('open');
+                        });
+	</script>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.9.0/jquery.hoverIntent.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js'></script>
