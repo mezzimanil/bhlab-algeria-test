@@ -316,7 +316,7 @@
                                           <div class="container">
                                             <div class="row">
                                           
-                                              <div class="column">
+                                             
                                                 <div class="col-lg-12">
                                                   
                                                     
@@ -560,145 +560,9 @@
                                                       </div>
                                                     
                                                   
-                                                </div>
+                                                
                                               </div>
-                                          <div class="column">
-                                                <div class="col-lg-12">
                                           
-                                                  <div class="row"> 
-                                                    <div class="col-lg-12 mt-3">
-                                                      <div class="btn-group">
-                                                        <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
-                                                           href="">
-                                                          Dropdown
-                                                        </a>
-                                                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                          <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                          <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                          <li class="dropdown-divider"></li>
-                                                          <li class="dropdown-submenu">
-                                                            <a class="dropdown-item" tabindex="-1" href="#">
-                                                              level 1
-                                                            </a>
-                                                            <ul class="dropdown-menu">
-                                                              <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
-                                                              <li class="dropdown-submenu">
-                                                                <a class="dropdown-item" href="#">
-                                                                  level 2
-                                                                </a>
-                                                                <ul class="dropdown-menu">
-                                                                  <li><a class="dropdown-item" href="#">3rd level</a></li>
-                                                                  <li><a class="dropdown-item" href="#">3rd level</a></li>
-                                                                </ul>
-                                                              </li>
-                                                              <li><a class="dropdown-item" href="#">level 2</a></li>
-                                                              <li><a class="dropdown-item" href="#">level 2</a></li>
-                                                            </ul>
-                                                          </li>
-                                                        </ul>
-                                                      </div>
-                                                    </div>
-                                          
-                                                    <div class="col-lg-12 mt-3">
-                                                      <div class="btn-group">
-                                                        <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
-                                                           href="">
-                                                          Dropdown
-                                                        </a>
-                                                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                          <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                          <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                          <li class="dropdown-divider"></li>
-                                                          <li class="dropdown-submenu">
-                                                            <a class="dropdown-item" tabindex="-1" href="#">
-                                                              level 1
-                                                            </a>
-                                                            <ul class="dropdown-menu">
-                                                              <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
-                                                              <li class="dropdown-submenu">
-                                                                <a class="dropdown-item" href="#">
-                                                                  level 2
-                                                                </a>
-                                                                <ul class="dropdown-menu">
-                                                                  <li><a class="dropdown-item" href="#">3rd level</a></li>
-                                                                  <li><a class="dropdown-item" href="#">3rd level</a></li>
-                                                                </ul>
-                                                              </li>
-                                                              <li><a class="dropdown-item" href="#">level 2</a></li>
-                                                              <li><a class="dropdown-item" href="#">level 2</a></li>
-                                                            </ul>
-                                                          </li>
-                                                        </ul>
-                                                      </div>
-                                                    </div>
-                                          
-                                                    <div class="col-lg-12 mt-3">
-                                                      <div class="btn-group">
-                                                        <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
-                                                           href="">
-                                                          Dropdown
-                                                        </a>
-                                                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                          <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                          <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                          <li class="dropdown-divider"></li>
-                                                          <li class="dropdown-submenu">
-                                                            <a class="dropdown-item" tabindex="-1" href="#">
-                                                              level 1
-                                                            </a>
-                                                            <ul class="dropdown-menu">
-                                                              <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
-                                                              <li class="dropdown-submenu">
-                                                                <a class="dropdown-item" href="#">
-                                                                  level 2
-                                                                </a>
-                                                                <ul class="dropdown-menu">
-                                                                  <li><a class="dropdown-item" href="#">3rd level</a></li>
-                                                                  <li><a class="dropdown-item" href="#">3rd level</a></li>
-                                                                </ul>
-                                                              </li>
-                                                              <li><a class="dropdown-item" href="#">level 2</a></li>
-                                                              <li><a class="dropdown-item" href="#">level 2</a></li>
-                                                            </ul>
-                                                          </li>
-                                                        </ul>
-                                                      </div>
-                                                    </div>
-                                          
-                                                    <div class="col-lg-12 mt-3">
-                                                      <div class="btn-group">
-                                                        <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
-                                                           href="">
-                                                          Dropdown
-                                                        </a>
-                                                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                          <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                          <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                          <li class="dropdown-divider"></li>
-                                                          <li class="dropdown-submenu">
-                                                            <a class="dropdown-item" tabindex="-1" href="#">
-                                                              level 1
-                                                            </a>
-                                                            <ul class="dropdown-menu">
-                                                              <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
-                                                              <li class="dropdown-submenu">
-                                                                <a class="dropdown-item" href="#">
-                                                                  level 2
-                                                                </a>
-                                                                <ul class="dropdown-menu">
-                                                                  <li><a class="dropdown-item" href="#">3rd level</a></li>
-                                                                  <li><a class="dropdown-item" href="#">3rd level</a></li>
-                                                                </ul>
-                                                              </li>
-                                                              <li><a class="dropdown-item" href="#">level 2</a></li>
-                                                              <li><a class="dropdown-item" href="#">level 2</a></li>
-                                                            </ul>
-                                                          </li>
-                                                        </ul>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                                </div>
                                           </div>
                                               </div>
                                             </div>
@@ -717,7 +581,138 @@
                                       <ul class="subnav">
                                      
                                             <li class="subnav-item">
-                                              <a href="#" class="subnav-link">Menuitem 1</a>
+                                              <div class="row"> 
+                                                <div class="col-lg-12 mt-3">
+                                                  <div class="btn-group">
+                                                    <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
+                                                       href="">
+                                                      Dropdown
+                                                    </a>
+                                                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                      <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                      <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                      <li class="dropdown-divider"></li>
+                                                      <li class="dropdown-submenu">
+                                                        <a class="dropdown-item" tabindex="-1" href="#">
+                                                          level 1
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                          <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+                                                          <li class="dropdown-submenu">
+                                                            <a class="dropdown-item" href="#">
+                                                              level 2
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                              <li><a class="dropdown-item" href="#">3rd level</a></li>
+                                                              <li><a class="dropdown-item" href="#">3rd level</a></li>
+                                                            </ul>
+                                                          </li>
+                                                          <li><a class="dropdown-item" href="#">level 2</a></li>
+                                                          <li><a class="dropdown-item" href="#">level 2</a></li>
+                                                        </ul>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                      
+                                                <div class="col-lg-12 mt-3">
+                                                  <div class="btn-group">
+                                                    <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
+                                                       href="">
+                                                      Dropdown
+                                                    </a>
+                                                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                      <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                      <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                      <li class="dropdown-divider"></li>
+                                                      <li class="dropdown-submenu">
+                                                        <a class="dropdown-item" tabindex="-1" href="#">
+                                                          level 1
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                          <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+                                                          <li class="dropdown-submenu">
+                                                            <a class="dropdown-item" href="#">
+                                                              level 2
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                              <li><a class="dropdown-item" href="#">3rd level</a></li>
+                                                              <li><a class="dropdown-item" href="#">3rd level</a></li>
+                                                            </ul>
+                                                          </li>
+                                                          <li><a class="dropdown-item" href="#">level 2</a></li>
+                                                          <li><a class="dropdown-item" href="#">level 2</a></li>
+                                                        </ul>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                      
+                                                <div class="col-lg-12 mt-3">
+                                                  <div class="btn-group">
+                                                    <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
+                                                       href="">
+                                                      Dropdown
+                                                    </a>
+                                                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                      <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                      <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                      <li class="dropdown-divider"></li>
+                                                      <li class="dropdown-submenu">
+                                                        <a class="dropdown-item" tabindex="-1" href="#">
+                                                          level 1
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                          <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+                                                          <li class="dropdown-submenu">
+                                                            <a class="dropdown-item" href="#">
+                                                              level 2
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                              <li><a class="dropdown-item" href="#">3rd level</a></li>
+                                                              <li><a class="dropdown-item" href="#">3rd level</a></li>
+                                                            </ul>
+                                                          </li>
+                                                          <li><a class="dropdown-item" href="#">level 2</a></li>
+                                                          <li><a class="dropdown-item" href="#">level 2</a></li>
+                                                        </ul>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                      
+                                                <div class="col-lg-12 mt-3">
+                                                  <div class="btn-group">
+                                                    <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
+                                                       href="">
+                                                      Dropdown
+                                                    </a>
+                                                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                      <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                      <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                      <li class="dropdown-divider"></li>
+                                                      <li class="dropdown-submenu">
+                                                        <a class="dropdown-item" tabindex="-1" href="#">
+                                                          level 1
+                                                        </a>
+                                                        <ul class="dropdown-menu">
+                                                          <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+                                                          <li class="dropdown-submenu">
+                                                            <a class="dropdown-item" href="#">
+                                                              level 2
+                                                            </a>
+                                                            <ul class="dropdown-menu">
+                                                              <li><a class="dropdown-item" href="#">3rd level</a></li>
+                                                              <li><a class="dropdown-item" href="#">3rd level</a></li>
+                                                            </ul>
+                                                          </li>
+                                                          <li><a class="dropdown-item" href="#">level 2</a></li>
+                                                          <li><a class="dropdown-item" href="#">level 2</a></li>
+                                                        </ul>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
                                             </li>
                                       </ul>
                                     </div>
