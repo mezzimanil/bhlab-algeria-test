@@ -580,7 +580,7 @@
                             </div>
                           </div>
                           <div class="col-5">
-                            <img src="{{ asset('image/pa.png') }}" class="img-fluid mb-3" alt="test image">
+                            <img src="{{ asset('image/pa.png') }}"  width="600" height="450" class="img-fluid mb-3" alt="test image">
                             <p>Plus de 15 marques pour répondre aux différents besoins de nos partenaire.</p>
                             <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
                           </div>
