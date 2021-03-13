@@ -237,11 +237,14 @@
                               <div class="col-8">
                                <p>
                                 12 ans expertise dans le domaine du diagnostic médical .
-                                  <br class="mt-3">
+                               </p>
+                               <p>
                                   Plus de 20% de croissance en 2019
-                                  <br class="mt-3">
+                               </p>
+                               <p>
                                   50% du CA dans le secteur publique et milieux hospitalier
-                                  <br class="mt-3">
+                               </p>
+                               <p>
                                   Plus de 50 employés
                                       
                                </p>
