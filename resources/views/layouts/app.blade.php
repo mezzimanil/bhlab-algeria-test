@@ -407,11 +407,11 @@
                                                           <div class="btn-group">
                                                             <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
                                                                href="">
-                                                              Dropdown
+                                                               Hémostase
                                                             </a>
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                              <li><a class="dropdown-item" href="#">Werfen</a></li>
+                                                             
                                                              
                                                             </ul>
                                                           </div>
