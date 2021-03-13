@@ -285,22 +285,32 @@
                                 <ul class="subnav">
                                
                                       <li class="subnav-item">
-                                  <div class="btn-group dropright">
-                                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Dropright
-                                    </button>
-                                    <div class="dropdown-menu">
-                                      <!-- Dropdown menu links -->
-                                     
-                                        <a href="#" class="nav-link dropdown-toggle">Submenu 1</a>
-                                    
-                                   
-                                        <a href="#" class="nav-link dropdown-toggle">Submenu 2</a>
-                                    
-                                        <a href="#" class="nav-link dropdown-toggle">Submenu 3</a>
-                                      
-                                    </div>
-                                  </div>
+                                        <div class="btn-group dropright">
+                                          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">
+                                           Dropdown <span class="caret"></span>
+                                          </button>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li class="dropdown">
+                                              <a href="#">One more dropdown</a>
+                                              <ul class="dropdown-menu">
+                                                <li><a href="#">Action</a></li>
+                                                <li><a href="#">Another action</a></li>
+                                                <li class="dropdown">
+                                                  <a href="#">One more dropdown</a>
+                                                  <ul class="dropdown-menu">
+                                                  ...
+                                                  </ul>
+                                                </li>
+                                                <li><a href="#">Something else here</a></li>
+                                                <li><a href="#">Separated link</a></li>
+                                               </ul>
+                                            </li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li><a href="#">Separated link</a></li>
+                                          </ul>
+                                        </div>
                                       </li>
                                 
                                 </ul>
