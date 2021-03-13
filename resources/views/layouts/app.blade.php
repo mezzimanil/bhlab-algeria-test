@@ -162,23 +162,24 @@
 		.nav-item .submenu-left{ 
 			right:100%; left:auto;
 		}
-    .dropdown-submenu {
+    
+    .megamenu .megamenu-content .subnav-item .dropdown-submenu {
                       position: relative;
                   }
       
-                  .dropdown-submenu> a:after {
+                  .megamenu .megamenu-content .subnav-item .dropdown-submenu> a:after {
                       content: ">";
                       float: right;
                   }
       
-                  .dropdown-submenu>.dropdown-menu {
+                  .megamenu .megamenu-content .subnav-item .dropdown-submenu>.dropdown-menu {
                       top: 0;
                       left: 100%;
                       margin-top: 0px;
                       margin-left: 0px;
                   }
       
-                  .dropdown-submenu:hover>.dropdown-menu {
+                  .megamenu .megamenu-content .subnav-item .dropdown-submenu:hover>.dropdown-menu {
                       display: block;
                   }
 		
@@ -304,7 +305,7 @@
                                 <ul class="subnav">
                                
                                       <li class="subnav-item">
-                                        <div class="dropright">
+                                        
                                         	<div class="btn-group">
                                             <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle"
                                                href="">
@@ -335,7 +336,7 @@
                                               </li>
                                             </ul>
                                           </div>
-                                        </div>
+                                       
                                       </li>
                                 
                                 </ul>
