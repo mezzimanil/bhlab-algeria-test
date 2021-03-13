@@ -385,19 +385,7 @@
                                                           </div>
                                                         </div>
                                           
-                                                        <div class="col-lg-12 mt-3">
-                                                          <div class="btn-group">
-                                                            <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
-                                                               href="">
-                                                              Dropdown
-                                                            </a>
-                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
-                                                             
-                                                            </ul>
-                                                          </div>
-                                                        </div>
+                                                     
                                           
                                                         <div class="col-lg-12 mt-3">
                                                           <div class="btn-group">
@@ -411,6 +399,20 @@
                                                               <li><a class="dropdown-item" href="#"> D-TEK sa BELGIQUE</a></li>
                                                              
                                                             
+                                                            </ul>
+                                                          </div>
+                                                        </div>
+
+                                                        <div class="col-lg-12 mt-3">
+                                                          <div class="btn-group">
+                                                            <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
+                                                               href="">
+                                                              Dropdown
+                                                            </a>
+                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                              <li><a class="dropdown-item" href="#">level 1</a></li>
+                                                             
                                                             </ul>
                                                           </div>
                                                         </div>
