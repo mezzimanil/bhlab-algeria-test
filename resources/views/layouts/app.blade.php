@@ -581,7 +581,7 @@
                           </div>
                           <div class="col-4">
                             <img src="{{ asset('image/pa.png') }}" class="img-fluid mb-3" alt="test image">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, expedita sint quis rem amet, a nihil, non sunt ea quasi.</p>
+                            <p>Plus de 15 marques pour répondre aux différents besoins de nos partenaire.</p>
                             <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
                           </div>
                         </div>
