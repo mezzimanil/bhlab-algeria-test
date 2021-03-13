@@ -287,7 +287,7 @@
                             </div>
                           </div>
                           <div class="col-5">
-                            <img src="{{ asset('image/p.jpg') }}"  width="600" height="450" class=" mb-3" alt="test image">
+                            <img src="{{ asset('image/p.jpg') }}"  width="450" height="450" class=" mb-3" alt="test image">
                             <p>
                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, expedita sint quis rem amet, a nihil, non sunt ea quasi.
                             </p>
