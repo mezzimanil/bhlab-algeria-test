@@ -162,14 +162,33 @@
 		.nav-item .submenu-left{ 
 			right:100%; left:auto;
 		}
-
-		.dropdown-menu > li:hover{ background-color: #f1f1f1 }
-		.dropdown-menu > li:hover > .submenu{
-			display: block;
-		}
-	}
+    .dropdown-submenu {
+                      position: relative;
+                  }
+      
+                  .dropdown-submenu> a:after {
+                      content: ">";
+                      float: right;
+                  }
+      
+                  .dropdown-submenu>.dropdown-menu {
+                      top: 0;
+                      left: 100%;
+                      margin-top: 0px;
+                      margin-left: 0px;
+                  }
+      
+                  .dropdown-submenu:hover>.dropdown-menu {
+                      display: block;
+                  }
+		
     
       </style>
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+      
+      
      
 </head>
 <body>
@@ -649,42 +668,17 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <!-- MeanMenu JS -->
 <script src="https://techsolutionshere.com/wp-content/themes/techsolution/assets/blog-post-css-js/jquery.meanmenu.js"></script>
-<script>
-	// Mean Menu
-	jQuery('.mean-menu').meanmenu({
-		meanScreenWidth: "991"
-	});
-</script>
-
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.9.0/jquery.hoverIntent.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js'></script>
 <script type="text/javascript">
-  /// some script
-  
-  // jquery ready start
-  $(document).ready(function() {
-    // jQuery code
-  
-    //////////////////////// Prevent closing from click inside dropdown
-      $(document).on('click', '.dropdown-menu', function (e) {
-        e.stopPropagation();
-      });
-  
-      // make it as accordion for smaller screens
-      if ($(window).width() < 992) {
-        $('.dropdown-menu a').click(function(e){
-          e.preventDefault();
-            if($(this).next('.submenu').length){
-              $(this).next('.submenu').toggle();
-            }
-            $('.dropdown').on('hide.bs.dropdown', function () {
-           $(this).find('.submenu').hide();
-        })
-        });
-    }
-    
-  }); // jquery end
-  </script>
+	$(".btn-group, .dropdown").hover(
+                        function () {
+                            $('>.dropdown-menu', this).stop(true, true).fadeIn("fast");
+                            $(this).addClass('open');
+                        },
+                        function () {
+                            $('>.dropdown-menu', this).stop(true, true).fadeOut("fast");
+                            $(this).removeClass('open');
+                        });
+	</script>
 <script type="text/javascript">
 	/// some script
 	
