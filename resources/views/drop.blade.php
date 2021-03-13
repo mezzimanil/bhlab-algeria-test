@@ -12,43 +12,67 @@
 
 
 
-<link href="{{ asset('css/hover.css') }}" rel="stylesheet">
-<link href="{{ asset('css/boot.css') }}" rel="stylesheet">
-<link href="{{ asset('css/animate.min.css') }}" rel="stylesheet">
-
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
 </head>
 <body>
 
-	<div class="dropdown">
-		<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">
-		 Dropdown <span class="caret"></span>
-		</button>
-		<ul class="dropdown-menu">
-		  <li><a href="#">Action</a></li>
-		  <li><a href="#">Another action</a></li>
-		  <li class="dropdown">
-			<a href="#">One more dropdown</a>
-			<ul class="dropdown-menu">
-			  <li><a href="#">Action</a></li>
-			  <li><a href="#">Another action</a></li>
-			  <li class="dropdown">
-				<a href="#">One more dropdown</a>
-				<ul class="dropdown-menu">
-				...
-				</ul>
-			  </li>
-			  <li><a href="#">Something else here</a></li>
-			  <li><a href="#">Separated link</a></li>
-			 </ul>
-		  </li>
-		  <li><a href="#">Something else here</a></li>
-		  <li><a href="#">Separated link</a></li>
-		</ul>
-	  </div>
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="card my-3">
+					<div class="card-header">
+						Bootstrap 4 Multilevel Dropdown Hover
+						<div class="options float-right">
+							<a class="settings"><i class="fa fa-cog"></i></a>
+							<a href="#" class="collapse"><i class="fa fa-chevron-up"></i></a>
+							<a href="#" class="reload"><i class="fa fa-refresh"></i></a>
+							<a href="#" class="fullscreen"><i class=" fa fa-expand"></i></a>
+							<a href="#" class="remove"><i class="fa fa-times"></i></a>
+						</div>
+					</div>
+					<div class="card-body">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="btn-group">
+									<a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle"
+									   href="">
+										Dropdown
+									</a>
+									<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+										<li><a class="dropdown-item" href="#">level 1</a></li>
+										<li><a class="dropdown-item" href="#">level 1</a></li>
+										<li class="dropdown-divider"></li>
+										<li class="dropdown-submenu">
+											<a class="dropdown-item" tabindex="-1" href="#">
+												level 1
+											</a>
+											<ul class="dropdown-menu">
+												<li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+												<li class="dropdown-submenu">
+													<a class="dropdown-item" href="#">
+														level 2
+													</a>
+													<ul class="dropdown-menu">
+														<li><a class="dropdown-item" href="#">3rd level</a></li>
+														<li><a class="dropdown-item" href="#">3rd level</a></li>
+													</ul>
+												</li>
+												<li><a class="dropdown-item" href="#">level 2</a></li>
+												<li><a class="dropdown-item" href="#">level 2</a></li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-	  <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-	  <script src="{{ asset('js/bootstrap-dropdownhover.js') }}"></script>
+	  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </body>
 </html>
