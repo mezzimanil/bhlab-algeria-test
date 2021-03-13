@@ -13,7 +13,7 @@
 
 
 <link href="{{ asset('css/hover.css') }}" rel="stylesheet">
-<link href="{{ asset('css/boo.css') }}" rel="stylesheet">
+<link href="{{ asset('css/boot.css') }}" rel="stylesheet">
 <link href="{{ asset('css/animate.min.css') }}" rel="stylesheet">
 
 
