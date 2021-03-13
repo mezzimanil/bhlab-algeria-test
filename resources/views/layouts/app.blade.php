@@ -545,15 +545,7 @@
                                 
                               
                             </div>
-                            <hr>
-                            <div class="d-flex">
-                              <div class="align-self-center pr-4">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti reprehenderit provident ipsam quibusdam, iste ad amet exercitationem sunt. Impedit libero aperiam ratione reiciendis dolorem itaque aut quas eos labore.
-                              </div>
-                              <div class="align-self-center">
-                                <a href="#" class="btn btn-outline-primary">Click me</a>
-                              </div>
-                            </div>
+                           
                           </div>
                           <div class="col-5">
                             <img src="{{ asset('image/pa.png') }}"  width="600" height="450" class=" mb-3" alt="test image">
