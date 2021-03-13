@@ -235,26 +235,26 @@
                             <hr>
                             <div class="row">
                               <div class="col-8">
-                               <p>
+                               <h5>
                                 12 ans expertise dans le domaine du diagnostic médical .
-                               </p>
-                               <p>
+                               </h5>
+                               <h5>
                                   Plus de 20% de croissance en 2019
-                               </p>
-                               <p>
+                               </h5>
+                               <h5>
                                   50% du CA dans le secteur publique et milieux hospitalier
-                               </p>
-                               <p>
+                               </h5>
+                               <h5>
                                   Plus de 50 employés
                                   <br>
-                                  <h5>
+                                  <p>
                                     07 représentants commerciaux
                                     <br>
                                     13 ingénieurs & applicatifs
 
-                                  </h5>
+                                  </p>
                                       
-                               </p>
+                                </h5>
                                 
                               </div>
                               
