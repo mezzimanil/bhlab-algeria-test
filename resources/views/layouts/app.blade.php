@@ -737,7 +737,7 @@
                 <ul class="contact">
                   <li ><a href="https://www.google.com/maps/place/BH+Lab+Alg%C3%A9rie/@36.7381177,3.2729815,17z/data=!3m1!4b1!4m5!3m4!1s0x128e45f00db49887:0x3d6679ffdc636f78!8m2!3d36.7381177!4d3.2751702" ><i class="fa fa-home"></i>BH LAB sarl 130 Cité Cadat 16012, Rouïba</a></li>
                   <li style="color: azure"><i class="fa fa-phone"></i>+1 (234) 123 1234
-                  
+                  <br>
                     <i class="fa fa-phone"></i>+1 (234) 123 1234
                   </li>
                   <li style="color: azure"><i class="fa fa-envelope"></i>info@company.com</li>
