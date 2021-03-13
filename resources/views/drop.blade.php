@@ -11,9 +11,10 @@
 <!-- jQuery -->
 
 
-<script src="{{ asset('js/app.js') }}"></script>
-<link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
+<link href="{{ asset('css/hover.css') }}" rel="stylesheet">
+<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ asset('css/animate.min.css') }}" rel="stylesheet">
 
 
 </head>
@@ -45,6 +46,9 @@
 		  <li><a href="#">Separated link</a></li>
 		</ul>
 	  </div>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+	  <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+	  <script src="{{ asset('js/bootstrap-dropdownhover.js') }}"></script>
 </body>
 </html>
