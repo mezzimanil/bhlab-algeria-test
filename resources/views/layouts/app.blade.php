@@ -656,76 +656,7 @@
                       </div>
                     </div>
                    </li>
-                   <li class="nav-item is-parent">
-                    <a class="nav-link" href="#" id="megamenu-dropdown-4" aria-haspopup="true" aria-expanded="false">
-                      Link 4 <i class="fa fa-angle-down"></i>
-                    </a>
-                    <div class="megamenu-content" aria-labelledby="megamenu-dropdown-4">
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-8 pr-5">
-                            <div class="row">
-                              <div class="col-6">
-                                <h3 class="">Some title</h3>
-                                <hr>
-                                <ul class="subnav">
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 1</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Another menuitem</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 3</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 4</a>
-                                  </li>
-                                </ul>
-                              </div>
-                              <div class="col-6">
-                                <h3 class="">Another title</h3>
-                                <hr>
-                                <ul class="subnav">
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 1</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Another menuitem</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 3</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Another menuitem 2</a>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                            <hr>
-                            <div class="d-flex">
-                              <div class="align-self-center pr-4">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corrupti reprehenderit provident ipsam quibusdam, iste ad amet exercitationem sunt. Impedit libero aperiam ratione reiciendis dolorem itaque aut quas eos labore.
-                              </div>
-                              <div class="align-self-center">
-                                <a href="#" class="btn btn-outline-primary">Click me</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-4">
-                            <img src="{{ asset('image/wizard-city2.jpg') }}" class="img-fluid mb-3" alt="test image">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, expedita sint quis rem amet, a nihil, non sunt ea quasi.</p>
-                            <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                   </li> 
-                   <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      Link without megamenu
-                    </a>
-                   </li>
+                  
                    </ul>
                    <div class="megamenu-background" id="megamenu-background"></div>
                 
