@@ -230,7 +230,7 @@
                     <div class="megamenu-content" aria-labelledby="megamenu-dropdown-1">
                       <div class="container">
                         <div class="row">
-                          <div class="col-8 pr-5">
+                          <div class="col-7 pr-5">
                             <div class="row">
                               <div class="col-6">
                                 <h3 class="">Another title</h3>
@@ -286,8 +286,8 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-4">
-                            <img src="{{ asset('image/1.jpg') }}" class="img-fluid mb-3" alt="test image">
+                          <div class="col-5">
+                            <img src="{{ asset('image/p.jpg') }}"  width="600" height="450" class=" mb-3" alt="test image">
                             <p>
                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, expedita sint quis rem amet, a nihil, non sunt ea quasi.
                             </p>
