@@ -42,18 +42,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="card my-3">
-					<div class="card-header">
-						Bootstrap 4 Multilevel Dropdown Hover
-						<div class="options float-right">
-							<a class="settings"><i class="fa fa-cog"></i></a>
-							<a href="#" class="collapse"><i class="fa fa-chevron-up"></i></a>
-							<a href="#" class="reload"><i class="fa fa-refresh"></i></a>
-							<a href="#" class="fullscreen"><i class=" fa fa-expand"></i></a>
-							<a href="#" class="remove"><i class="fa fa-times"></i></a>
-						</div>
-					</div>
-					<div class="card-body">
+				
+					
+					
 						<div class="row">
 							<div class="col-lg-12">
 								<div class="btn-group">
@@ -88,8 +79,8 @@
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
+					
+				
 			</div>
 		</div>
 	</div>
