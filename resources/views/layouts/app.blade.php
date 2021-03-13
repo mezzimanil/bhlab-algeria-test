@@ -76,10 +76,10 @@
 .megamenu .megamenu-nav .subnav-item .dropdown-menu {
     -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
             box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
-    background: #0d1028;
+            background: #0d1028;
     position: absolute;
     top: 80px;
-    left: 100%;
+    left: 0;
     width: 250px;
     z-index: 99;
     display: block;
