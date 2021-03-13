@@ -231,50 +231,23 @@
                       <div class="container">
                         <div class="row">
                           <div class="col-7 pr-5">
+                            <h3 class="">Another title</h3>
+                            <hr>
                             <div class="row">
                               <div class="col-6">
-                                <h3 class="">Another title</h3>
-                                <hr>
-                                <ul class="subnav">
-                                 
-                                   
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Another menuitem</a>
-                                  </li>
-                                    
-                                  
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Another menuitem</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 3</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 1</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Another menuitem</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 3</a>
-                                  </li>
-                                </ul>
+                               <p>
+                                12 ans expertise dans le domaine du diagnostic médical .
+                                  <br>
+                                  Plus de 20% de croissance en 2019
+                                  <br>
+                                  50% du CA dans le secteur publique et milieux hospitalier
+                                  <br>
+                                  Plus de 50 employés
+                                      
+                               </p>
+                                
                               </div>
-                              <div class="col-6">
-                                <h3 class="">Some title</h3>
-                                <hr>
-                                <ul class="subnav">
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 1</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Another menuitem</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 3</a>
-                                  </li>
-                                </ul>
-                              </div>
+                              
                             </div>
                            
                           </div>
