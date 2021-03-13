@@ -740,7 +740,7 @@
                   <br>
                     <i class="fa fa-phone"></i> Fax: +213 21 85 52 20
                   </li>
-                  <li style="color: azure"><i class="fa fa-envelope"></i>info.bhlab@bhinvest.net/li>
+                  <li style="color: azure"><i class="fa fa-envelope"></i>info.bhlab@bhinvest.net </li>
 
                  
                 </ul>
