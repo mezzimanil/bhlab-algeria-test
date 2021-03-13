@@ -304,7 +304,7 @@
                     <div class="megamenu-content" aria-labelledby="megamenu-dropdown-2">
                       <div class="container">
                         <div class="row">
-                          <div class="col-8 pr-5">
+                          <div class="col-7 pr-5">
                             <h3 class="">Familles</h3>
                                 <hr>
                             <div class="row">
@@ -579,7 +579,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col-4">
+                          <div class="col-5">
                             <img src="{{ asset('image/pa.png') }}" class="img-fluid mb-3" alt="test image">
                             <p>Plus de 15 marques pour répondre aux différents besoins de nos partenaire.</p>
                             <a href="#">Read more <i class="fa fa-angle-double-right"></i></a>
