@@ -285,7 +285,7 @@
                                 <ul class="subnav">
                                
                                       <li class="subnav-item">
-                                        <div class="dropdown">
+                                        <div class="dropright">
                                           <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">
                                            Dropdown <span class="caret"></span>
                                           </button>
