@@ -162,24 +162,23 @@
 		.nav-item .submenu-left{ 
 			right:100%; left:auto;
 		}
-    
-    .megamenu .megamenu-content .subnav-item .dropdown-submenu {
+    .dropdown-submenu {
                       position: relative;
                   }
       
-                  .megamenu .megamenu-content .subnav-item .dropdown-submenu> a:after {
+                  .dropdown-submenu> a:after {
                       content: ">";
                       float: right;
                   }
       
-                  .megamenu .megamenu-content .subnav-item .dropdown-submenu>.dropdown-menu {
+                  .dropdown-submenu>.dropdown-menu {
                       top: 0;
                       left: 100%;
                       margin-top: 0px;
                       margin-left: 0px;
                   }
       
-                  .megamenu .megamenu-content .subnav-item .dropdown-submenu:hover>.dropdown-menu {
+                  .dropdown-submenu:hover>.dropdown-menu {
                       display: block;
                   }
 		
@@ -305,8 +304,9 @@
                                 <ul class="subnav">
                                
                                       <li class="subnav-item">
-                                        
-                                        	<div class="btn-group">
+                                        <div class="dropright">
+
+                                          <div class="btn-group">
                                             <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle"
                                                href="">
                                               Dropdown
@@ -336,7 +336,7 @@
                                               </li>
                                             </ul>
                                           </div>
-                                       
+                                        </div>
                                       </li>
                                 
                                 </ul>
@@ -672,20 +672,38 @@
 
   <!-- Footer -->
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<!-- MeanMenu JS -->
-<script src="https://techsolutionshere.com/wp-content/themes/techsolution/assets/blog-post-css-js/jquery.meanmenu.js"></script>
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.9.0/jquery.hoverIntent.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js'></script>
 <script type="text/javascript">
-	$(".btn-group, .dropdown").hover(
-                        function () {
-                            $('>.dropdown-menu', this).stop(true, true).fadeIn("fast");
-                            $(this).addClass('open');
-                        },
-                        function () {
-                            $('>.dropdown-menu', this).stop(true, true).fadeOut("fast");
-                            $(this).removeClass('open');
-                        });
-	</script>
+  /// some script
+  
+  // jquery ready start
+  $(document).ready(function() {
+    // jQuery code
+  
+    //////////////////////// Prevent closing from click inside dropdown
+      $(document).on('click', '.dropdown-menu', function (e) {
+        e.stopPropagation();
+      });
+  
+      // make it as accordion for smaller screens
+      if ($(window).width() < 992) {
+        $('.dropdown-menu a').click(function(e){
+          e.preventDefault();
+            if($(this).next('.submenu').length){
+              $(this).next('.submenu').toggle();
+            }
+            $('.dropdown').on('hide.bs.dropdown', function () {
+           $(this).find('.submenu').hide();
+        })
+        });
+    }
+    
+  }); // jquery end
+  </script>
 <script type="text/javascript">
 	/// some script
 	
