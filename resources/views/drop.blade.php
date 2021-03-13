@@ -12,7 +12,27 @@
 
 
 
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<style type="text/css">
+	.dropdown-submenu {
+                position: relative;
+            }
+
+            .dropdown-submenu> a:after {
+                content: ">";
+                float: right;
+            }
+
+            .dropdown-submenu>.dropdown-menu {
+                top: 0;
+                left: 100%;
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+
+            .dropdown-submenu:hover>.dropdown-menu {
+                display: block;
+            }
+</style>
 
 </head>
 <body>
@@ -72,7 +92,17 @@
 		</div>
 	</div>
 
-	  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	  <script type="text/javascript">
+	$(".btn-group, .dropdown").hover(
+                        function () {
+                            $('>.dropdown-menu', this).stop(true, true).fadeIn("fast");
+                            $(this).addClass('open');
+                        },
+                        function () {
+                            $('>.dropdown-menu', this).stop(true, true).fadeOut("fast");
+                            $(this).removeClass('open');
+                        });
+	</script>
+	
 </body>
 </html>
