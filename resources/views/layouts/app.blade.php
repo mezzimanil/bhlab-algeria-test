@@ -231,7 +231,7 @@
                       <div class="container">
                         <div class="row">
                           <div class="col-7 pr-5">
-                            <h3 class="">Another title</h3>
+                            <h3 class="">À-propos de BH-LAB</h3>
                             <hr>
                             <div class="row">
                               <div class="col-8">
