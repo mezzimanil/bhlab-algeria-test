@@ -162,31 +162,10 @@
 		.nav-item .submenu-left{ 
 			right:100%; left:auto;
 		}
-    .dropdown-submenu {
-                      position: relative;
-                  }
-      
-                  .dropdown-submenu> a:after {
-                      content: ">";
-                      float: right;
-                  }
-      
-                  .dropdown-submenu>.dropdown-menu {
-                      top: 0;
-                      left: 100%;
-                      margin-top: 0px;
-                      margin-left: 0px;
-                  }
-      
-                  .dropdown-submenu:hover>.dropdown-menu {
-                      display: block;
-                  }
-		
+ 
     
       </style>
-      <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-      <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-      <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
       
       
      
@@ -305,30 +284,7 @@
                                
                                       <li class="subnav-item">
                                         <div class="dropright">
-                                          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" data-hover="dropdown">
-                                           Dropdown <span class="caret"></span>
-                                          </button>
-                                          <ul class="dropdown-menu">
-                                            <li><a href="#">Action</a></li>
-                                            <li><a href="#">Another action</a></li>
-                                            <li class="dropdown">
-                                              <a href="#">One more dropdown</a>
-                                              <ul class="dropdown-menu">
-                                                <li><a href="#">Action</a></li>
-                                                <li><a href="#">Another action</a></li>
-                                                <li class="dropdown">
-                                                  <a href="#">One more dropdown</a>
-                                                  <ul class="dropdown-menu">
-                                                  ...
-                                                  </ul>
-                                                </li>
-                                                <li><a href="#">Something else here</a></li>
-                                                <li><a href="#">Separated link</a></li>
-                                               </ul>
-                                            </li>
-                                            <li><a href="#">Something else here</a></li>
-                                            <li><a href="#">Separated link</a></li>
-                                          </ul>
+                                          @include('drop')
                                         </div>
                                       </li>
                                 
