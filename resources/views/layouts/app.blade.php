@@ -234,7 +234,7 @@
                             <h3 class="">Another title</h3>
                             <hr>
                             <div class="row">
-                              <div class="col-6">
+                              <div class="col-8">
                                <p>
                                 12 ans expertise dans le domaine du diagnostic médical .
                                   <br>
