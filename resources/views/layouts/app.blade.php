@@ -331,29 +331,13 @@
                                                                Immuno Analyses
                                                             </a>
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">OCD ORTHO CLINICAL DIAGNOSTICS</a></li>
-                                                              <li><a class="dropdown-item" href="#">DIASORIN SPA ITALIE</a></li>
                                                               <li><a class="dropdown-item" href="#">ADALTIS</a></li>
-                                                              <li class="dropdown-divider"></li>
-                                                              <li class="dropdown-submenu">
-                                                                <a class="dropdown-item" tabindex="-1" href="#">
-                                                                  level 1
-                                                                </a>
-                                                                <ul class="dropdown-menu">
-                                                                  <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
-                                                                  <li class="dropdown-submenu">
-                                                                    <a class="dropdown-item" href="#">
-                                                                      level 2
-                                                                    </a>
-                                                                    <ul class="dropdown-menu">
-                                                                      <li><a class="dropdown-item" href="#">3rd level</a></li>
-                                                                      <li><a class="dropdown-item" href="#">3rd level</a></li>
-                                                                    </ul>
-                                                                  </li>
-                                                                  <li><a class="dropdown-item" href="#">level 2</a></li>
-                                                                  <li><a class="dropdown-item" href="#">level 2</a></li>
-                                                                </ul>
-                                                              </li>
+                                                              <li><a class="dropdown-item" href="#">DIASORIN SPA ITALIE</a></li>
+                                                              <li><a class="dropdown-item" href="#">OCD ORTHO CLINICAL DIAGNOSTICS</a></li>
+                                                              
+                                                             
+                                                              
+                                                              
                                                             </ul>
                                                           </div>
                                                         </div>
