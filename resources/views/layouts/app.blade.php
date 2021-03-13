@@ -316,7 +316,7 @@
                                           <div class="container">
                                             <div class="row">
                                           
-                                             
+                                              <div class="column">
                                                 <div class="col-lg-12">
                                                   
                                                     
@@ -560,7 +560,7 @@
                                                       </div>
                                                     
                                                   
-                                                
+                                                </div>
                                               </div>
                                           
                                           </div>
