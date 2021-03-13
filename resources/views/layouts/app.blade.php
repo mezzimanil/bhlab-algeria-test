@@ -291,6 +291,15 @@
                                     </button>
                                     <div class="dropdown-menu">
                                       <!-- Dropdown menu links -->
+                                      <li class="nav-item">
+                                        <a href="#" class="nav-link dropdown-toggle">Submenu 1</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a href="#" class="nav-link dropdown-toggle">Submenu 2</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a href="#" class="nav-link dropdown-toggle">Submenu 3</a>
+                                      </li>
                                     </div>
                                   </div>
                                       </li>
