@@ -45,8 +45,8 @@
 				
 					
 					
-						<div class="row">
-							<div class="col-lg-12">
+						<div class="row"> 
+							<div class="col-lg-12 mt-5">
 								<div class="btn-group">
 									<a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle"
 									   href="">
@@ -79,7 +79,7 @@
 								</div>
 							</div>
 
-							<div class="col-lg-12">
+							<div class="col-lg-12 mt-5">
 								<div class="btn-group">
 									<a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle"
 									   href="">
@@ -112,7 +112,7 @@
 								</div>
 							</div>
 
-							<div class="col-lg-12">
+							<div class="col-lg-12 mt-5">
 								<div class="btn-group">
 									<a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle"
 									   href="">
