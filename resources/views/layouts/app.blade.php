@@ -306,9 +306,9 @@
                                                                Immuno Analyses
                                                             </a>
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">ADALTIS</a></li>
-                                                              <li><a class="dropdown-item" href="#">DIASORIN SPA ITALIE</a></li>
-                                                              <li><a class="dropdown-item" href="#">OCD ORTHO CLINICAL DIAGNOSTICS</a></li>
+                                                              <li><a class="dropdown-item" href="http://www.adaltis.net/">ADALTIS</a></li>
+                                                              <li><a class="dropdown-item" href="https://www.diasorin.com/">DIASORIN SPA ITALIE</a></li>
+                                                              <li><a class="dropdown-item" href="https://www.orthoclinicaldiagnostics.com/">OCD ORTHO CLINICAL DIAGNOSTICS</a></li>
                                                               
                                                              
                                                               
@@ -324,7 +324,7 @@
                                                                Chimie Clinique
                                                             </a>
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">OCD ORTHO CLINICAL DIAGNOSTICS</a></li>
+                                                              <li><a class="dropdown-item" href="https://www.orthoclinicaldiagnostics.com/">OCD ORTHO CLINICAL DIAGNOSTICS</a></li>
                                                              
                                                           
                                                             </ul>
@@ -338,8 +338,8 @@
                                                                Immuno Hémathologie
                                                             </a>
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">MERCK SARL</a></li>
-                                                              <li><a class="dropdown-item" href="#">OCD ORTHO CLINICAL DIAGNOSTICS</a></li>
+                                                              <li><a class="dropdown-item" href="https://www.merckgroup.com/">MERCK SARL</a></li>
+                                                              <li><a class="dropdown-item" href="https://www.orthoclinicaldiagnostics.com/">OCD ORTHO CLINICAL DIAGNOSTICS</a></li>
                                                             </ul>
                                                           </div>
                                                         </div>
@@ -353,9 +353,9 @@
                                                                Auto Immunité
                                                             </a>
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">	
+                                                              <li><a class="dropdown-item" href="https://www.werfen.com/">	
                                                                 Werfen</a></li>
-                                                              <li><a class="dropdown-item" href="#"> D-TEK sa BELGIQUE</a></li>
+                                                              <li><a class="dropdown-item" href="http://www.d-tek.be/"> D-TEK sa BELGIQUE</a></li>
                                                              
                                                             
                                                             </ul>
@@ -369,7 +369,7 @@
                                                                Hémostase
                                                             </a>
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">Werfen</a></li>
+                                                              <li><a class="dropdown-item" href="https://www.werfen.com/">Werfen</a></li>
                                                              
                                                              
                                                             </ul>
@@ -383,7 +383,7 @@
                                                                Acute Care (Gaz de sang)
                                                             </a>
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">Werfen</a></li>
+                                                              <li><a class="dropdown-item" href="https://www.werfen.com/">Werfen</a></li>
                                                               
                                                              
                                                             
@@ -437,7 +437,7 @@
                                                                Consommables
                                                             </a>
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">CAPP APS</a></li>
+                                                              <li><a class="dropdown-item" href="https://www.capp.dk/">CAPP APS</a></li>
                                                               
                                                              
                                                             
@@ -452,7 +452,7 @@
                                                                Typage HLA
                                                             </a>
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">LAGITRE INTERNATIONAL SRL ITALIE</a></li>
+                                                              <li><a class="dropdown-item" href="https://www.lagitre.com/">LAGITRE INTERNATIONAL SRL ITALIE</a></li>
                                                               
                                                              
                                                             
@@ -468,9 +468,9 @@
                                                                Bio moléculaire
                                                             </a>
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">ADALTIS</a></li>
-                                                              <li><a class="dropdown-item" href="#">ENTROGEN USA</a></li>
-                                                              <li><a class="dropdown-item" href="#">	
+                                                              <li><a class="dropdown-item" href="http://www.adaltis.net/">ADALTIS</a></li>
+                                                              <li><a class="dropdown-item" href="http://entrogen.com/">ENTROGEN USA</a></li>
+                                                              <li><a class="dropdown-item" href="https://sacace.com/">	
                                                                 SACACE BIOTECHNOLOGIES</a></li>
                                                               
                                                             
@@ -485,7 +485,7 @@
                                                                Immuno chimie
                                                             </a>
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">	
+                                                              <li><a class="dropdown-item" href="https://www.bindingsite.com/">	
                                                                 BINDING SITE</a></li>
                                                               
                                                             
@@ -500,7 +500,7 @@
                                                                Hémathologie
                                                             </a>
                                                             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="#">HORIBA</a></li>
+                                                              <li><a class="dropdown-item" href="https://www.horiba.com/">HORIBA</a></li>
                                                              
                                                             
                                                             </ul>
