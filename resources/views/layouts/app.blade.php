@@ -562,7 +562,12 @@
                                                   
                                                 </div>
                                               </div>
+                                          <div class="column">
+                                                <div class="col-lg-12">
                                           
+                                                  
+                                                  </div>
+                                                </div>
                                           </div>
                                               </div>
                                             </div>
