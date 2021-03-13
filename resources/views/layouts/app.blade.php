@@ -306,9 +306,10 @@
                         <div class="row">
                           <div class="col-8 pr-5">
                             <div class="row">
+                              <h3 class="">Some title</h3>
+                              <hr>
                               <div class="col-5">
-                                <h3 class="">Some title</h3>
-                                <hr>
+                               
                                 <ul class="subnav">
                                
                                       <li class="subnav-item">
@@ -575,8 +576,7 @@
                                
                                 
                                     <div class="col-5">
-                                      <h3 class="">Some title</h3>
-                                      <hr>
+                                      
                                       <ul class="subnav">
                                      
                                             <li class="subnav-item">
