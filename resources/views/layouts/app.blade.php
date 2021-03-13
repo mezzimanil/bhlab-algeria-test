@@ -290,24 +290,7 @@
                                      
                                 </ul>
                               </div>
-                              <div class="col-6">
-                                <h3 class="">Another title</h3>
-                                <hr>
-                                <ul class="subnav">
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 1</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Another menuitem</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Menuitem 3</a>
-                                  </li>
-                                  <li class="subnav-item">
-                                    <a href="#" class="subnav-link">Another menuitem 2</a>
-                                  </li>
-                                </ul>
-                              </div>
+                            
                             </div>
                             <hr>
                             <div class="d-flex">
