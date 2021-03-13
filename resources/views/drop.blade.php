@@ -50,11 +50,12 @@
 								<div class="btn-group">
 									<a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
 									   href="">
-										Dropdown
+									   Immuno Analyses
 									</a>
 									<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-										<li><a class="dropdown-item" href="#">level 1</a></li>
-										<li><a class="dropdown-item" href="#">level 1</a></li>
+										<li><a class="dropdown-item" href="#">OCD ORTHO CLINICAL DIAGNOSTICS</a></li>
+										<li><a class="dropdown-item" href="#">DIASORIN SPA ITALIE</a></li>
+										<li><a class="dropdown-item" href="#">ADALTIS</a></li>
 										<li class="dropdown-divider"></li>
 										<li class="dropdown-submenu">
 											<a class="dropdown-item" tabindex="-1" href="#">
