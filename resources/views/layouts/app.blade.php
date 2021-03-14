@@ -280,8 +280,7 @@
                       <div class="container">
                         <div class="row">
                           <div class="col-7 ">
-                            <h3 class="">Familles</h3>
-                                <hr>
+                            
                             <div class="row">
                               
                               <div class="col-5">
