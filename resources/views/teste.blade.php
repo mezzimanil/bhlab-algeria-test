@@ -295,7 +295,7 @@
               
             </p>
             <p  style="color: rgb(0,168,186); margin-left: 90px; margin-top:0px;">
-              <br class="ml-5">
+             
               *Anti gène
                <br>
               *Sérologie
