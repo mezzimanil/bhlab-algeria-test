@@ -256,7 +256,7 @@
             <div class="col-md-5 col-12 order-md-2 order-1">
               <h4 style="color: rgb(36,50,136)">Plus de 15 marques pour répondre aux différents besoins de nos partenaire:
             </h4>
-              <p style="color:rgb(36,50,136)">
+              <p style="color:rgb(36,50,136); margin-left: 90px;">
                   * Immuno Analyses
                   <br>
                  * Chimie Clinique
