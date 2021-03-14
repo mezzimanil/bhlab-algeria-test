@@ -2560,7 +2560,7 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
   var SWIPE_THRESHOLD = 40;
   var Default = {
-    interval: 5000,
+    interval: 15000,
     keyboard: true,
     slide: false,
     pause: 'hover',
