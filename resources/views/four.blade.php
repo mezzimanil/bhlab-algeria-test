@@ -92,10 +92,7 @@ body {
                                         diagnostics
                                     </h4></a>
     
-                                    <p class="m-b-20">
-                                        ks,dflk,sdlfknsld,nvsdlknvlsdknvlskdnvsd
-                                        vslkdnvlskndvlksndvlknsdlkvnsldkvn
-                                    </p>
+                                  
     
                                 </div>
                             </div>
@@ -206,10 +203,7 @@ body {
                                         arkray
                                     </h4></a>
     
-                                    <p class="m-b-20">
-                                        ks,dflk,sdlfknsld,nvsdlknvlsdknvlskdnvsd
-                                        vslkdnvlskndvlksndvlknsdlkvnsldkvn
-                                    </p>
+                                  
     
                                 </div>
                             </div>
@@ -319,10 +313,7 @@ body {
                                         biorad
                                     </h4></a>
     
-                                    <p class="m-b-20">
-                                        ks,dflk,sdlfknsld,nvsdlknvlsdknvlskdnvsd
-                                        vslkdnvlskndvlksndvlknsdlkvnsldkvn
-                                    </p>
+                                  
     
                                 </div>
                             </div>
