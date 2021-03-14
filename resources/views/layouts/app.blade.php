@@ -277,7 +277,7 @@
                       Fournisseur<i class="fa fa-angle-down"></i>
                     </a>
                     <div class="megamenu-content" aria-labelledby="megamenu-dropdown-2">
-                     
+                      <div class="container">
                         <div class="row">
                           <div class="col-7 ">
                             <h3 class="">Familles</h3>
@@ -290,7 +290,7 @@
                                
                                       <li class="subnav-item">
                                         <div class="dropright">
-                                          <div class="container">
+                                         
                                             
                                           
                                               <div class="column">
@@ -478,7 +478,7 @@
                                               </div>
                                           
                                               
-                                            </div>
+                                           
                                           
                                         </div>
                                       </li>
@@ -500,7 +500,7 @@
                            
                           </div>
                         </div>
-                      
+                      </div>
                     </div>
                    </li>
                    <li class="nav-item is-parent">
