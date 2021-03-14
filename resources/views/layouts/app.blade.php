@@ -394,7 +394,99 @@
                                                    
                                           
                                                   
-                                          
+                                                        <div class="column">
+                                                          <div class="col-lg-12">
+                                                            
+                                                              
+                                                              
+                                                                <div class="row"> 
+                                                            
+                                                    
+                                                                  <div class="col-lg-12 ">
+                                                                    <div class="btn-group">
+                                                                      <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
+                                                                         href="">
+                                                                         Consommables
+                                                                      </a>
+                                                                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                                        <li><a class="dropdown-item" href="https://www.capp.dk/">CAPP APS</a></li>
+                                                                        
+                                                                       
+                                                                      
+                                                                      </ul>
+                                                                    </div>
+                                                                  </div>
+                                                    
+                                                                  <div class="col-lg-12 mt-3">
+                                                                    <div class="btn-group">
+                                                                      <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
+                                                                         href="">
+                                                                         Typage HLA
+                                                                      </a>
+                                                                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                                        <li><a class="dropdown-item" href="https://www.lagitre.com/">LAGITRE INTERNATIONAL SRL ITALIE</a></li>
+                                                                        
+                                                                       
+                                                                      
+                                                                      </ul>
+                                                                    </div>
+                                                                  </div>
+                                                    
+                                                    
+                                                                  <div class="col-lg-12 mt-3">
+                                                                    <div class="btn-group">
+                                                                      <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
+                                                                         href="">
+                                                                         Bio moléculaire
+                                                                      </a>
+                                                                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                                        <li><a class="dropdown-item" href="http://www.adaltis.net/">ADALTIS</a></li>
+                                                                        <li><a class="dropdown-item" href="http://entrogen.com/">ENTROGEN USA</a></li>
+                                                                        <li><a class="dropdown-item" href="https://sacace.com/">	
+                                                                          SACACE BIOTECHNOLOGIES</a></li>
+                                                                        
+                                                                      
+                                                                      </ul>
+                                                                    </div>
+                                                                  </div>
+                                                    
+                                                                  <div class="col-lg-12 mt-3">
+                                                                    <div class="btn-group">
+                                                                      <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
+                                                                         href="">
+                                                                         Immuno chimie
+                                                                      </a>
+                                                                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                                        <li><a class="dropdown-item" href="https://www.bindingsite.com/">	
+                                                                          BINDING SITE</a></li>
+                                                                        
+                                                                      
+                                                                      </ul>
+                                                                    </div>
+                                                                  </div>
+                                                    
+                                                                  <div class="col-lg-12 mt-3">
+                                                                    <div class="btn-group">
+                                                                      <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
+                                                                         href="">
+                                                                         Hémathologie
+                                                                      </a>
+                                                                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                                                        <li><a class="dropdown-item" href="https://www.horiba.com/">HORIBA</a></li>
+                                                                       
+                                                                      
+                                                                      </ul>
+                                                                    </div>
+                                                                  </div>
+                                                    
+                                                            
+                                                    
+                                                    
+                                                                </div>
+                                                              
+                                                            
+                                                          </div>
+                                                        </div>
                                           
                                                       </div>
                                                     
@@ -413,117 +505,6 @@
                             
                                
                                 
-                                    <div class="col-5">
-                                      
-                                      <ul class="subnav">
-                                     
-                                            <li class="subnav-item">
-                                        <div class="dropright">
-                                          <div class="container">
-                                            <div class="row">
-                                          
-                                              <div class="column">
-                                                <div class="col-lg-12">
-                                                  
-                                                    
-                                                    
-                                                      <div class="row"> 
-                                                  
-                                          
-                                                        <div class="col-lg-12 ">
-                                                          <div class="btn-group">
-                                                            <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
-                                                               href="">
-                                                               Consommables
-                                                            </a>
-                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="https://www.capp.dk/">CAPP APS</a></li>
-                                                              
-                                                             
-                                                            
-                                                            </ul>
-                                                          </div>
-                                                        </div>
-                                          
-                                                        <div class="col-lg-12 mt-3">
-                                                          <div class="btn-group">
-                                                            <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
-                                                               href="">
-                                                               Typage HLA
-                                                            </a>
-                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="https://www.lagitre.com/">LAGITRE INTERNATIONAL SRL ITALIE</a></li>
-                                                              
-                                                             
-                                                            
-                                                            </ul>
-                                                          </div>
-                                                        </div>
-                                          
-                                          
-                                                        <div class="col-lg-12 mt-3">
-                                                          <div class="btn-group">
-                                                            <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
-                                                               href="">
-                                                               Bio moléculaire
-                                                            </a>
-                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="http://www.adaltis.net/">ADALTIS</a></li>
-                                                              <li><a class="dropdown-item" href="http://entrogen.com/">ENTROGEN USA</a></li>
-                                                              <li><a class="dropdown-item" href="https://sacace.com/">	
-                                                                SACACE BIOTECHNOLOGIES</a></li>
-                                                              
-                                                            
-                                                            </ul>
-                                                          </div>
-                                                        </div>
-                                          
-                                                        <div class="col-lg-12 mt-3">
-                                                          <div class="btn-group">
-                                                            <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
-                                                               href="">
-                                                               Immuno chimie
-                                                            </a>
-                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="https://www.bindingsite.com/">	
-                                                                BINDING SITE</a></li>
-                                                              
-                                                            
-                                                            </ul>
-                                                          </div>
-                                                        </div>
-                                          
-                                                        <div class="col-lg-12 mt-3">
-                                                          <div class="btn-group">
-                                                            <a id="dLabel" role="button" data-toggle="dropdown" class=" dropdown-toggle"
-                                                               href="">
-                                                               Hémathologie
-                                                            </a>
-                                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                                                              <li><a class="dropdown-item" href="https://www.horiba.com/">HORIBA</a></li>
-                                                             
-                                                            
-                                                            </ul>
-                                                          </div>
-                                                        </div>
-                                          
-                                                  
-                                          
-                                          
-                                                      </div>
-                                                    
-                                                  
-                                                </div>
-                                              </div>
-                                          
-                                              </div>
-                                            </div>
-                                          
-                                        </div>
-                                      </li>
-                                     
-                                      </ul>
-                                    </div>
                                   
                                 
                               
