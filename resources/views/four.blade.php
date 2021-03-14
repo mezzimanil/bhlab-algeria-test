@@ -72,10 +72,7 @@ body {
                                    abbott
                                 	</h4></a>
     
-                                    <p class="m-b-20">
-                                        fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
-                                        sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
-                                    </p>
+                                    
     
                                 </div>
                             </div>
@@ -137,10 +134,7 @@ body {
                                     diasorin
                                     </h4></a>
     
-                                    <p class="m-b-20">
-                                        fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
-                                        sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
-                                    </p>
+                                    
     
                                   
                                 </div>
@@ -159,10 +153,7 @@ body {
                                            CAPP
                                     </h4></a>
     
-                                    <p class="m-b-20">
-                                        fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
-                                        sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
-                                    </p>
+                                    
     
                                 </div>
                             </div>
@@ -180,10 +171,7 @@ body {
                                     lagitre
                                     </h4></a>
     
-                                    <p class="m-b-20">
-                                        fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
-                                        sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
-                                    </p>
+                                    
     
                                 </div>
                             </div>
@@ -200,10 +188,7 @@ body {
                                     adaltis
                                 	</h4></a>
     
-                                    <p class="m-b-20">
-                                        fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
-                                        sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
-                                    </p>
+                                    
     
                                 </div>
                             </div>
@@ -263,10 +248,7 @@ body {
                                     merck
                                     </h4></a>
     
-                                    <p class="m-b-20">
-                                        fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
-                                        sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
-                                    </p>
+                                    
     
                                 </div>
                             </div>
@@ -283,10 +265,7 @@ body {
                                     binding site
                                     </h4></a>
     
-                                    <p class="m-b-20">
-                                        fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
-                                        sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
-                                    </p>
+                                    
     
                                 </div>
                             </div>
@@ -303,10 +282,7 @@ body {
                                             d-tek
                                     </h4></a>
     
-                                    <p class="m-b-20">
-                                        fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
-                                        sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
-                                    </p>
+                                    
     
                                 </div>
                             </div>
@@ -325,10 +301,7 @@ body {
                                     sacace
                                 	</h4></a>
     
-                                    <p class="m-b-20">
-                                        fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
-                                        sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
-                                    </p>
+                                    
     
                                 </div>
                             </div>
