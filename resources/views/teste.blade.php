@@ -294,7 +294,7 @@
               <p  style="color: rgb(0,168,186); margin-left: 90px; margin-bottom:0px;">BH LAB relève le défi dans le combat contre la COVID et cela au travers des différents tests de dépistage :
               
             </p>
-            <p  style="color: rgb(0,168,186); margin-left: 90px; margin-top:0px;">
+            <p  style="color: rgb(0,168,186); margin-left: 100px; margin-top:0px;">
              
               *Anti gène
                <br>
