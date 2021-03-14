@@ -281,7 +281,7 @@
                         <div class="row">
                           <div class="col-7 pr-5">
                             <h3 class="">Familles</h3>
-                                
+                                <hr>
                             <div class="row">
                               
                               <div class="col-5">
@@ -291,7 +291,7 @@
                                       <li class="subnav-item">
                                         <div class="dropright">
                                           <div class="container">
-                                            <div class="row">
+                                            
                                           
                                               <div class="column">
                                                 <div class="col-lg-12">
@@ -477,7 +477,7 @@
                                                 </div>
                                               </div>
                                           
-                                              </div>
+                                              
                                             </div>
                                           
                                         </div>
