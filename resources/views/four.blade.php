@@ -110,10 +110,7 @@ body {
                                        Werfen
                                     </h4></a>
     
-                                    <p class="m-b-20">
-                                        kdjfsdlkflskdjflskjdfklsjdflskjdflksjdflskjdfs
-                                        sdflkjsdlfkjslkdfjslkdjflskjdflskjdflksjdf
-                                    </p>
+                                   
     
                                 </div>
                             </div>
@@ -221,10 +218,7 @@ body {
                                     entrogen
                                     </h4></a>
     
-                                    <p class="m-b-20">
-                                        kdjfsdlkflskdjflskjdfklsjdflskjdflksjdflskjdfs
-                                        sdflkjsdlfkjslkdfjslkdjflskjdflskjdflksjdf
-                                    </p>
+                                   
     
                                 </div>
                             </div>
