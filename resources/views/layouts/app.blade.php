@@ -279,7 +279,7 @@
                     <div class="megamenu-content" aria-labelledby="megamenu-dropdown-2">
                       <div class="container">
                         <div class="row">
-                          <div class="col-7 pr-5">
+                          <div class="col-7 ">
                             <h3 class="">Familles</h3>
                                 <hr>
                             <div class="row">
