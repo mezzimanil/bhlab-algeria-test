@@ -281,7 +281,7 @@
                         <div class="row">
                           <div class="col-7 pr-5">
                             <h3 class="">Familles</h3>
-                                <hr>
+                                
                             <div class="row">
                               
                               <div class="col-5">
