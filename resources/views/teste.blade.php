@@ -230,7 +230,7 @@
   <div id="myCarousel" class="carousel slide carousel-fade mt-5" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{ asset('image/1.jpg') }}" class="d-block w-100" alt="img1">
+      <img src="{{ asset('image/1.jpg') }}" class="d-block" alt="img1">
       <div class="mask flex-center">
         
           <div class="row align-items-center">
