@@ -45,7 +45,6 @@
 
 </style>
 <body>
-	<div class="container">
 <main role="main">
 	@include('teste')
 	<div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-color:rgb(36,50,136);">
@@ -57,7 +56,7 @@
 	</div>
 </main>
 
-
+<div class="container">
 	
 	   
 	<!-- Welcome -->
