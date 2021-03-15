@@ -60,8 +60,7 @@
 }
 #myCarousel .container {max-width: 1430px;  }
 #myCarousel .carousel-item{height:100%; min-height:800px; }
-#myCarousel{position:relative; z-index:1;  background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(0,168,186)); }
-
+#myCarousel{position:relative; z-index:1;  background-color : white; 
 .carousel-control-next, .carousel-control-prev{height:40px; width:40px; padding:12px; top:50%; bottom:auto; transform:translateY(-50%); background-color: #adadad; }
 
 
@@ -230,7 +229,7 @@
 <body translate="no" >
   <div id="myCarousel" class="carousel slide carousel-fade mt-5" data-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active" style="background-image: url({{ asset('image/labo.jpg') }})">
       <div class="mask flex-center">
         
           <div class="row align-items-center">
@@ -242,7 +241,7 @@
                 <p style="color: rgb(0,168,186); margin-left: 90px;">
                 Notre politique tend à répondre au maximum aux différents besoins de nos partenaires et cela au travers des différentes gammes que nous proposons.</p>
                </div>
-            <div class="col-md-6 col-12 order-md-2 order-1"><img src="{{ asset('image/labo.jpg') }}" class="mx-auto" alt="slide" style="height: 800px"> </div>
+           
           </div>
         
       </div>
