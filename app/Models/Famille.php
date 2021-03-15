@@ -7,5 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Famille extends Model
 {
+
+    public function fournisseur()
+    {
+        return $this->belongsToMany(' App\Models\Fournisseur');
+    }
     use HasFactory;
 }
