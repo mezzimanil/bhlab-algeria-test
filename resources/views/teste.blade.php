@@ -230,8 +230,6 @@
   <div id="myCarousel" class="carousel slide carousel-fade mt-5" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{ asset('image/labo.jpg') }}" class="d-block w-100" alt="img1">
-
       
       <div class="mask flex-center">
         
@@ -244,7 +242,7 @@
                 <p style="color: rgb(0,168,186); margin-left: 90px;">
                 Notre politique tend à répondre au maximum aux différents besoins de nos partenaires et cela au travers des différentes gammes que nous proposons.</p>
                </div>
-            
+            <div class="col-md-6 col-12 order-md-2 order-1"><img src="{{ asset('image/labo.jpg') }}" class="mx-auto" alt="slide" style="height: 800px"> </div>
           </div>
         
       </div>
