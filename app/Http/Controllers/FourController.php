@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Fournisseur;
 use Illuminate\Http\Request;
 
 class FourController extends Controller
@@ -22,7 +21,7 @@ class FourController extends Controller
     public function index()
     {
 
-        $fournisseurs = Fournisseur::orderBy('created_at', 'DESC');
+        
         return view('four');
 
     }
