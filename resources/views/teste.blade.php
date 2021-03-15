@@ -229,10 +229,10 @@
 <body translate="no" >
   <div id="myCarousel" class="carousel slide carousel-fade mt-5" data-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active" style="background-image: url({{ asset('image/labo.jpg') }})">
-      <div class="mask flex-center">
+    <div class="carousel-item active" >
+      <div class="mask flex-center" >
         
-          <div class="row align-items-center">
+          <div class="row align-items-center" style="background-image: url({{ asset('image/labo.jpg') }})">
             <div class="col-md-6 col-12 order-md- order-2 " >
               <h4 class="ml-5 " style="color: rgb(36,50,136)">Plus de 12 ans d’expérience dans le domaine du diagnostic médical
                 </h4>
