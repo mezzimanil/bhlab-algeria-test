@@ -49,5 +49,6 @@ Route::get('/menu', function () {
     return view('menu');
 });
 
+Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
