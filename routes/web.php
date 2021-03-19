@@ -49,6 +49,4 @@ Route::get('/menu', function () {
     return view('menu');
 });
 
-Auth::routes();
-
 
