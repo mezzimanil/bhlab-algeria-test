@@ -1,11 +1,17 @@
 @extends('layouts.app')
 @section('content')
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/util.css') }}" rel="stylesheet">
+    </head>
+  
     
 
 <style>
-.bg-cover {
-    background-size: cover !important;
-}
+
 
 .container {
   overflow: hidden;
@@ -49,10 +55,7 @@ body {
     min-height: 100vh;
 }
 </style>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<link href="{{ asset('css/main.css') }}" rel="stylesheet">
-<link href="{{ asset('css/util.css') }}" rel="stylesheet">
 
 <body>
 
@@ -436,4 +439,5 @@ body {
     }
         </script>
 </body>
+</html>
 @endsection
