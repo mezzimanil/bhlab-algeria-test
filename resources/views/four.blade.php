@@ -84,11 +84,9 @@
     
             <div class="content-intro  p-t-77 p-b-133" style="background-color: rgb(241, 241, 241)">
             
-                <div class="dropdown" id="myBtnContainer">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: gray">
-                      famille
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div  id="myBtnContainer">
+                   
+                    
                       <button class="btn  active dropdown-item" onclick="filterSelection('all')"> Show all</button>
                       <button class="btn dropdown-item" onclick="filterSelection('Immuno Analyses')"> Immuno Analyses</button>
                       <button class="btn dropdown-item" onclick="filterSelection('Chimie Clinique')"> Chimie Clinique</button>
@@ -102,8 +100,8 @@
                       <button class="btn dropdown-item" onclick="filterSelection('Immuno chimie')"> Immuno chimie</button>
                       <button class="btn dropdown-item" onclick="filterSelection('Hémathologie')"> Hémathologie</button>
  
-                  </div>
-                 
+                  
+                </div>
                 
                 <div class="container">
                     <div class="row">
