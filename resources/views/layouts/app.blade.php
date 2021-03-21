@@ -755,7 +755,8 @@
                         });
 	</script>
 
-
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.9.0/jquery.hoverIntent.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js'></script>
 <script type="text/javascript">
   /// some script
   
