@@ -71,7 +71,7 @@
         
       
         <div class="container marketing ">
-      
+      <div class="row">
           <!-- Three columns of text below the carousel -->
           <div class="col">
           <div  id="myBtnContainer">
@@ -376,6 +376,7 @@
         </section>
         </div>
         </div>
+    
     </main>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
