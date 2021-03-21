@@ -74,7 +74,24 @@
       
           <!-- Three columns of text below the carousel -->
           
-      
+          <div  id="myBtnContainer">
+                   
+                    
+            <button class="btn  active dropdown-item" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn dropdown-item" onclick="filterSelection('Immuno Analyses')"> Immuno Analyses</button>
+            <button class="btn dropdown-item" onclick="filterSelection('Chimie Clinique')"> Chimie Clinique</button>
+            <button class="btn dropdown-item" onclick="filterSelection('Immuno Hémathologie')"> Immuno Hémathologie</button>
+            <button class="btn dropdown-item" onclick="filterSelection('Auto Immunité')"> Auto Immunité</button>
+            <button class="btn dropdown-item" onclick="filterSelection('Hémostase')"> Hémostase</button>
+            <button class="btn dropdown-item" onclick="filterSelection('Acute Care')"> Acute Care (Gaz de sang)</button>
+            <button class="btn dropdown-item" onclick="filterSelection('Consommables')"> Consommables</button>
+            <button class="btn dropdown-item" onclick="filterSelection('Typage HLA')"> Typage HLA</button>
+            <button class="btn dropdown-item" onclick="filterSelection('Bio moléculaire')"> Bio moléculaire</button>
+            <button class="btn dropdown-item" onclick="filterSelection('Immuno chimie')"> Immuno chimie</button>
+            <button class="btn dropdown-item" onclick="filterSelection('Hémathologie')"> Hémathologie</button>
+
+        
+      </div>
       
           <!-- START THE FEATURETTES -->
       
@@ -84,24 +101,7 @@
     
             <div class="content-intro  p-t-77 p-b-133" style="background-color: rgb(241, 241, 241)">
             
-                <div  id="myBtnContainer">
-                   
-                    
-                      <button class="btn  active dropdown-item" onclick="filterSelection('all')"> Show all</button>
-                      <button class="btn dropdown-item" onclick="filterSelection('Immuno Analyses')"> Immuno Analyses</button>
-                      <button class="btn dropdown-item" onclick="filterSelection('Chimie Clinique')"> Chimie Clinique</button>
-                      <button class="btn dropdown-item" onclick="filterSelection('Immuno Hémathologie')"> Immuno Hémathologie</button>
-                      <button class="btn dropdown-item" onclick="filterSelection('Auto Immunité')"> Auto Immunité</button>
-                      <button class="btn dropdown-item" onclick="filterSelection('Hémostase')"> Hémostase</button>
-                      <button class="btn dropdown-item" onclick="filterSelection('Acute Care')"> Acute Care (Gaz de sang)</button>
-                      <button class="btn dropdown-item" onclick="filterSelection('Consommables')"> Consommables</button>
-                      <button class="btn dropdown-item" onclick="filterSelection('Typage HLA')"> Typage HLA</button>
-                      <button class="btn dropdown-item" onclick="filterSelection('Bio moléculaire')"> Bio moléculaire</button>
-                      <button class="btn dropdown-item" onclick="filterSelection('Immuno chimie')"> Immuno chimie</button>
-                      <button class="btn dropdown-item" onclick="filterSelection('Hémathologie')"> Hémathologie</button>
- 
-                  
-                </div>
+              
                 
                 <div class="container">
                     <div class="row">
