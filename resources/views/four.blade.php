@@ -73,7 +73,7 @@
         <div class="container marketing ">
       
           <!-- Three columns of text below the carousel -->
-          
+          <div class="col">
           <div  id="myBtnContainer">
                    
                     
@@ -92,10 +92,10 @@
 
         
       </div>
-      
+          </div>
           <!-- START THE FEATURETTES -->
       
-
+<div class="col">
           <section class="section-intro">
            
     
@@ -374,6 +374,7 @@
             </div>
             </div>
         </section>
+        </div>
         </div>
     </main>
 
