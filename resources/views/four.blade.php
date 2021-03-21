@@ -83,9 +83,7 @@
            
     
             <div class="content-intro  p-t-77 p-b-133" style="background-color: rgb(241, 241, 241)">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2">
+            
                 <div  id="myBtnContainer">
                    
                     
@@ -104,8 +102,7 @@
  
                   
                 </div>
-                </div>
-                <div class="col-lg-9">
+                
                 <div class="container">
                     <div class="row">
                       
@@ -374,8 +371,6 @@
                         </div>
                     </div>
                 </div>
-                </div>
-            </div>
             </div>
             </div>
         </section>
