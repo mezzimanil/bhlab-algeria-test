@@ -125,7 +125,7 @@
                             <!-- Block1 -->
                             <div class="blo1 ">
                                 <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
-                                    <a href="https://www.orthoclinicaldiagnostics.com/"><img class="shadow" src="{{ asset('image/ortho2.jpg') }}" alt="IMG-INTRO"></a>
+                                    <a href="https://www.orthoclinicaldiagnostics.com/"><img class="shadow" src="{{ asset('image/ortho.jpg') }}" alt="IMG-INTRO"></a>
                                 </div>
     
                                 <div class="wrap-text-blo1 p-t-35">
@@ -181,7 +181,7 @@
                             <div class="blo1 ">
                                 <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
                                     <a href="	
-                                   https://www.capp.dk/"><img class="shadow" src="{{ asset('image/cappp.jpg') }}" alt="IMG-INTRO"></a>
+                                   https://www.capp.dk/"><img class="shadow" src="{{ asset('image/capp.jpg') }}" alt="IMG-INTRO"></a>
                                 </div>
     
                                 <div class="wrap-text-blo1 p-t-35">
@@ -252,7 +252,7 @@
                             <div class="blo1 ">
                                 <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
                                     <a href="	
-                                    http://entrogen.com/web3/"><img class="shadow" src="{{ asset('image/e2.jpg') }}" alt="IMG-INTRO"></a>
+                                    http://entrogen.com/web3/"><img class="shadow" src="{{ asset('image/e.jpg') }}" alt="IMG-INTRO"></a>
                                 </div>
     
                                 <div class="wrap-text-blo1 p-t-35">
@@ -354,7 +354,7 @@
                             <!-- Block1 -->
                             <div class="blo1 ">
                                 <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
-                                    <a href="https://www.horiba.com/"><img class="shadow" src="{{ asset('image/horiba2.jpg') }}" alt="IMG-INTRO"></a>
+                                    <a href="https://www.horiba.com/"><img class="shadow" src="{{ asset('image/horiba.jpg') }}" alt="IMG-INTRO"></a>
                                 </div>
     
                                 <div class="wrap-text-blo1 p-t-35">
