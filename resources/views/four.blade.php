@@ -73,7 +73,7 @@
         <div class="container marketing ">
       <div class="row">
           <!-- Three columns of text below the carousel -->
-          <div class="col-lg-2">
+          <div class="col-lg-3">
             <div class="content-intro  p-t-77 p-b-133" style="background-color: rgb(241, 241, 241)">
           <div  id="myBtnContainer">
                    
