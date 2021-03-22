@@ -234,245 +234,256 @@
    
 
      
-     <nav class="megamenu  fixed-top bg-light">
+     <nav class="navbar navbar-dark fixed-top navbar-expand-md bg-light">
      
       
               <!-- Right Side Of Navbar -->
              
-
-              
-              <ul class="megamenu-nav d-flex justify-content-center mr-auto">
+              <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                   <img src="{{ asset('image/lole.png') }}" >
                 </a>
-            
-                  <!-- Authentication Links -->
-                  <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/') }}">
-                      
-                      Home
-                    </a>
-                   </li>
-                   <li class="nav-item is-parent">
-                    <a class="nav-link" href="#" id="megamenu-dropdown-1" aria-haspopup="true" aria-expanded="false">
-                      About-us <i class="fa fa-angle-down"></i>
-                    </a>
-                    <div class="megamenu-content" aria-labelledby="megamenu-dropdown-1">
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-7 pr-5">
-                            <h3 class="">À-propos de BH-LAB</h3>
-                            <hr>
-                            <div class="row">
-                              <div class="col-8">
-                               <h5>
-                                 Avec plus de 12 ans d’expériences dans le domaine du diagnostic médical et forte de ses 60 employés, BH LAB s’impose comme un acteur majeur dans le marché algérien.
-                                  Présente aussi bien chez les grands laboratoires privés qu’en milieu hospitalier, BH LAB séduit par la diversité des produits qu’elle propose.</h5>
-                                  <h5 >
-                                  Notre politique tend à répondre au maximum aux différents besoins de nos partenaires et cela au travers des différentes gammes que nous proposons.</p>
-                               </h5>
-                               
-                                
-                              </div>
-                              
-                            </div>
-                           
-                          </div>
-                          <div class="col-5">
-                            <img src="{{ asset('image/p.jpg') }}"  width="450" height="450" class=" mb-3" alt="test image">
-                            <p>
-                              Notre Président directeur général, Mr ANAS BENHAMIDA.
-                            </p>
-                           
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                   </li>
-                   <li class="nav-item is-parent">
-                    <a class="nav-link" href="{{route('fournisseur')}}" id="megamenu-dropdown-2" aria-haspopup="true" aria-expanded="false">
-                      Fournisseur<i class="fa fa-angle-down"></i>
-                    </a>
-                    <div class="megamenu-content" aria-labelledby="megamenu-dropdown-2">
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-7 ">
-                            
-                            <div class="row">
-                              
-                              <div class="col-5">
-                                <h3 class="">Familles</h3>
-                                <hr>
-                                <ul class="subnav">
-                               
-                                      <li class="subnav-item">
-                                        <div  id="myBtnContainer">
-                   
-                    
-                                          <button class="btn  active dropdown-item" onclick="filterSelection('all')"> Show all</button>
-                                          <button class="btn dropdown-item" onclick="filterSelection('Immuno Analyses')"> Immuno Analyses</button>
-                                          <button class="btn dropdown-item" onclick="filterSelection('Chimie Clinique')"> Chimie Clinique</button>
-                                          <button class="btn dropdown-item" onclick="filterSelection('Immuno Hémathologie')"> Immuno Hémathologie</button>
-                                          <button class="btn dropdown-item" onclick="filterSelection('Auto Immunité')"> Auto Immunité</button>
-                                          <button class="btn dropdown-item" onclick="filterSelection('Hémostase')"> Hémostase</button>
-                                          <button class="btn dropdown-item" onclick="filterSelection('Acute Care')"> Acute Care (Gaz de sang)</button>
-                                          <button class="btn dropdown-item" onclick="filterSelection('Consommables')"> Consommables</button>
-                                          <button class="btn dropdown-item" onclick="filterSelection('Typage HLA')"> Typage HLA</button>
-                                          <button class="btn dropdown-item" onclick="filterSelection('Bio moléculaire')"> Bio moléculaire</button>
-                                          <button class="btn dropdown-item" onclick="filterSelection('Immuno chimie')"> Immuno chimie</button>
-                                          <button class="btn dropdown-item" onclick="filterSelection('Hémathologie')"> Hémathologie</button>
-                              
-                                      
-                                    </div>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto">
+                        <ul class="megamenu-nav d-flex justify-content-center mr-auto">
 
-                                      </li>
-                                     
-                                </ul>
-                              </div>
-                            
-                               <div class="col-5">
-                                <h3 class="">Fournisseurs</h3>
-                                <hr>
-                                <ul class="subnav">
-                               
-                                  <li class="subnav-item">
-                                    <div class="contain"> 
-                                      <div class="filterDiv all"><a href="https://www.abbott.com/">abbott</a></div>
-                                      <div class="filterDiv Immuno Analyses Chimie Clinique Immuno Hémathologie"><a href="https://www.orthoclinicaldiagnostics.com/">ORTHO CLINICAL DIAGNOSTICS</a></div>
-                                      <div class="filterDiv Auto Immunité Hémostase Acute Care"><a href=" https://www.werfen.com/">Werfen</a></div>
-                                      <div class="filterDiv Immuno Analyses"><a href="https://www.diasorin.com/">DIASORIN </a></div>
-                                      <div class="filterDiv Consommables"><a href=" https://www.capp.dk/">CAPP APS</a></div>
-                                      <div class="filterDiv Typage HLA"><a href="https://www.lagitre.com/">LAGITRE</a></div>
-                                      <div class="filterDiv Immuno Analyses Bio moléculaire"><a href="http://www.adaltis.net/">ADALTIS</a></div>
-                                      <div class="filterDiv all"><a href="http://www.arkray.co.jp/">ARKRAY</a></div>
-                                      <div class="filterDiv Bio moléculaire"><a href=" http://entrogen.com/web3/">ENTROGEN USA</a></div>
-                                      <div class="filterDiv Immuno Hémathologie"><a href="https://www.merckgroup.com/">MERCK SARL</a></div>
-                                      <div class="filterDiv Auto Immunité"><a href="http://www.d-tek.be/">D-TEK sa BELGIQUE</a></div>
-                                      <div class="filterDiv Immuno chimie"><a href="https://www.bindingsite.com/">BINDING SITE</a></div>
-                                      <div class="filterDiv Bio moléculaire"><a href="https://sacace.com/">SACACE BIOTECHNOLOGIES</a></div>
-                                      <div class="filterDiv all"><a href="https://www.bio-rad.com/">BIO-RAD</a></div>
-                                      <div class="filterDiv Hémathologie"><a href="https://www.horiba.com/"> HORIBA</a></div>
-                                    </div>
-                                  </li>
-                                </ul>
-                               </div>
-                                  
-                                
+              
+            
+                          <!-- Authentication Links -->
+                          <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/') }}">
                               
-                            </div>
-                           
-                          </div>
-                          <div class="col-5">
-                            <img src="{{ asset('image/pa.png') }}"  width="600" height="450" class=" mb-3" alt="test image">
-                            <p>Plus de 15 marques pour répondre aux différents besoins de nos partenaire.</p>
-                           
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                   </li>
-                   <li class="nav-item is-parent">
-                    <a class="nav-link" href="{{route('contact')}}" id="megamenu-dropdown-3" aria-haspopup="true" aria-expanded="false">
-                      Contact-us <i class="fa fa-angle-down"></i>
-                    </a>
-                    <div class="megamenu-content" aria-labelledby="megamenu-dropdown-3">
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-7 pr-5">
-                            <div class="card">
-                   
-                              <div class="card-header">
-                                  Envoyer un message
-          
-                              </div>
-                              <div class="card-body bg-secondary">
-                                
-                                  <form method="POST" action="{{route('contact.send')}}" enctype="multipart/form-data">
-                                      @csrf
+                              Home
+                            </a>
+                           </li>
+                           <li class="nav-item is-parent">
+                            <a class="nav-link" href="#" id="megamenu-dropdown-1" aria-haspopup="true" aria-expanded="false">
+                              About-us <i class="fa fa-angle-down"></i>
+                            </a>
+                            <div class="megamenu-content" aria-labelledby="megamenu-dropdown-1">
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-7 pr-5">
+                                    <h3 class="">À-propos de BH-LAB</h3>
+                                    <hr>
+                                    <div class="row">
+                                      <div class="col-8">
+                                       <h5>
+                                         Avec plus de 12 ans d’expériences dans le domaine du diagnostic médical et forte de ses 60 employés, BH LAB s’impose comme un acteur majeur dans le marché algérien.
+                                          Présente aussi bien chez les grands laboratoires privés qu’en milieu hospitalier, BH LAB séduit par la diversité des produits qu’elle propose.</h5>
+                                          <h5 >
+                                          Notre politique tend à répondre au maximum aux différents besoins de nos partenaires et cela au travers des différentes gammes que nous proposons.</p>
+                                       </h5>
+                                       
+                                        
+                                      </div>
                                       
-                                      <div class="form-group row">
-                                          <label style="color: white" for="name">{{ __('Votre nom') }}</label>
-              
-                                         
-                                              <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
-              
-                                              @error('name')
-                                                  <span class="invalid-feedback" role="alert">
-                                                      <strong>{{ $message }}</strong>
-                                                  </span>
-                                              @enderror
-                                          
-                                      </div>
-              
-                                      <div class="form-group row">
-                                          <label style="color: white" for="email" >{{ __('Votre E-Mail ') }}</label>
-              
-                                          
-                                              <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
-              
-                                              @error('email')
-                                                  <span class="invalid-feedback" role="alert">
-                                                      <strong>{{ $message }}</strong>
-                                                  </span>
-                                              @enderror
-                                          
-                                      </div>
-                                      <div class="form-group row">
-                                          <label style="color: white" for="phone">{{ __('Votre numero de telephone') }}</label>
-              
-                                         
-                                              <input id="phone" type="text" class="form-control @error('phone') is-invalid @enderror" name="phone" value="{{ old('phone') }}" required autocomplete="phone" autofocus>
-              
-                                              @error('phone')
-                                                  <span class="invalid-feedback" role="alert">
-                                                      <strong>{{ $message }}</strong>
-                                                  </span>
-                                              @enderror
-                                          
-                                      </div>
-                                      <div class="form-group">
-                                          <label style="color: white" for="message">{{ __('Votre message') }}</label>
-                                         
-                                            <textarea class="form-control @error('message') is-invalid @enderror" id="message" name="message" placeholder="Entré votre message..." rows="5"></textarea>
-                                            @error('message')
-                                            <span class="invalid-feedback" role="alert">
-                                                <strong>{{ $message }}</strong>
-                                            </span>
-                                        @enderror
-                                        </div>
-              
-              
-                                      <div class="form-group row mb-0">
-                                          <div class="col-md-6 offset-md-4">
-                                              <button type="submit" class="btn btn-primary">
-                                                  envoyer message
-                                              </button>
-                                          </div>
-                                      </div>
-                                     
-                                  </form>
+                                    </div>
+                                   
+                                  </div>
+                                  <div class="col-5">
+                                    <img src="{{ asset('image/p.jpg') }}"  width="450" height="450" class=" mb-3" alt="test image">
+                                    <p>
+                                      Notre Président directeur général, Mr ANAS BENHAMIDA.
+                                    </p>
+                                   
+                                  </div>
+                                </div>
                               </div>
-                          </div>
-                          </div>
-                          <div class="col-5">
-                            <div class="map bo8 bo-rad-9 of-hidden">
-                              <!--data-pin="images/icons/icon-position-map.png" 
-                              
-                              class="contact-map size37" id="google_map" data-map-x="40.704644" data-map-y="-74.011987" data-scrollwhell="0" data-draggable="1"
-                          
-                          -->
-                              <div class="contact-map size37">
-                                  
-                                  <iframe  src="https://maps.google.com/maps?q=BH%20Lab%20Alg%C3%A9rie&t=&z=13&ie=UTF8&iwloc=&output=embed" width="600" height="450" frameborder="0" style="border:0; margin:0 auto;" allowfullscreen></iframe>
+                            </div>
+                           </li>
+                           <li class="nav-item is-parent">
+                            <a class="nav-link" href="{{route('fournisseur')}}" id="megamenu-dropdown-2" aria-haspopup="true" aria-expanded="false">
+                              Fournisseur<i class="fa fa-angle-down"></i>
+                            </a>
+                            <div class="megamenu-content" aria-labelledby="megamenu-dropdown-2">
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-7 ">
+                                    
+                                    <div class="row">
+                                      
+                                      <div class="col-5">
+                                        <h3 class="">Familles</h3>
+                                        <hr>
+                                        <ul class="subnav">
+                                       
+                                              <li class="subnav-item">
+                                                <div  id="myBtnContainer">
+                           
+                            
+                                                  <button class="btn  active dropdown-item" onclick="filterSelection('all')"> Show all</button>
+                                                  <button class="btn dropdown-item" onclick="filterSelection('Immuno Analyses')"> Immuno Analyses</button>
+                                                  <button class="btn dropdown-item" onclick="filterSelection('Chimie Clinique')"> Chimie Clinique</button>
+                                                  <button class="btn dropdown-item" onclick="filterSelection('Immuno Hémathologie')"> Immuno Hémathologie</button>
+                                                  <button class="btn dropdown-item" onclick="filterSelection('Auto Immunité')"> Auto Immunité</button>
+                                                  <button class="btn dropdown-item" onclick="filterSelection('Hémostase')"> Hémostase</button>
+                                                  <button class="btn dropdown-item" onclick="filterSelection('Acute Care')"> Acute Care (Gaz de sang)</button>
+                                                  <button class="btn dropdown-item" onclick="filterSelection('Consommables')"> Consommables</button>
+                                                  <button class="btn dropdown-item" onclick="filterSelection('Typage HLA')"> Typage HLA</button>
+                                                  <button class="btn dropdown-item" onclick="filterSelection('Bio moléculaire')"> Bio moléculaire</button>
+                                                  <button class="btn dropdown-item" onclick="filterSelection('Immuno chimie')"> Immuno chimie</button>
+                                                  <button class="btn dropdown-item" onclick="filterSelection('Hémathologie')"> Hémathologie</button>
+                                      
+                                              
+                                            </div>
+        
+                                              </li>
+                                             
+                                        </ul>
+                                      </div>
+                                    
+                                       <div class="col-5">
+                                        <h3 class="">Fournisseurs</h3>
+                                        <hr>
+                                        <ul class="subnav">
+                                       
+                                          <li class="subnav-item">
+                                            <div class="contain"> 
+                                              <div class="filterDiv all"><a href="https://www.abbott.com/">abbott</a></div>
+                                              <div class="filterDiv Immuno Analyses Chimie Clinique Immuno Hémathologie"><a href="https://www.orthoclinicaldiagnostics.com/">ORTHO CLINICAL DIAGNOSTICS</a></div>
+                                              <div class="filterDiv Auto Immunité Hémostase Acute Care"><a href=" https://www.werfen.com/">Werfen</a></div>
+                                              <div class="filterDiv Immuno Analyses"><a href="https://www.diasorin.com/">DIASORIN </a></div>
+                                              <div class="filterDiv Consommables"><a href=" https://www.capp.dk/">CAPP APS</a></div>
+                                              <div class="filterDiv Typage HLA"><a href="https://www.lagitre.com/">LAGITRE</a></div>
+                                              <div class="filterDiv Immuno Analyses Bio moléculaire"><a href="http://www.adaltis.net/">ADALTIS</a></div>
+                                              <div class="filterDiv all"><a href="http://www.arkray.co.jp/">ARKRAY</a></div>
+                                              <div class="filterDiv Bio moléculaire"><a href=" http://entrogen.com/web3/">ENTROGEN USA</a></div>
+                                              <div class="filterDiv Immuno Hémathologie"><a href="https://www.merckgroup.com/">MERCK SARL</a></div>
+                                              <div class="filterDiv Auto Immunité"><a href="http://www.d-tek.be/">D-TEK sa BELGIQUE</a></div>
+                                              <div class="filterDiv Immuno chimie"><a href="https://www.bindingsite.com/">BINDING SITE</a></div>
+                                              <div class="filterDiv Bio moléculaire"><a href="https://sacace.com/">SACACE BIOTECHNOLOGIES</a></div>
+                                              <div class="filterDiv all"><a href="https://www.bio-rad.com/">BIO-RAD</a></div>
+                                              <div class="filterDiv Hémathologie"><a href="https://www.horiba.com/"> HORIBA</a></div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                       </div>
+                                          
+                                        
+                                      
+                                    </div>
+                                   
+                                  </div>
+                                  <div class="col-5">
+                                    <img src="{{ asset('image/pa.png') }}"  width="600" height="450" class=" mb-3" alt="test image">
+                                    <p>Plus de 15 marques pour répondre aux différents besoins de nos partenaire.</p>
+                                   
+                                  </div>
+                                </div>
                               </div>
-                          </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                   </li>
+                            </div>
+                           </li>
+                           <li class="nav-item is-parent">
+                            <a class="nav-link" href="{{route('contact')}}" id="megamenu-dropdown-3" aria-haspopup="true" aria-expanded="false">
+                              Contact-us <i class="fa fa-angle-down"></i>
+                            </a>
+                            <div class="megamenu-content" aria-labelledby="megamenu-dropdown-3">
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-7 pr-5">
+                                    <div class="card">
+                           
+                                      <div class="card-header">
+                                          Envoyer un message
                   
-                   </ul>
+                                      </div>
+                                      <div class="card-body bg-secondary">
+                                        
+                                          <form method="POST" action="{{route('contact.send')}}" enctype="multipart/form-data">
+                                              @csrf
+                                              
+                                              <div class="form-group row">
+                                                  <label style="color: white" for="name">{{ __('Votre nom') }}</label>
+                      
+                                                 
+                                                      <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                      
+                                                      @error('name')
+                                                          <span class="invalid-feedback" role="alert">
+                                                              <strong>{{ $message }}</strong>
+                                                          </span>
+                                                      @enderror
+                                                  
+                                              </div>
+                      
+                                              <div class="form-group row">
+                                                  <label style="color: white" for="email" >{{ __('Votre E-Mail ') }}</label>
+                      
+                                                  
+                                                      <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
+                      
+                                                      @error('email')
+                                                          <span class="invalid-feedback" role="alert">
+                                                              <strong>{{ $message }}</strong>
+                                                          </span>
+                                                      @enderror
+                                                  
+                                              </div>
+                                              <div class="form-group row">
+                                                  <label style="color: white" for="phone">{{ __('Votre numero de telephone') }}</label>
+                      
+                                                 
+                                                      <input id="phone" type="text" class="form-control @error('phone') is-invalid @enderror" name="phone" value="{{ old('phone') }}" required autocomplete="phone" autofocus>
+                      
+                                                      @error('phone')
+                                                          <span class="invalid-feedback" role="alert">
+                                                              <strong>{{ $message }}</strong>
+                                                          </span>
+                                                      @enderror
+                                                  
+                                              </div>
+                                              <div class="form-group">
+                                                  <label style="color: white" for="message">{{ __('Votre message') }}</label>
+                                                 
+                                                    <textarea class="form-control @error('message') is-invalid @enderror" id="message" name="message" placeholder="Entré votre message..." rows="5"></textarea>
+                                                    @error('message')
+                                                    <span class="invalid-feedback" role="alert">
+                                                        <strong>{{ $message }}</strong>
+                                                    </span>
+                                                @enderror
+                                                </div>
+                      
+                      
+                                              <div class="form-group row mb-0">
+                                                  <div class="col-md-6 offset-md-4">
+                                                      <button type="submit" class="btn btn-primary">
+                                                          envoyer message
+                                                      </button>
+                                                  </div>
+                                              </div>
+                                             
+                                          </form>
+                                      </div>
+                                  </div>
+                                  </div>
+                                  <div class="col-5">
+                                    <div class="map bo8 bo-rad-9 of-hidden">
+                                      <!--data-pin="images/icons/icon-position-map.png" 
+                                      
+                                      class="contact-map size37" id="google_map" data-map-x="40.704644" data-map-y="-74.011987" data-scrollwhell="0" data-draggable="1"
+                                  
+                                  -->
+                                      <div class="contact-map size37">
+                                          
+                                          <iframe  src="https://maps.google.com/maps?q=BH%20Lab%20Alg%C3%A9rie&t=&z=13&ie=UTF8&iwloc=&output=embed" width="600" height="450" frameborder="0" style="border:0; margin:0 auto;" allowfullscreen></iframe>
+                                      </div>
+                                  </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </li>
+                          
+                           </ul>
+                      </ul>
+                  </div>
+                </div>
+              
+             
                    <div class="megamenu-background" id="megamenu-background"></div>
                 
               
@@ -484,39 +495,9 @@
                     @endif
 
                      
-                    @guest
-                    @if (Route::has('login'))
-                        <li class="nav-item " >
-                            <a class="nav-link"  href="{{ route('login') }}">{{ __('Connection') }}</a>
-                        </li>
-                    @endif
-                    
-                    @if (Route::has('register'))
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('register') }}">{{ __('inscription') }}</a>
-                        </li>
-                    @endif
-                @else
-                    <li class="nav-item dropdown">
-                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            {{ Auth::user()->name }}
-                        </a>
+                  
 
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ route('logout') }}"
-                               onclick="event.preventDefault();
-                                             document.getElementById('logout-form').submit();">
-                                {{ __('Logout') }}
-                            </a>
-
-                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                @csrf
-                            </form>
-                        </div>
-                    </li>
-                @endguest
-
-            
+                  
   </nav>
               
              
