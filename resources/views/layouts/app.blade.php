@@ -351,11 +351,11 @@
                                   <li class="subnav-item">
                                     <div class="contain"> 
                                       <div class="filterDiv all"><a>abbott</a></div>
-                                      <div class="filterDiv Immuno Analyses Chimie Clinique Immuno Hémathologie"><a>OCD ORTHO CLINICAL DIAGNOSTICS</a></div>
+                                      <div class="filterDiv Immuno Analyses Chimie Clinique Immuno Hémathologie"><a>ORTHO CLINICAL DIAGNOSTICS</a></div>
                                       <div class="filterDiv Auto Immunité Hémostase Acute Care"><a>Werfen</a></div>
-                                      <div class="filterDiv Immuno Analyses"><a>DIASORIN SPA ITALIE</a></div>
+                                      <div class="filterDiv Immuno Analyses"><a>DIASORIN </a></div>
                                       <div class="filterDiv Consommables"><a>CAPP APS</a></div>
-                                      <div class="filterDiv Typage HLA"><a>LAGITRE INTERNATIONAL SRL ITALIE</a></div>
+                                      <div class="filterDiv Typage HLA"><a>LAGITRE</a></div>
                                       <div class="filterDiv Immuno Analyses Bio moléculaire"><a>ADALTIS</a></div>
                                       <div class="filterDiv all"><a>ARKRAY</a></div>
                                       <div class="filterDiv Bio moléculaire"><a>ENTROGEN USA</a></div>
