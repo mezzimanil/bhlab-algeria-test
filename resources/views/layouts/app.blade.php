@@ -234,7 +234,7 @@
    
 
      
-     <nav class="megamenu fixed-top navbar-expand-md ">
+     <nav class="megamenu navbar fixed-top navbar-expand-md ">
      
       
               <!-- Right Side Of Navbar -->
