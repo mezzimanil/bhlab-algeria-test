@@ -234,7 +234,7 @@
    
 
      
-     <nav class="navbar navbar-dark fixed-top navbar-expand-md bg-light">
+     <nav class="megamenu fixed-top navbar-expand-md bg-light">
      
       
               <!-- Right Side Of Navbar -->
