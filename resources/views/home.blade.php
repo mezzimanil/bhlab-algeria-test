@@ -83,7 +83,7 @@
 						 </div>
 						</div>
 						<div class="carousel-item">
-							<img src="{{ asset('image/3.jpg') }}" class="d-block w-100" alt="img3">
+							<img src="{{ asset('image/dark.jpg') }}" class="d-block w-100" alt="img3">
 							<div class="carousel-caption">
 							 <h1 class="wow fadeInLeftBig">This is Slide 3, the Last One</h1>
 							 <div class="description wow fadeInUp">
