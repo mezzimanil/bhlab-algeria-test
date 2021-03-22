@@ -191,6 +191,36 @@
   width: 50%;
   padding: 10px;
   
+      }
+
+      .contain{
+        overflow: hidden;
+      }
+  .filterDiv {
+  
+ 
+
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
 }
     
       </style>
@@ -211,7 +241,7 @@
              
 
               
-              <ul class="megamenu-nav d-flex justify-content-center">
+              <ul class="megamenu-nav d-flex justify-content-center mr-auto">
                 <a class="navbar-brand" href="{{ url('/') }}">
                   <img src="{{ asset('image/lole.png') }}" >
                 </a>
@@ -307,6 +337,7 @@
                               
                                       
                                     </div>
+
                                       </li>
                                      
                                 </ul>
@@ -315,6 +346,28 @@
                                <div class="col-5">
                                 <h3 class="">Fournisseurs</h3>
                                 <hr>
+                                <ul class="subnav">
+                               
+                                  <li class="subnav-item">
+                                    <div class="contain"> 
+                                      <div class="filterDiv all"><p>abbott</p></div>
+                                      <div class="filterDiv Immuno Analyses Chimie Clinique Immuno Hémathologie"><p>OCD ORTHO CLINICAL DIAGNOSTICS</p></div>
+                                      <div class="filterDiv Auto Immunité Hémostase Acute Care"><p>Werfen</p></div>
+                                      <div class="filterDiv Immuno Analyses"><p>DIASORIN SPA ITALIE</p></div>
+                                      <div class="filterDiv Consommables"><p>CAPP APS</p></div>
+                                      <div class="filterDiv Typage HLA"><p>LAGITRE INTERNATIONAL SRL ITALIE</p></div>
+                                      <div class="filterDiv Immuno Analyses Bio moléculaire"><p>ADALTIS</p></div>
+                                      <div class="filterDiv all"><p>ARKRAY</p></div>
+                                      <div class="filterDiv Bio moléculaire"><p>ENTROGEN USA</p></div>
+                                      <div class="filterDiv Immuno Hémathologie"><p>MERCK SARL</p></div>
+                                      <div class="filterDiv Auto Immunité"><p>D-TEK sa BELGIQUE</p></div>
+                                      <div class="filterDiv Immuno chimie"><p>BINDING SITE</p></div>
+                                      <div class="filterDiv Bio moléculaire"><p>SACACE BIOTECHNOLOGIES</p></div>
+                                      <div class="filterDiv all"><p>BIO-RAD</p></div>
+                                      <div class="filterDiv Hémathologie"><p> HORIBA</p></div>
+                                    </div>
+                                  </li>
+                                </ul>
                                </div>
                                   
                                 
@@ -705,5 +758,58 @@ $(() => {
   });
 });
 	</script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+    </script>
 
 </html>
