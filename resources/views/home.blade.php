@@ -64,7 +64,7 @@
 						 <div class="carousel-caption">
 							 <h1 class="wow fadeInLeftBig">Carousel Template with Bootstrap 4</h1>
 							 <div class="description wow fadeInUp">
-								 <p>
+								 <p style="color: white">
 									 This is a free Carousel template made with the Bootstrap 4 framework.
 									 Check it out now. Download it, customize and use it as you like!
 								 </p>
@@ -76,7 +76,7 @@
 							<div class="carousel-caption">
 							 <h1 class="wow fadeInLeftBig">This is Slide 2 of our Carousel</h1>
 							 <div class="description wow fadeInUp">
-								 <p>
+								 <p style="color: white">
 									 You can download this free template on <a href="https://azmind.com" target="_blank">AZMIND</a>.
 								 </p>
 							 </div>
@@ -87,7 +87,7 @@
 							<div class="carousel-caption">
 							 <h1 class="wow fadeInLeftBig">This is Slide 3, the Last One</h1>
 							 <div class="description wow fadeInUp">
-								 <p>
+								 <p style="color: white">
 									 After you download it, you can customize and use it as you like. That's great!
 								 </p>
 							 </div>
