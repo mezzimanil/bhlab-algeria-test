@@ -60,13 +60,12 @@
 					</ol>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="{{ asset('image/1.jpg') }}" class="d-block w-100" alt="img1">
+							<img src="{{ asset('image/d2.jpg') }}" class="d-block w-100" alt="img1">
 						 <div class="carousel-caption">
 							 <h1 class="wow fadeInLeftBig">Carousel Template with Bootstrap 4</h1>
 							 <div class="description wow fadeInUp">
 								 <p style="color: white">
-									 This is a free Carousel template made with the Bootstrap 4 framework.
-									 Check it out now. Download it, customize and use it as you like!
+									Plus de 12 ans d’expérience dans le domaine du diagnostic médical
 								 </p>
 							 </div>
 						 </div>
