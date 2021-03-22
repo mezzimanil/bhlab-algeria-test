@@ -53,11 +53,9 @@
 							<div class="carousel-item">
 								<img src="{{ asset('image/d3.jpg') }}" class="d-block w-100" alt="img2">
 								<div class="carousel-caption">
-								 <h1 class="wow fadeInLeftBig">This is Slide 2 of our Carousel</h1>
+								 <h1 class="wow fadeInLeftBig">Plus de 15 marques pour répondre aux différents besoins de nos partenaire</h1>
 								 <div class="description wow fadeInUp">
-									 <p style="color: white">
-										 You can download this free template on <a href="https://azmind.com" target="_blank">AZMIND</a>.
-									 </p>
+									
 								 </div>
 							 </div>
 							</div>
