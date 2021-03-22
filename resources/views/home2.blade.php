@@ -13,19 +13,17 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/media-queries.css">
+     
         <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
         <link href="{{ asset('css/style.css') }}" rel="stylesheet">
         <link href="{{ asset('css/media-queries.css') }}" rel="stylesheet">
 
         <!-- Favicon and touch icons -->
        
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ asset('image/apple-touch-icon-144-precomposed.png') }}">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('image/apple-touch-icon-114-precomposed.png') }}">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('image/apple-touch-icon-72-precomposed.png') }}">
+        <link rel="apple-touch-icon-precomposed" href="{{ asset('image/apple-touch-icon-57-precomposed.png') }}">
 
     </head>
 
@@ -72,7 +70,7 @@
        					</ol>
        					<div class="carousel-inner">
        						<div class="carousel-item active">
-       							<img src="assets/img/backgrounds/1.jpg" class="d-block w-100" alt="img1">
+       							<img src="{{ asset('image/1.jpg') }}" class="d-block w-100" alt="img1">
 								<div class="carousel-caption">
 									<h1 class="wow fadeInLeftBig">Carousel Template with Bootstrap 4</h1>
 									<div class="description wow fadeInUp">
@@ -84,7 +82,7 @@
 								</div>
        						</div>
        						<div class="carousel-item">
-       							<img src="assets/img/backgrounds/2.jpg" class="d-block w-100" alt="img2">
+       							<img src="{{ asset('image/2.jpg') }}" class="d-block w-100" alt="img2">
        							<div class="carousel-caption">
 									<h1 class="wow fadeInLeftBig">This is Slide 2 of our Carousel</h1>
 									<div class="description wow fadeInUp">
@@ -95,7 +93,7 @@
 								</div>
        						</div>
        						<div class="carousel-item">
-       							<img src="assets/img/backgrounds/3.jpg" class="d-block w-100" alt="img3">
+       							<img src="{{ asset('image/3.jpg') }}" class="d-block w-100" alt="img3">
        							<div class="carousel-caption">
 									<h1 class="wow fadeInLeftBig">This is Slide 3, the Last One</h1>
 									<div class="description wow fadeInUp">
@@ -317,14 +315,16 @@
         </footer>
 
         <!-- Javascript -->
-		<script src="assets/js/jquery-3.3.1.min.js"></script>
-		<script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+        <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
+        <script src="{{ asset('js/jquery-migrate-3.0.0.min.js') }}"></script>
+        <script src="{{ asset('js/jquery.backstretch.min.js') }}"></script>
+        <script src="{{ asset('js/wow.min.js') }}"></script>
+        <script src="{{ asset('js/waypoints.min.js') }}"></script>
+        <script src="{{ asset('js/scripts.js') }}"></script>
+
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-        <script src="assets/js/jquery.backstretch.min.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
-        <script src="assets/js/scripts.js"></script>
+   
 
     </body>
 
