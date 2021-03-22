@@ -241,7 +241,7 @@
              
               <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                  <img src="{{ asset('image/lole.png') }}" >
+                  <img src="{{ asset('image/lole.png') }}" style="height: 80%" >
                 </a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
