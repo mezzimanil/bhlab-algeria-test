@@ -280,7 +280,7 @@
                                           <h5 >
                                           Notre politique tend à répondre au maximum aux différents besoins de nos partenaires et cela au travers des différentes gammes que nous proposons.</p>
                                        </h5>
-                                       
+                                       <button class="btn ">Aller plus loin</button>
                                         
                                       </div>
                                       
