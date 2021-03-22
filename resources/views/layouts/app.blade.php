@@ -102,6 +102,7 @@
     color: #333;
   }
   .megamenu .megamenu-content {
+    margin-top: 20px;
     position: absolute;
     left: 0;
     right: 0;
