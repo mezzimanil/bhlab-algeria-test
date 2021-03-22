@@ -264,7 +264,7 @@
                            </li>
                            <li class="nav-item is-parent">
                             <a class="nav-link" href="#" id="megamenu-dropdown-1" aria-haspopup="true" aria-expanded="false">
-                              About-us <i class="fa fa-angle-down"></i>
+                              Présentation<i class="fa fa-angle-down"></i>
                             </a>
                             <div class="megamenu-content" aria-labelledby="megamenu-dropdown-1">
                               <div class="container">
