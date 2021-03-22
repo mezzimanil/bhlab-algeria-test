@@ -53,7 +53,7 @@
 							 </div>
 							</div>
 							<div class="carousel-item">
-								<img src="{{ asset('image/2.jpg') }}" class="d-block w-100" alt="img2">
+								<img src="{{ asset('image/d3.jpg') }}" class="d-block w-100" alt="img2">
 								<div class="carousel-caption">
 								 <h1 class="wow fadeInLeftBig">This is Slide 2 of our Carousel</h1>
 								 <div class="description wow fadeInUp">
