@@ -22,7 +22,7 @@
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     <link href="{{ asset('css/util.css') }}" rel="stylesheet">
 
-@section('content')
+
 <style>
 /* GLOBAL STYLES
 -------------------------------------------------- */
@@ -152,6 +152,7 @@ img { max-width: 100%; }
 
 </style>
 <body>
+	@section('content')
 <main role="main">
 	@include('home2')
 	<div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-color:rgb(36,50,136);">
