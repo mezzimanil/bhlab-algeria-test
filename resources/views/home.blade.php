@@ -1,6 +1,5 @@
 
 @extends('layouts.app')
-@section('content')
 <!doctype html>
 <html lang="en">
 <head>
@@ -25,7 +24,7 @@
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     <link href="{{ asset('css/util.css') }}" rel="stylesheet">
 
-
+@section('content')
 <style>
 /* GLOBAL STYLES
 -------------------------------------------------- */
