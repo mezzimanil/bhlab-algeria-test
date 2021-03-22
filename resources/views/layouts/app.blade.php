@@ -129,6 +129,7 @@
   }
   
   .megamenu-background {
+    margin-top: 20px;
     background: #fff;
     position: absolute;
     left: 0;
