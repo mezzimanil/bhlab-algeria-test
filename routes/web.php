@@ -49,4 +49,6 @@ Route::get('/menu', function () {
     return view('menu');
 });
 
-
+Route::get('/homee', function () {
+    return view('home2');
+});
