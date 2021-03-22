@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
      
         <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
-      
+        <link href="{{ asset('css/style2.css') }}" rel="stylesheet">
         <link href="{{ asset('css/media-queries.css') }}" rel="stylesheet">
 
         <!-- Favicon and touch icons -->
