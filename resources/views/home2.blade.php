@@ -44,7 +44,7 @@
 							<div class="carousel-item active">
 								<img src="{{ asset('image/d2.jpg') }}" class="d-block w-100" alt="img1">
 							 <div class="carousel-caption">
-								 <h1 class="wow fadeInLeftBig" style="font-size: 10px">Plus de 12 ans d’expérience dans le domaine du diagnostic médical</h1>
+								 <h1 class="wow fadeInLeftBig" style="font-size: 35px">Plus de 12 ans d’expérience dans le domaine du diagnostic médical</h1>
 								 <div class="description wow fadeInUp">
 								
 								 </div>
