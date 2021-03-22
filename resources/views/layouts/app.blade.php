@@ -280,12 +280,12 @@
                       <div class="container">
                         <div class="row">
                           <div class="col-7 ">
-                            <h3 class="">Familles</h3>
-                                <hr>
+                            
                             <div class="row">
                               
                               <div class="col-5">
-                                
+                                <h3 class="">Familles</h3>
+                                <hr>
                                 <ul class="subnav">
                                
                                       <li class="subnav-item">
@@ -486,8 +486,10 @@
                                 </ul>
                               </div>
                             
-                               
-                                
+                               <div class="col-5">
+                                <h3 class="">Fournisseurs</h3>
+                                <hr>
+                               </div>
                                   
                                 
                               
