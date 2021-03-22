@@ -350,21 +350,21 @@
                                
                                   <li class="subnav-item">
                                     <div class="contain"> 
-                                      <div class="filterDiv all"><p>abbott</p></div>
-                                      <div class="filterDiv Immuno Analyses Chimie Clinique Immuno Hémathologie"><p>OCD ORTHO CLINICAL DIAGNOSTICS</p></div>
-                                      <div class="filterDiv Auto Immunité Hémostase Acute Care"><p>Werfen</p></div>
-                                      <div class="filterDiv Immuno Analyses"><p>DIASORIN SPA ITALIE</p></div>
-                                      <div class="filterDiv Consommables"><p>CAPP APS</p></div>
-                                      <div class="filterDiv Typage HLA"><p>LAGITRE INTERNATIONAL SRL ITALIE</p></div>
-                                      <div class="filterDiv Immuno Analyses Bio moléculaire"><p>ADALTIS</p></div>
-                                      <div class="filterDiv all"><p>ARKRAY</p></div>
-                                      <div class="filterDiv Bio moléculaire"><p>ENTROGEN USA</p></div>
-                                      <div class="filterDiv Immuno Hémathologie"><p>MERCK SARL</p></div>
-                                      <div class="filterDiv Auto Immunité"><p>D-TEK sa BELGIQUE</p></div>
-                                      <div class="filterDiv Immuno chimie"><p>BINDING SITE</p></div>
-                                      <div class="filterDiv Bio moléculaire"><p>SACACE BIOTECHNOLOGIES</p></div>
-                                      <div class="filterDiv all"><p>BIO-RAD</p></div>
-                                      <div class="filterDiv Hémathologie"><p> HORIBA</p></div>
+                                      <div class="filterDiv all"><a>abbott</a></div>
+                                      <div class="filterDiv Immuno Analyses Chimie Clinique Immuno Hémathologie"><a>OCD ORTHO CLINICAL DIAGNOSTICS</a></div>
+                                      <div class="filterDiv Auto Immunité Hémostase Acute Care"><a>Werfen</a></div>
+                                      <div class="filterDiv Immuno Analyses"><a>DIASORIN SPA ITALIE</a></div>
+                                      <div class="filterDiv Consommables"><a>CAPP APS</a></div>
+                                      <div class="filterDiv Typage HLA"><a>LAGITRE INTERNATIONAL SRL ITALIE</a></div>
+                                      <div class="filterDiv Immuno Analyses Bio moléculaire"><a>ADALTIS</a></div>
+                                      <div class="filterDiv all"><a>ARKRAY</a></div>
+                                      <div class="filterDiv Bio moléculaire"><a>ENTROGEN USA</a></div>
+                                      <div class="filterDiv Immuno Hémathologie"><a>MERCK SARL</a></div>
+                                      <div class="filterDiv Auto Immunité"><a>D-TEK sa BELGIQUE</a></div>
+                                      <div class="filterDiv Immuno chimie"><a>BINDING SITE</a></div>
+                                      <div class="filterDiv Bio moléculaire"><a>SACACE BIOTECHNOLOGIES</a></div>
+                                      <div class="filterDiv all"><a>BIO-RAD</a></div>
+                                      <div class="filterDiv Hémathologie"><a> HORIBA</a></div>
                                     </div>
                                   </li>
                                 </ul>
