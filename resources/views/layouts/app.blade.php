@@ -65,7 +65,7 @@
     z-index: 15;
   }
 
-  .megamenu .megamenu-nav .navbar-brand {
+  .megamenu .navbar-brand {
   display: inline-block;
   padding-top: 0.32rem;
   padding-bottom: 0.32rem;
@@ -240,14 +240,14 @@
               <!-- Right Side Of Navbar -->
              
               <div class="container">
-               
+                <a class="navbar-brand" href="{{ url('/') }}">
+                  <img src="{{ asset('image/lole.png') }}" >
+                </a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                      <img src="{{ asset('image/lole.png') }}" >
-                    </a>
+                
                       <ul class="navbar-nav ml-auto">
                         <ul class="megamenu-nav d-flex justify-content-center mr-auto">
 
