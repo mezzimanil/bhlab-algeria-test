@@ -2,9 +2,9 @@
 
 
 
-@section('content')
-<body>
 
+<body>
+    @section('content')
     <div style="background: url({{ asset('image/white.jpg') }})" class="jumbotron bg-cover text-white">
         <div class="container py-5 text-center">
             <h1 class="display-4 font-weight-bold">Contacter nous</h1>
@@ -116,7 +116,7 @@
         
     
 
-
+        @endsection
 </body>
-@endsection
+
 </html>
