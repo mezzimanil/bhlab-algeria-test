@@ -53,7 +53,7 @@
 							<div class="carousel-item">
 								<img src="{{ asset('image/d3.jpg') }}" class="d-block w-100" alt="img2">
 								<div class="carousel-caption">
-								 <h1 class="wow fadeInLeftBig">Plus de 15 marques pour répondre aux différents besoins de nos partenaire</h1>
+								 <h1 class="wow fadeInLeftBig" style="font-size: 50px" >Plus de 15 marques pour répondre aux différents besoins de nos partenaire</h1>
 								 <div class="description wow fadeInUp">
 									
 								 </div>
@@ -62,7 +62,7 @@
 							<div class="carousel-item">
 								<img src="{{ asset('image/dark.jpg') }}" class="d-block w-100" alt="img3">
 								<div class="carousel-caption">
-								 <h1 class="wow fadeInLeftBig">Présent dans la crise de la COVID </h1>
+								 <h1 class="wow fadeInLeftBig" style="font-size: 50px">Présent dans la crise de la COVID </h1>
 								 <div class="description wow fadeInUp">
 									
 								 </div>
