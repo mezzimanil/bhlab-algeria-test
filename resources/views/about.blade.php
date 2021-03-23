@@ -19,7 +19,7 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-md-6">
-      <h2>* À-propos de BH-LAB</h2>
+      <h2>* À-propos de BH-LAB :</h2>
 <h4> Historique :
     BH LAB est une entreprise organisée sous forme de société à responsabilité limitée, dont le capital social est de 700.000 000 DA.
     Elle a été créée en  2007 ,son fondateur est : BENHAMIDA Anas
