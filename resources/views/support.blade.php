@@ -20,6 +20,9 @@
         <div class="col-md-5">
       <h2>* Service Aprés-vente</h2>
       <p>Nos équipes sont toujours mobilisées pour garantir la meilleure prestation d’assistance, dans les meilleurs délais.</p>
+      <p>Notre service après-vente est disponible 7j/7j :</p>
+      <p><i class="bi bi-telephone-forward">Téléphone:+213 21 85 52 00 </i></p>
+      <p><i class="bi bi-envelope">E-mail: info.bhlab@bhinvest.net</i></p>
         </div>
 
         <div class="col-md-5">
