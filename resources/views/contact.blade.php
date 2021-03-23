@@ -132,7 +132,7 @@
                 -->
                     <div class="contact-map size33">
                         
-                        <iframe  src="https://maps.google.com/maps?q=BH%20Lab%20Alg%C3%A9rie&t=&z=13&ie=UTF8&iwloc=&output=embed"  width="600" height="700" frameborder="0" style="border:0; margin:0 auto;" allowfullscreen></iframe>
+                        <iframe  src="https://maps.google.com/maps?q=BH%20Lab%20Alg%C3%A9rie&t=&z=13&ie=UTF8&iwloc=&output=embed"  width="700" height="700" frameborder="0" style="border:0; margin:0 auto;" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
