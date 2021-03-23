@@ -370,7 +370,7 @@
                                    
                                   </div>
                                   <div class="col-5">
-                                    <img src="{{ asset('image/pae.png') }}"  width="600" height="450" class=" mb-3" alt="test image">
+                                    <img src="{{ asset('image/paa.png') }}"  width="600" height="450" class=" mb-3" alt="test image">
                                     <p>Plus de 15 marques pour répondre aux différents besoins de nos partenaire.</p>
                                    
                                   </div>
