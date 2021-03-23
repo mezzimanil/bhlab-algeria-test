@@ -273,7 +273,7 @@
                                     <h3 class="">À-propos de BH-LAB</h3>
                                     <hr>
                                     <div class="row">
-                                      <div class="col-8">
+                                      <div class="col-md-8">
                                        <h3>
                                          Avec plus de 12 ans d’expériences dans le domaine du diagnostic médical et forte de ses 60 employés, BH LAB s’impose comme un acteur majeur dans le marché algérien.
                                           Présente aussi bien chez les grands laboratoires privés qu’en milieu hospitalier, BH LAB séduit par la diversité des produits qu’elle propose.</h3>
