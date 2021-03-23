@@ -23,7 +23,7 @@ class ContactController extends Controller
            'message'=>$request->message
         ];
 
-        Mail::to('mmwikoo@gmail.com')->send(new ContactMail($details));
+        Mail::to('it.bhlab@bhinvest.net ')->send(new ContactMail($details));
     
        return back()->with('message_sent','Votre message a été envoyer');    
     }
