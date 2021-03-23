@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-md-5">
+        <div class="col-md-6">
       <h2>* Service Aprés-vente</h2>
       <h4>Nos équipes sont toujours mobilisées pour garantir la meilleure prestation d’assistance, dans les meilleurs délais.</h4>
       <h4>Notre service après-vente est disponible 7j/7j :</h4>
@@ -33,7 +33,7 @@
       </svg> E-mails: sav.bhlab@bhinvest.net / sav1.bhlab@bhinvest.net </i></h4>
         </div>
 
-        <div class="col-md-5">
+        <div class="col-md-4">
             <div class="size37 mb-3"> <img src="{{ asset('image/service.jpg') }}" alt="" width="450" height="430"></div>
 
         </div>
