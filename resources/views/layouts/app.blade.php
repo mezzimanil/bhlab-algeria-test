@@ -331,7 +331,7 @@
                                       
                                               
                                             </div>
-                                            <a href="{{route('fournisseur')}}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Nos Fournisseurs</a>
+                                            <a href="{{route('fournisseur')}}" class="btn btn-primary  active mt-4" role="button" aria-pressed="true">Nos Fournisseurs</a>
                                               </li>
                                              
                                         </ul>
@@ -403,7 +403,7 @@
                                     </div>
                                     <h2>* E-mail</h2>
                                     <p>abh.bhlab@bhinvest.net</p>
-                                    <a href="{{route('about')}}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Aller plus loin</a>
+                                    <a href="{{route('contact')}}" class="btn btn-primary  active mt-4" role="button" aria-pressed="true">Contacter-nous</a>
                                   </div>
                                   <div class="col-5">
                                     <div class="map bo8 bo-rad-9 of-hidden">
