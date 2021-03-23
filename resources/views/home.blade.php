@@ -94,7 +94,7 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
-								<a href="{{route('fournisseur')}}"><img src="{{ asset('image/part.png') }}" alt="IMG-INTRO"></a>
+								<a href="{{route('fournisseur')}}"><img src="{{ asset('image/pae.png') }}" alt="IMG-INTRO"></a>
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
