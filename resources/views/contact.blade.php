@@ -45,7 +45,7 @@
                             @csrf
                             
                             <div class="form-group row">
-                                <label for="name">{{ __('Votre nom') }}</label>
+                                <label for="name" style="color: white">{{ __('Votre nom') }}</label>
     
                                
                                     <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
@@ -59,7 +59,7 @@
                             </div>
     
                             <div class="form-group row">
-                                <label for="email" >{{ __('Votre E-Mail ') }}</label>
+                                <label for="email" style="color: white">{{ __('Votre E-Mail ') }}</label>
     
                                 
                                     <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
@@ -72,7 +72,7 @@
                                 
                             </div>
                             <div class="form-group row">
-                                <label for="phone">{{ __('Votre numero de telephone') }}</label>
+                                <label for="phone" style="color: white">{{ __('Votre numero de telephone') }}</label>
     
                                
                                     <input id="phone" type="text" class="form-control @error('phone') is-invalid @enderror" name="phone" value="{{ old('phone') }}" required autocomplete="phone" autofocus>
@@ -85,7 +85,7 @@
                                 
                             </div>
                             <div class="form-group">
-                                <label for="message">{{ __('Votre message') }}</label>
+                                <label for="message" style="color: white">{{ __('Votre message') }}</label>
                                
                                   <textarea class="form-control @error('message') is-invalid @enderror" id="message" name="message" placeholder="Entré votre message..." rows="5"></textarea>
                                   @error('message')
