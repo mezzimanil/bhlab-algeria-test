@@ -17,7 +17,7 @@
          
         </div>
     </div>
-    <div class="container"> 
+    <div> 
     <div class="row justify-content-center">
         <div class="col-md-6">
       <h2>* À-propos de BH-LAB :</h2>
@@ -41,14 +41,13 @@ BH LAB représente exclusivement différentes marques de renommée mondiale, tel
     BH LAB accompagne les laboratoires et se veut partenaire avant d’être fournisseur. Pour cela elle offre différents types de solutions qui répondent aux différents besoins des laboratoires .
 </h4>
         </div>
-    
+        
 
         <div class="col-md-4">
             <div class="size37 mb-3"> <img src="{{ asset('image/l2.jpg') }}" alt="" width="450" height="430"></div>
 
         </div>
     </div>
-</div>
 </body>
 @endsection
 </html>
