@@ -435,12 +435,7 @@
                 
               
               
-                   @if (Session::get('message_sent'))
-                   <div class="alert alert-success" role="alert">
-                        {{Session::get('message_sent')}}
-                   </div>
-                    @endif
-
+                  
                      
                   
 
