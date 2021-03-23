@@ -72,7 +72,7 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="{{ asset('image/wizard-city.jpg') }}" alt="IMG-INTRO"></a>
+								<a href="#"><img src="{{ asset('image/pre.jpg') }}" alt="IMG-INTRO"></a>
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
@@ -80,10 +80,7 @@
                                 Présentation
 								</h4></a>
 
-								<p class="m-b-20">
-                                    fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
-                                    sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
-								</p>
+								
 
 								<a href="#" class="txt4">
 									Learn More
@@ -97,7 +94,7 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="{{ asset('image/wizard-city.jpg') }}" alt="IMG-INTRO"></a>
+								<a href="#"><img src="{{ asset('image/pa.png') }}" alt="IMG-INTRO"></a>
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
@@ -105,10 +102,7 @@
 									Fournisseurs
 								</h4></a>
 
-								<p class="m-b-20">
-                                    ks,dflk,sdlfknsld,nvsdlknvlsdknvlskdnvsd
-                                    vslkdnvlskndvlksndvlknsdlkvnsldkvn
-								</p>
+							
 
 								<a href="#" class="txt4">
 									Learn More
@@ -130,10 +124,7 @@
 								Support Technique
 								</h4></a>
 
-								<p class="m-b-20">
-                                    kdjfsdlkflskdjflskjdfklsjdflskjdflksjdflskjdfs
-                                    sdflkjsdlfkjslkdfjslkdjflskjdflskjdflksjdf
-								</p>
+							
 
 								<a href="#" class="txt4">
 									Learn More

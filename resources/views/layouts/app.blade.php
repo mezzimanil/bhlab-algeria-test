@@ -288,10 +288,8 @@
                                    
                                   </div>
                                   <div class="col-5">
-                                    <img src="{{ asset('image/p.jpg') }}"  width="450" height="450" class=" mb-3" alt="test image">
-                                    <p>
-                                      Notre Président directeur général, Mr ANAS BENHAMIDA.
-                                    </p>
+                                    <img src="{{ asset('image/pre.jpg') }}"  width="450" height="450" class=" mb-3" alt="test image">
+                                  
                                    
                                   </div>
                                 </div>
