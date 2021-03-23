@@ -279,7 +279,7 @@
                                           <h5 >
                                           Notre politique tend à répondre au maximum aux différents besoins de nos partenaires et cela au travers des différentes gammes que nous proposons.</p>
                                        </h5>
-                                       <a href="{{route('about')}}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
+                                       <a href="{{route('about')}}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Aller plus loin</a>
                                         
                                       </div>
                                       
