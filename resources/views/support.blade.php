@@ -1,3 +1,4 @@
+@extends('layouts.app')
 <!DOCTYPE html>
 <html >
 <head>
@@ -7,6 +8,8 @@
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     <link href="{{ asset('css/util.css') }}" rel="stylesheet">
 </head>
+@section('content')
+
 <body>
     <div style="background: url({{ asset('image/sombre.jpg') }})" class="jumbotron bg-cover text-white">
         <div class="container py-5 text-center">
@@ -38,4 +41,5 @@
         <p><i class="bi bi-envelope">E-mail: info.bhlab@bhinvest.net</i></p>
           </div>
 </body>
+@endsection
 </html>
