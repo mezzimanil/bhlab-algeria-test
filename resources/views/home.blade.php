@@ -72,18 +72,18 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
-								<a href="#"><img src="{{ asset('image/bh.jpg') }}" alt="IMG-INTRO"></a>
+								><img src="{{ asset('image/bh.jpg') }}" alt="IMG-INTRO">
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
-								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+								<h4 class="txt5 color0-hov trans-0-4 m-b-13">
                                 Présentation
-								</h4></a>
+								</h4>
 
 								
 
-								<a href="#" class="txt4">
-									Learn More
+								<a href="{{route('contact')}}" class="txt4 btn-info">
+									Voir plus
 									<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
 								</a>
 							</div>
@@ -94,18 +94,18 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
-								<a href="#"><img src="{{ asset('image/part.png') }}" alt="IMG-INTRO"></a>
+								<img src="{{ asset('image/part.png') }}" alt="IMG-INTRO">
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
-								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+								<h4 class="txt5 color0-hov trans-0-4 m-b-13">
 									Fournisseurs
-								</h4></a>
+								</h4>
 
 							
 
-								<a href="#" class="txt4">
-									Learn More
+								<a href="{{route('fournisseur')}}" class="txt4 btn-info">
+									Voir plus
 									<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
 								</a>
 							</div>
@@ -116,18 +116,18 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="{{ asset('image/service.jpg') }}" alt="IMG-INTRO"></a>
+								<img src="{{ asset('image/service.jpg') }}" alt="IMG-INTRO">
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
-								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+								<h4 class="txt5 color0-hov trans-0-4 m-b-13">
 								Support Technique
-								</h4></a>
+								</h4>
 
 							
 
-								<a href="#" class="txt4">
-									Learn More
+								<a href="{{route('support')}}" class="txt4 btn-info">
+									Voir plus 
 									<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
 								</a>
 							</div>
