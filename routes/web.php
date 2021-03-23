@@ -52,3 +52,8 @@ Route::get('/menu', function () {
 Route::get('/homee', function () {
     return view('home2');
 });
+
+
+Route::get('/support', function () {
+    return view('support');
+})->name('support');

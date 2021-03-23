@@ -479,7 +479,12 @@
                               </div>
                             </div>
                            </li>
-                          
+                           <li class="nav-item">
+                            <a class="nav-link" href="{{ route('support') }}">
+                              
+                              Support technique
+                            </a>
+                           </li>
                            </ul>
                       </ul>
                   </div>
