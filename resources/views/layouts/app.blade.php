@@ -401,7 +401,7 @@
                                         </div>
                                     </div>
                                     <h2>* E-mail</h2>
-                                    <p>info.bhlab@bhinvest.net</p>
+                                    <p>abh.bhlab@bhinvest.net</p>
                                   </div>
                                   <div class="col-5">
                                     <div class="map bo8 bo-rad-9 of-hidden">
@@ -509,7 +509,7 @@
                   <br>
                     <i class="fa fa-phone"></i> Fax: +213 21 85 52 20
                   </li>
-                  <li style="color: azure"><i class="fa fa-envelope"></i>info.bhlab@bhinvest.net </li>
+                  <li style="color: azure"><i class="fa fa-envelope"></i>abh.bhlab@bhinvest.net </li>
 
                  
                 </ul>

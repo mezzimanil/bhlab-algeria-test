@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <h2>* E-mail</h2>
-                <p>info.bhlab@bhinvest.net</p>
+                <p>abh.bhlab@bhinvest.net</p>
                 <div class="card">
                    
                     <div class="card-header">
