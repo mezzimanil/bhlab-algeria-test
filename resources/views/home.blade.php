@@ -68,27 +68,7 @@
 		<div class="content-intro bg-white p-t-77 p-b-133">
 			
 				<div class="row">
-					<div class="col-md-4 p-t-30">
-						<!-- Block1 -->
-						<div class="blo1">
-							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
-								<a href="{{route('about')}}"><img src="{{ asset('image/bh.jpg') }}" alt="IMG-INTRO"></a>
-							</div>
-
-							<div class="wrap-text-blo1 p-t-35">
-								<a href="{{route('about')}}"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
-                                Présentation
-								</h4></a>
-
-								
-
-								<a href="{{route('about')}}" class="btn btn-info">
-									Voir plus
-									<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
-								</a>
-							</div>
-						</div>
-					</div>
+					
 
 					<div class="col-md-4 p-t-30">
 						<!-- Block1 -->
