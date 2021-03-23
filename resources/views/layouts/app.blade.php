@@ -272,8 +272,8 @@
                                   <div class="col-7 pr-5">
                                     <h3 class="">À-propos de BH-LAB</h3>
                                     <hr>
-                                    <div class="row">
-                                      <div class="col-md-8">
+                                   
+                                      
                                        <h3>
                                          Avec plus de 12 ans d’expériences dans le domaine du diagnostic médical et forte de ses 60 employés, BH LAB s’impose comme un acteur majeur dans le marché algérien.
                                           Présente aussi bien chez les grands laboratoires privés qu’en milieu hospitalier, BH LAB séduit par la diversité des produits qu’elle propose.</h3>
@@ -282,11 +282,11 @@
                                        </h3>
                                        <a href="{{route('about')}}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Aller plus loin</a>
                                         
-                                      </div>
+                                      
                                       
                                     </div>
                                    
-                                  </div>
+                                  
                                   <div class="col-5">
                                     <img src="{{ asset('image/pre.jpg') }}"  width="450" height="450" class=" mb-3" alt="test image">
                                   
