@@ -38,7 +38,7 @@
 
         </div>
     </div>
-   
+   <div class="col-md-5"></div>
 </body>
 @endsection
 </html>
