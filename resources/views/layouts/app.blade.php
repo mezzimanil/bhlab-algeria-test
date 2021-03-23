@@ -349,7 +349,7 @@
                                               <div class="filterDiv Auto Immunité Hémostase Acute Care"><a href=" https://www.werfen.com/">Werfen</a></div>
                                               <div class="filterDiv Immuno Analyses"><a href="https://www.diasorin.com/">DIASORIN </a></div>
                                               <div class="filterDiv Consommables"><a href=" https://www.capp.dk/">CAPP APS</a></div>
-                                              <div class="filterDiv Typage HLA"><a href="https://www.lagitre.com/">LAGITRE</a></div>
+                                              <div class="filterDiv Typage HLA"><a href="https://www.onelambda.com/">OneLambda</a></div>
                                               <div class="filterDiv Immuno Analyses Bio moléculaire"><a href="http://www.adaltis.net/">ADALTIS</a></div>
                                               <div class="filterDiv all"><a href="http://www.arkray.co.jp/">ARKRAY</a></div>
                                               <div class="filterDiv Bio moléculaire"><a href=" http://entrogen.com/web3/">ENTROGEN USA</a></div>

@@ -203,12 +203,12 @@
                             <!-- Block1 -->
                             <div class="blo1 ">
                                 <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
-                                    <a href="https://www.lagitre.com/"><img class="shadow" src="{{ asset('image/lagitre.jpg') }}" alt="IMG-INTRO"></a>
+                                    <a href="https://www.onelambda.com/"><img class="shadow" src="{{ asset('image/one.jpg') }}" alt="IMG-INTRO"></a>
                                 </div>
     
                                 <div class="wrap-text-blo1 p-t-35">
-                                   <a href="https://www.lagitre.com/"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
-                                    LAGITRE INTERNATIONAL SRL ITALIE
+                                   <a href="https://www.onelambda.com/"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+                                    OneLambda
                                 	</h4></a>
     
                                     
