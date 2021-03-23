@@ -387,80 +387,20 @@
                               <div class="container">
                                 <div class="row">
                                   <div class="col-7 pr-5">
-                                    <div class="card">
-                           
-                                      <div class="card-header">
-                                          Envoyer un message
-                  
-                                      </div>
-                                      <div class="card-body bg-secondary">
-                                        
-                                          <form method="POST" action="{{route('contact.send')}}" enctype="multipart/form-data">
-                                              @csrf
-                                              
-                                              <div class="form-group row">
-                                                  <label style="color: white" for="name">{{ __('Votre nom') }}</label>
-                      
-                                                 
-                                                      <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
-                      
-                                                      @error('name')
-                                                          <span class="invalid-feedback" role="alert">
-                                                              <strong>{{ $message }}</strong>
-                                                          </span>
-                                                      @enderror
-                                                  
-                                              </div>
-                      
-                                              <div class="form-group row">
-                                                  <label style="color: white" for="email" >{{ __('Votre E-Mail ') }}</label>
-                      
-                                                  
-                                                      <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
-                      
-                                                      @error('email')
-                                                          <span class="invalid-feedback" role="alert">
-                                                              <strong>{{ $message }}</strong>
-                                                          </span>
-                                                      @enderror
-                                                  
-                                              </div>
-                                              <div class="form-group row">
-                                                  <label style="color: white" for="phone">{{ __('Votre numero de telephone') }}</label>
-                      
-                                                 
-                                                      <input id="phone" type="text" class="form-control @error('phone') is-invalid @enderror" name="phone" value="{{ old('phone') }}" required autocomplete="phone" autofocus>
-                      
-                                                      @error('phone')
-                                                          <span class="invalid-feedback" role="alert">
-                                                              <strong>{{ $message }}</strong>
-                                                          </span>
-                                                      @enderror
-                                                  
-                                              </div>
-                                              <div class="form-group">
-                                                  <label style="color: white" for="message">{{ __('Votre message') }}</label>
-                                                 
-                                                    <textarea class="form-control @error('message') is-invalid @enderror" id="message" name="message" placeholder="Entré votre message..." rows="5"></textarea>
-                                                    @error('message')
-                                                    <span class="invalid-feedback" role="alert">
-                                                        <strong>{{ $message }}</strong>
-                                                    </span>
-                                                @enderror
-                                                </div>
-                      
-                      
-                                              <div class="form-group row mb-0">
-                                                  <div class="col-md-6 offset-md-4">
-                                                      <button type="submit" class="btn btn-primary">
-                                                          envoyer message
-                                                      </button>
-                                                  </div>
-                                              </div>
-                                             
-                                          </form>
-                                      </div>
-                                  </div>
+                                    <h2> * Address </h2>
+                                    <p>BH LAB sarl 130 Cité Cadat 16012, Rouïba</p>
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                             <h2>* Téléphone</h2>
+                                             <p>+213 21 85 52 00</p>
+                                        </div>
+                                        <div class="col-md-5">
+                                          <h2>* Fax</h2>
+                                          <p>+213 21 85 52 20</p>
+                                        </div>
+                                    </div>
+                                    <h2>* E-mail</h2>
+                                    <p>info.bhlab@bhinvest.net</p>
                                   </div>
                                   <div class="col-5">
                                     <div class="map bo8 bo-rad-9 of-hidden">
