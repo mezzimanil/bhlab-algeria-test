@@ -32,6 +32,8 @@ Activités : BH LAB représente exclusivement différentes marques de renommée 
 </h4>
 <h4>
     La mission principale  que se donne BH LAB est la mise en place de solutions pour les laboratoires d’analyses médicales ( L.A.M), aussi bien dans le secteur privé que dans les hôpitaux ( CHU, EHS, secteurs sanitaires), d’en assurer un approvisionnement régulier en réactifs, ainsi qu’un service après- vente  de qualité, incluant un haut niveau de maintenance et une aide à l’application pour l’interprétation des résultats,  garantissant ainsi un bon fonctionnement des automates et donc des résultats d’une précision irréprochable.
+</h4>
+<h4>
     BH LAB accompagne les laboratoires et se veut partenaire avant d’être fournisseur. Pour cela elle offre différents types de solutions qui répondent aux différents besoins des laboratoires .
 </h4>
         </div>
