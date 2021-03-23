@@ -28,7 +28,7 @@
     
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8 mt-5">
+            <div class="col-md-5 mt-5">
                 <div class="card">
                    
                     <div class="card-header">
@@ -109,22 +109,22 @@
                 </div>
                 
             </div>
-          
-        </div>
-
-        <div class="container mt-5">
-            <div class="map bo8 bo-rad-10 of-hidden">
-                <!--data-pin="images/icons/icon-position-map.png" 
-                
-                class="contact-map size37" id="google_map" data-map-x="40.704644" data-map-y="-74.011987" data-scrollwhell="0" data-draggable="1"
-            
-            -->
-                <div class="contact-map size37">
+            <div class="col-md-5">
+                <div class="map bo8 bo-rad-10 of-hidden">
+                    <!--data-pin="images/icons/icon-position-map.png" 
                     
-                    <iframe  src="https://maps.google.com/maps?q=BH%20Lab%20Alg%C3%A9rie&t=&z=13&ie=UTF8&iwloc=&output=embed" width="1200" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    class="contact-map size37" id="google_map" data-map-x="40.704644" data-map-y="-74.011987" data-scrollwhell="0" data-draggable="1"
+                
+                -->
+                    <div class="contact-map size37">
+                        
+                        <iframe  src="https://maps.google.com/maps?q=BH%20Lab%20Alg%C3%A9rie&t=&z=13&ie=UTF8&iwloc=&output=embed" width="1200" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
                 </div>
             </div>
         </div>
+
+      
 
         
     
