@@ -32,7 +32,7 @@
     BH LAB est spécialisée dans l’importation, la mise en place, et la distribution de réactifs in vitro et d’automates  dédiés aux laboratoires d’analyses médicales.
     
 </h4>
-<h4 class="ml-4 mt-4">
+<h4 class="mt-4">
 Activités : 
 <br>
 BH LAB représente exclusivement différentes marques de renommée mondiale, tels que les laboratoires : Ortho Clinical Diagnostics, Werfen, Diasorin, Sacace Biotechnologies, Lagitre , Adaltis, Arkray , Entrogen, Merck, Binding Site et Horiba.
