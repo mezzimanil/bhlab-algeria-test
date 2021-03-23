@@ -182,7 +182,7 @@ img { max-width: 100%; }
 
 							<div class="wrap-text-blo1 p-t-35">
 								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
-                                saling goodies
+                                Présentation
 								</h4></a>
 
 								<p class="m-b-20">
@@ -207,7 +207,7 @@ img { max-width: 100%; }
 
 							<div class="wrap-text-blo1 p-t-35">
 								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
-									Organise events
+									Fournisseurs
 								</h4></a>
 
 								<p class="m-b-20">
@@ -232,7 +232,7 @@ img { max-width: 100%; }
 
 							<div class="wrap-text-blo1 p-t-35">
 								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
-									Student Blog
+								Support Technique
 								</h4></a>
 
 								<p class="m-b-20">
