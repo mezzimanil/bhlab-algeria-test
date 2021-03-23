@@ -8,12 +8,22 @@
     <link href="{{ asset('css/util.css') }}" rel="stylesheet">
 </head>
 <body>
-    <div style="background: url({{ asset('image/white.jpg') }})" class="jumbotron bg-cover text-white">
+    <div style="background: url({{ asset('image/sombre.jpg') }})" class="jumbotron bg-cover text-white">
         <div class="container py-5 text-center">
             <h1 class="display-4 font-weight-bold">Notre service après-vente
                 est à votre disposition 7 jours / 7</h1>
            
          
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+      <h2>* Service Aprés-vente</h2>
+      <p>Nos équipes sont toujours mobilisées pour garantir la meilleure prestation d’assistance, dans les meilleurs délais.</p>
+        </div>
+
+        <div class="col-md-5">
+
         </div>
     </div>
     
