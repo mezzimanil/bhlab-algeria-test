@@ -12,7 +12,7 @@
 @section('content')
 
 <body>
-    <div style="background: url({{ asset('image/sombre.jpg') }})" class="jumbotron bg-cover text-white">
+    <div style="background: url({{ asset('image/white.jpg') }})" class="jumbotron bg-cover text-white">
         <div class="container py-5 text-center">
             <h1 class="display-4 font-weight-bold">Notre service après-vente
                 est à votre disposition 7 jours / 7</h1>
@@ -34,7 +34,7 @@
         </div>
 
         <div class="col-md-5">
-            <div class="size37"> <img src="{{ asset('image/l2.png') }}" alt="" width="600" height="600"></div>
+            <div class="size37"> <img src="{{ asset('image/service.jpg') }}" alt="" width="600" height="600"></div>
 
         </div>
     </div>
