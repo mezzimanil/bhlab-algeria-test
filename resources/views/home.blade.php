@@ -171,7 +171,7 @@ img { max-width: 100%; }
 	
 	<div class="section-1-container section-container">
 		<div class="content-intro bg-white p-t-77 p-b-133">
-			<div class="container">
+			
 				<div class="row">
 					<div class="col-md-4 p-t-30">
 						<!-- Block1 -->
@@ -247,6 +247,8 @@ img { max-width: 100%; }
 							</div>
 						</div>
                     </div>
+				</div>
+		</div>
 	</div>
 
 	<!-- Section 2 -->
