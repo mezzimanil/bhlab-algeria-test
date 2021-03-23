@@ -34,7 +34,7 @@
         </div>
 
         <div class="col-md-5">
-            <div class="size37"> <img src="{{ asset('image/service.jpg') }}" alt="" width="450" height="450"></div>
+            <div class="size37"> <img src="{{ asset('image/service.jpg') }}" alt="" width="450" height="430"></div>
 
         </div>
     </div>
