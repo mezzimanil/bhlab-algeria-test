@@ -34,7 +34,8 @@
 </h4>
 <h4 class="mt-4">
 Activités : 
-<br>
+</h4>
+<h4 class="ml-4 mt-4">
 BH LAB représente exclusivement différentes marques de renommée mondiale, tels que les laboratoires : Ortho Clinical Diagnostics, Werfen, Diasorin, Sacace Biotechnologies, Lagitre , Adaltis, Arkray , Entrogen, Merck, Binding Site et Horiba.
 </h4>
 <h4 class="ml-4 mt-4">
