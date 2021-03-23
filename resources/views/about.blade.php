@@ -10,6 +10,7 @@
 </head>
 @section('content')
 <body>
+    
     <div style="background: url({{ asset('image/white.jpg') }})" class="jumbotron bg-cover text-white">
         <div class="container py-5 text-center">
             <h1 class="display-4 font-weight-bold">Présentation de BH-LAB</h1>
@@ -23,7 +24,7 @@
       <h2>* À-propos de BH-LAB :</h2>
 <h4> Historique :
 </h4>
-<h4>
+<h4 class="ml-4">
     BH LAB est une entreprise organisée sous forme de société à responsabilité limitée, dont le capital social est de 700.000 000 DA.
     Elle a été créée en  2007 ,son fondateur est : BENHAMIDA Anas.
 </h4>
