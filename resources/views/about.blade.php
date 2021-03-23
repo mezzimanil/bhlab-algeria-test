@@ -19,7 +19,7 @@
     </div>
     <div> 
     <div class="row justify-content-center">
-        <div class="col-md-6">
+        <div class="col-md-6 mr-3">
       <h2>* À-propos de BH-LAB :</h2>
 <h4> Historique :
     <br>
