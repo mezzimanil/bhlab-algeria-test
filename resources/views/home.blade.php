@@ -170,55 +170,83 @@ img { max-width: 100%; }
 	<!-- Welcome -->
 	
 	<div class="section-1-container section-container">
-		<div class="container">
-			<div class="row">
-				<div class="col section-1 section-description wow fadeIn">
-					<h2>Section 1</h2>
-					<div class="divider-1 wow fadeInUp"><span></span></div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 section-1-box wow fadeInUp">
-					<div class="row">
-						<div class="col-md-4">
-							<div class="section-1-box-icon">
-								<i class="fas fa-magic"></i>
+		<div class="content-intro bg-white p-t-77 p-b-133">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 p-t-30">
+						<!-- Block1 -->
+						<div class="blo1">
+							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+								<a href="#"><img src="{{ asset('image/wizard-city.jpg') }}" alt="IMG-INTRO"></a>
+							</div>
+
+							<div class="wrap-text-blo1 p-t-35">
+								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+                                saling goodies
+								</h4></a>
+
+								<p class="m-b-20">
+                                    fkjsdlkjflskdjflsndlksfblkdnfvlkdnfblndb
+                                    sdlkcslkdnvslkdnvslkdnvsldkvnlknlknlkn.
+								</p>
+
+								<a href="#" class="txt4">
+									Learn More
+									<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
+								</a>
 							</div>
 						</div>
-						<div class="col-md-8">
-							<h3>Branding</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-						</div>
 					</div>
-				</div>
-				<div class="col-md-4 section-1-box wow fadeInDown">
-					<div class="row">
-						<div class="col-md-4">
-							<div class="section-1-box-icon">
-								<i class="fas fa-cog"></i>
+
+					<div class="col-md-4 p-t-30">
+						<!-- Block1 -->
+						<div class="blo1">
+							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+								<a href="#"><img src="{{ asset('image/wizard-city.jpg') }}" alt="IMG-INTRO"></a>
+							</div>
+
+							<div class="wrap-text-blo1 p-t-35">
+								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+									Organise events
+								</h4></a>
+
+								<p class="m-b-20">
+                                    ks,dflk,sdlfknsld,nvsdlknvlsdknvlskdnvsd
+                                    vslkdnvlskndvlksndvlknsdlkvnsldkvn
+								</p>
+
+								<a href="#" class="txt4">
+									Learn More
+									<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
+								</a>
 							</div>
 						</div>
-						<div class="col-md-8">
-							<h3>Web design</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-						</div>
 					</div>
-				</div>
-				<div class="col-md-4 section-1-box wow fadeInUp">
-					<div class="row">
-						<div class="col-md-4">
-							<div class="section-1-box-icon">
-								<i class="fab fa-twitter"></i>
+
+					<div class="col-md-4 p-t-30">
+						<!-- Block1 -->
+						<div class="blo1">
+							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+								<a href="#"><img src="{{ asset('image/wizard-city.jpg') }}" alt="IMG-INTRO"></a>
+							</div>
+
+							<div class="wrap-text-blo1 p-t-35">
+								<a href="#"><h4 class="txt5 color0-hov trans-0-4 m-b-13">
+									Student Blog
+								</h4></a>
+
+								<p class="m-b-20">
+                                    kdjfsdlkflskdjflskjdfklsjdflskjdflksjdflskjdfs
+                                    sdflkjsdlfkjslkdfjslkdjflskjdflskjdflksjdf
+								</p>
+
+								<a href="#" class="txt4">
+									Learn More
+									<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
+								</a>
 							</div>
 						</div>
-						<div class="col-md-8">
-							<h3>Social media</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                    </div>
 	</div>
 
 	<!-- Section 2 -->
