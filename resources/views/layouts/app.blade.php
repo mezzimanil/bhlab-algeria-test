@@ -262,7 +262,7 @@
                             </a>
                            </li>
                            <li class="nav-item is-parent">
-                            <a class="nav-link" href="#" id="megamenu-dropdown-1" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link" href="{{route('about')}}" id="megamenu-dropdown-1" aria-haspopup="true" aria-expanded="false">
                               Présentation<i class="fa fa-angle-down"></i>
                             </a>
                             <div class="megamenu-content" aria-labelledby="megamenu-dropdown-1">
@@ -279,7 +279,7 @@
                                           <h5 >
                                           Notre politique tend à répondre au maximum aux différents besoins de nos partenaires et cela au travers des différentes gammes que nous proposons.</p>
                                        </h5>
-                                       <button class="btn ">Aller plus loin</button>
+                                       <a href="{{route('about')}}" class="btn btn-info">Aller plus loin</a>
                                         
                                       </div>
                                       

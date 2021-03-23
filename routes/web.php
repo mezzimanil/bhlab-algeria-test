@@ -57,3 +57,7 @@ Route::get('/homee', function () {
 Route::get('/support', function () {
     return view('support');
 })->name('support');
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
