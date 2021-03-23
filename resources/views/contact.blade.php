@@ -29,19 +29,19 @@
     
         <div class="row justify-content-center">
             <div class="col-md-5 mt-5">
-                <h2> Address </h2>
+                <h2> * Address </h2>
                 <p>BH LAB sarl 130 Cité Cadat 16012, Rouïba</p>
                 <div class="row">
                     <div class="col-md-5">
-                         <h2>Téléphone</h2>
+                         <h2>* Téléphone</h2>
                          <p>+213 21 85 52 00</p>
                     </div>
                     <div class="col-md-5">
-                      <h2>Fax</h2>
+                      <h2>* Fax</h2>
                       <p>+213 21 85 52 20</p>
                     </div>
                 </div>
-                <h2>E-mail</h2>
+                <h2>* E-mail</h2>
                 <p>info.bhlab@bhinvest.net</p>
                 <div class="card">
                    
