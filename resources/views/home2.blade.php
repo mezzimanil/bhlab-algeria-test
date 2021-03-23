@@ -88,7 +88,10 @@
         <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
         <script src="{{ asset('js/jquery-migrate-3.0.0.min.js') }}"></script>
         <script src="{{ asset('js/jquery.backstretch.min.js') }}"></script>
-        
+        <script src="{{ asset('js/wow.min.js') }}"></script>
+        <script src="{{ asset('js/waypoints.min.js') }}"></script>
+        <script src="{{ asset('js/scripts.js') }}"></script>
+
 	
     </body>
 
