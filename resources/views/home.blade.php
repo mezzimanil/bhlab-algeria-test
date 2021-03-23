@@ -93,7 +93,7 @@
 					<div class="col-md-4 p-t-30">
 						<!-- Block1 -->
 						<div class="blo1">
-							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom shadow-lg">
 								<a href="#"><img src="{{ asset('image/pa.png') }}" alt="IMG-INTRO"></a>
 							</div>
 
