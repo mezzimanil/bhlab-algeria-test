@@ -331,7 +331,7 @@
                                       
                                               
                                             </div>
-        
+                                            <a href="{{route('fournisseur')}}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Nos Fournisseurs</a>
                                               </li>
                                              
                                         </ul>
@@ -369,6 +369,7 @@
                                     </div>
                                    
                                   </div>
+                                 
                                   <div class="col-5">
                                     <img src="{{ asset('image/paa.png') }}"  width="600" height="450" class=" mb-3" alt="test image">
                                     <p>Plus de 15 marques pour répondre aux différents besoins de nos partenaire.</p>
@@ -402,6 +403,7 @@
                                     </div>
                                     <h2>* E-mail</h2>
                                     <p>abh.bhlab@bhinvest.net</p>
+                                    <a href="{{route('about')}}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Aller plus loin</a>
                                   </div>
                                   <div class="col-5">
                                     <div class="map bo8 bo-rad-9 of-hidden">
