@@ -34,7 +34,7 @@
 
         </div>
     </div>
-    <div class="col-md-5">
+    <div class="row justify-content-center">
         <h2>* Service Aprés-vente</h2>
         <p>Nos équipes sont toujours mobilisées pour garantir la meilleure prestation d’assistance, dans les meilleurs délais.</p>
         <p>Notre service après-vente est disponible 7j/7j :</p>
