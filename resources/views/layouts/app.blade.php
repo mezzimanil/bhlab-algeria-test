@@ -387,6 +387,8 @@
                               <div class="container">
                                 <div class="row">
                                   <div class="col-7 pr-5">
+                                    <h3>Information</h3>
+                                    <hr>
                                     <h2> * Address </h2>
                                     <p>BH LAB sarl 130 Cité Cadat 16012, Rouïba</p>
                                     <div class="row">
