@@ -31,7 +31,7 @@
 	
 
         <!-- Top content -->
-        <div class="top-content">
+        <div class="top-content mt-5">
 			<div class="row no-gutters">
 				<div class="col">
 					<div id="carousel-example" class="carousel slide" data-ride="carousel">
