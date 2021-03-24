@@ -67,7 +67,7 @@ The navbar toggle appears at this breakpoint */
                             <span class="icon-bar"></span>
                         </button>
                     </div>
-                    <div class="navbar-collapse2 collapse">
+                    <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav" style="font-size:17px;">
                             <li><a href="#">it1d</a></li>
                             <li class="divider-vertical"></li>
