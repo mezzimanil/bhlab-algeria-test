@@ -242,6 +242,9 @@
               <!-- Right Side Of Navbar -->
              
               <div class="container">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="#">Brand</a>
+                </div>
                 <a class="navbar-brand" href="{{ url('/') }}">
                   <img src="{{ asset('image/lole.png') }}" style="height: 80%" >
                 </a>
