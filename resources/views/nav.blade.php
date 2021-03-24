@@ -8,30 +8,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <style>
-.navbar {
-  padding:0rem;
-  margin-bottom:2rem;
-}
-
-.dropdown .dropdown-menu {
-  border-radius:0;
- }
 
 
 /* Medium devices (tablets, 768px and up) 
 The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
-.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-  border-radius:0;
- }
-  
-  .kd-on{
-    border:solid;
-    border-color:#50ebeb;
-    border-width:1px;
-    background:#e2e2e2;
+@media only screen and (min-width: 768px) {
+  .navbar-collapse2.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0px;
+    overflow: visible !important;
   }
 }
 
@@ -39,84 +25,68 @@ The navbar toggle appears at this breakpoint */
 <body>
   
     
-    <div class="d-flex flex-row p-2 justify-content-between kd-on">
-        <div class="p-2 kd-on">Flex item Logo</div>
-        <div class="p-2 kd-on">Flex item Main Menu with icons</div>
-        <div class="p-2 kd-on">Flex item Search Form, Socials, Langs</div>
-        </div>
-      
-      <!-- SNIPPET CODE: 1.NAVBAR TOGLLE BUTTON-->
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-       
+    <div id="wrap">
+        <div class="navbar navbar-inverse navbar-static-top hr" style="background:black;">
+            <div class="container">
         
-        <!-- SNIPPET CODE: 1.NAVBAR TOGLLE BUTTON-->
-        <div class="navbar-toggler-right">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                  </button>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-brand logo"></div>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav" style="font-size:17px;">
+                        <li><a href="#">Item1</a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#about">Item2</a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#contact">Item3</a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#contact">Item4</a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#contact">Item</a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#contact">Item6</a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#contact">Item7</a></li>
+        
+                    </ul>
+        
+                </div>
+            </div>
         </div>
-      
-      
-        <!-- SNIPPET CODE: 2.NAVBAR MAIN MENU-->
-      
-        <div class="collapse navbar-collapse flex-column " id="navbar">
-      
-          <ul class="navbar-nav  w-100 justify-content-center px-3">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home1 <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown 1
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown 2
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown 3
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
-      
-          <ul class="navbar-nav justify-content-center w-100 bg-secondary px-3">
-         
-        <li class="social">
-              <a href="http://twitter.com"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li class="social">
-              <a href="http://facebook.com"><i class="fab fa-facebook-square"></i></a>
-            </li>
-            <li class="social">
-              <a href="http://youtube.com"><i class="fab fa-youtube-square"></i></a>
-            </li>
-            <li class="social">
-              <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
-            </li>
-          </ul>
-      
-      
-        </div>
-      
-      </nav>
+            <div class="navbar navbar-inverse navbar-static-top hr" style="background:#ececec; border-top:none; ">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse2">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse2 collapse">
+                        <ul class="nav navbar-nav" style="font-size:17px;">
+                            <li><a href="#">it1d</a></li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="#about">it2d</a></li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="#contact">it3d</a></li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="#contact">it4d</a></li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="#contact">it5d</a></li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="#contact">it6d</a></li>
+                            <li class="divider-vertical"></li>
+                            <li><a href="#contact">it7d</a></li>
+        
+                        </ul>
+                    </div>
+                </div>
+            </div>
    
      
 </body>
