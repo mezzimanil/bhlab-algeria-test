@@ -34,7 +34,7 @@
         <div class="top-content mt-5">
 			<div class="row no-gutters">
 				<div class="col">
-					<div id="carousel-example" class="carousel slide" data-ride="carousel">
+					<div id="carousel-example" class="carousel slide mt-5" data-ride="carousel">
 						<ol class="carousel-indicators">
 							<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
 							<li data-target="#carousel-example" data-slide-to="1"></li>
