@@ -91,7 +91,7 @@
 						</div>
 					</div>
 
-					<div class="col-md-4 p-t-30">
+					<div class="col-md-4 p-t-30 ml-auto">
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
