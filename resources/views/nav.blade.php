@@ -9,15 +9,16 @@
 </head>
 <style>
 
-.navbar-collapse {
-    float: left;
-    width: 100%;
-    clear: both;
-}
-
-@media (min-width: 768px) {
-    .navbar-right {
-        margin-top: -50px;
+@media (max-width: 768px) {
+    .fixed-top-sm {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    body {
+        padding-top: 44px;
     }
 }
 
@@ -25,32 +26,38 @@
 <body>
   
     
-    <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Logo/Brand</a>
+    <nav class="navbar navbar-expand-md fixed-top-sm justify-content-start flex-nowrap bg-dark navbar-dark">
+        <a href="/" class="navbar-brand">Top</a>
+        <ul class="navbar-nav flex-row">
+            <li class="nav-item active">
+                <a class="nav-link px-2" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-2" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-2" href="#">Link</a>
+            </li>
+        </ul>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+        <div class="navbar-collapse collapse pt-2 pt-md-0" id="navbar2">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 2</a>
+                </li>
+            </ul>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#">LinkA</a></li>
-            <li><a href="#">LinkB</a></li>
-            <li><a href="#">LinkC</a></li>
-            <li><a href="#">LinkD</a></li>
-            <li><a href="#">LinkE</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Link1</a></li>
-            <li><a href="#">Link2</a></li>
-            <li><a href="#">Link3</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-      
+    </nav>
      
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
