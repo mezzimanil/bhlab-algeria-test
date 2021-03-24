@@ -254,7 +254,7 @@
         <div class="p-2 kd-on">Flex item Main Menu with icons</div>
         <div class="p-2 kd-on">Flex item Search Form, Socials, Langs</div>
         </div>
-     <nav class="megamenu navbar sticky-top fixed-top navbar-expand-md ">
+     <nav class="megamenu navbar  fixed-top navbar-expand-md ">
      
       
               <!-- Right Side Of Navbar -->
