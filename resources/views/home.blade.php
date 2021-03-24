@@ -48,7 +48,7 @@
 </style>
 <body>
 	@section('content')
-<main role="main">
+<main role="main" class="mt-5">
 	@include('home2')
 	<div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-color:rgb(36,50,136);">
 		
