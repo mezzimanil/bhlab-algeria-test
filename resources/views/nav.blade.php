@@ -8,102 +8,41 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <style>
-    body{
-  margin-top: 50px;
+ .fixed-top-2 {
+    margin-top: 56px;
 }
 
-.divide-nav{
-  height: 50px;
-  background-color: #428bca;
-}
-
-.divide-text{
-    color:#fff;
-    line-height: 20px;
-    font-size:20px;
-    padding: 15px 0;
-}
-
-.affix {
-  top: 50px;
-  width:100%;
-}
-
-.filler{
-  min-height: 2000px;
-}
-
-.navbar-form {
-   padding-left: 0;
-}
-
-.navbar-collapse{
-   padding-left:0; 
+body {
+    padding-top: 105px;
 }
 </style>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Brand</a>
-          </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
+    <nav class="navbar navbar-toggleable-sm bg-faded navbar-light fixed-top fixed-top-2">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="/" class="navbar-brand">One</a>
+        <div class="navbar-collapse collapse" id="navbar1">
+            <ul class="navbar-nav">
+                ..
             </ul>
-          </div>
-        </div><!-- /.container-fluid -->
-      </nav>
-      <div class="divide-nav">
-        <div class="container">
-          <p class="divide-text">Some Text Here</p>
         </div>
-      </div>
-      <nav class="navbar navbar-default navbar-lower" role="navigation">
-        <div class="container">
-          <div class="collapse navbar-collapse collapse-buttons">
-            <form class="navbar-form navbar-left" role="search">
-              <button class="btn btn-success">Button</button>
-              <button class="btn btn-default">Button</button>
-              <button class="btn btn-default">Button</button>
-              <button class="btn btn-default">Button</button>
-            </form>
-          </div>
+    </nav>
+    
+    <nav class="navbar navbar-toggleable-sm bg-inverse navbar-inverse fixed-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="/" class="navbar-brand">Two</a>
+        <div class="navbar-collapse collapse" id="navbar2">
+            <ul class="navbar-nav">
+                ..
+            </ul>
         </div>
-      </nav>
-      <div class="container">
-        <div class="row">
-          <div class="filler"></div>
-        </div>
-      </div>
+    </nav>
+   
+     
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-<script>
-    $('.navbar-lower').affix({
-  offset: {top: 50}
-});
-</script>
+
 </html>
