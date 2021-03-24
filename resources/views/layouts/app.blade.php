@@ -224,7 +224,16 @@
   color: white;
 }
 }
-    
+@media (min-width: 768px) {  
+
+  
+  .kd-on{
+    border:solid;
+    border-color:#50ebeb;
+    border-width:1px;
+    background:#e2e2e2;
+  }
+}
       </style>
 
       
@@ -235,7 +244,11 @@
     <div id="app">
    
 
-     
+      <div class="d-flex flex-row p-2 justify-content-between kd-on">
+        <div class="p-2 kd-on">Flex item Logo</div>
+        <div class="p-2 kd-on">Flex item Main Menu with icons</div>
+        <div class="p-2 kd-on">Flex item Search Form, Socials, Langs</div>
+        </div>
      <nav class="megamenu navbar fixed-top navbar-expand-md ">
      
       
