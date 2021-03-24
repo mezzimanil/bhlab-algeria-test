@@ -224,20 +224,15 @@
   color: white;
 }
 }
-@media (min-width: 768px) {  
 
-  
-  .kd-on{
-    border:solid;
-    border-color:#50ebeb;
-    border-width:1px;
-    background:#e2e2e2;
-  }
-}
-
-.navbar {
-  padding:0rem;
-  margin-bottom:2rem;
+@media (max-width: 768px) {
+    .fixed-top-sm {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
 }
       </style>
 
@@ -248,8 +243,24 @@
 <body>
     <div id="app">
    
-
-     <nav class="megamenu navbar  fixed-top navbar-expand-md ">
+      <nav class="navbar navbar-expand-md fixed-top-sm justify-content-start flex-nowrap bg-dark navbar-dark">
+        <a href="/" class="navbar-brand">Top</a>
+        <ul class="navbar-nav flex-row">
+            <li class="nav-item active">
+                <a class="nav-link px-2" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-2" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-2" href="#">Link</a>
+            </li>
+        </ul>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+     <nav class="megamenu navbar  fixed-top-sm navbar-expand-md ">
      
       
               <!-- Right Side Of Navbar -->
