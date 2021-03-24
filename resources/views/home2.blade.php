@@ -14,7 +14,7 @@
 		
         <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
       
-        <link href="{{ asset('css/media-queries.css') }}" rel="stylesheet">
+       
 
         <!-- Favicon and touch icons -->
        
