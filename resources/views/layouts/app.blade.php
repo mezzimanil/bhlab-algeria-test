@@ -234,6 +234,11 @@
     background:#e2e2e2;
   }
 }
+
+.navbar {
+  padding:0rem;
+  margin-bottom:2rem;
+}
       </style>
 
       
