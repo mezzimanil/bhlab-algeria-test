@@ -106,7 +106,7 @@
     position: fixed;
     left: 0;
     right: 0;
-    top: 54px;
+    top: 64px;
     overflow: hidden;
     visibility: hidden;
     opacity: 0;
