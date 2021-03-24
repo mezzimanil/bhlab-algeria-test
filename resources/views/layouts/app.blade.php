@@ -243,7 +243,7 @@
 <body>
     <div id="app">
    
-      <nav class="navbar navbar-expand-md fixed-top justify-content-start flex-nowrap bg-dark navbar-dark">
+      <nav class="navbar navbar-expand-md fixed-top justify-content-start flex-nowrap bg-light navbar-dark">
        
         <ul class="navbar-nav ml-auto flex-row">
           <h4><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone-forward mr-3" viewBox="0 0 16 16">
