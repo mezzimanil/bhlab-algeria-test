@@ -11,7 +11,7 @@
 
         <!-- CSS -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
-		<
+		
         <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
       
         <link href="{{ asset('css/media-queries.css') }}" rel="stylesheet">
