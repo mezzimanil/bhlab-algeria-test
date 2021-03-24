@@ -245,7 +245,7 @@
    
       <nav class="navbar navbar-expand-md fixed-top-sm justify-content-start flex-nowrap bg-dark navbar-dark">
         <a href="/" class="navbar-brand">Top</a>
-        <ul class="navbar-nav flex-row">
+        <ul class="navbar-nav ml-auto flex-row">
             <li class="nav-item active">
                 <a class="nav-link px-2" href="#">Link</a>
             </li>
